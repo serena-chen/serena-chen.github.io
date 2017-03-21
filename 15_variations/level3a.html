@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Level 3 A</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	</head>
+
+		<style media="screen">
+
+		.homeicon {
+				position: fixed;
+				background-image: url('assets/images/returnhomegrey.png');
+				background-size: cover;
+				left: -50px;
+				transition: .8s;
+				width: 110px;
+				height: 50px;
+				margin-top: -2px;
+				float: left;
+			}
+
+		.homeicon:hover {
+				position: fixed;
+				background-image: url('assets/images/returnhomegrey.png');
+				left: 20px;
+				transition: .8s;
+				background-size: cover;
+				width: 110px;
+				height: 50px;
+				margin-top: -2px;
+				float: left;
+			}
+
+		.levelname {
+			right: 60px;
+			top: 20px;
+			position: fixed;
+			font-family: courier new;
+			font-size: 25px;
+			font-style: italic;
+			color: #AEBBBD;
+		}
+
+		.border01a {
+			position: fixed;
+			font-weight: bold;
+			color: #AEBBBD;
+
+		}
+
+		.border01a:hover .hiddentext01a {
+			position: fixed;
+			color: #28A9B5;
+			display: block;
+			line-height: 0px;
+		}
+
+		.border01a:hover {
+			color: #28A9B5;
+			line-height: 1px;
+		}
+
+		.hiddentext01a {
+			position: fixed;
+			display: none;
+			font-family: courier;
+			font-size: 12px;
+			text-align: center;
+			margin-left: 12px;
+
+		}
+
+		.border01b {
+			margin-left: 49px;
+			position: fixed;
+			font-weight: bold;
+			color: #AEBBBD;
+
+		}
+
+		.border01b:hover .hiddentext01b {
+			position: fixed;
+			color: #28A9B5;
+			display: block;
+			line-height: 0px;
+		}
+
+		.border01b:hover {
+			color: #28A9B5;
+			line-height: 1px;
+		}
+
+		.hiddentext01b {
+			position: fixed;
+			display: none;
+			font-family: courier;
+			font-size: 12px;
+			text-align: center;
+			margin-left: 12px;
+		}
+
+		.border01c {
+			margin-left: 99px;
+			position: fixed;
+			font-weight: bold;
+			color: #AEBBBD;
+
+		}
+
+		.border01c:hover .hiddentext01c {
+			position: fixed;
+			color: #28A9B5;
+			display: block;
+			line-height: 0px;
+		}
+
+		.border01c:hover {
+			color: #28A9B5;
+			line-height: 1px;
+		}
+
+		.hiddentext01c {
+			position: fixed;
+			display: none;
+			font-family: courier;
+			font-size: 12px;
+			text-align: center;
+			margin-left: 12px;
+
+
+		}
+
+		.border02a {
+			margin-left: 149px;
+			position: fixed;
+			font-weight: bold;
+			color: #AEBBBD;
+		}
+
+		.border02a:hover .hiddentext02a {
+			position: fixed;
+			color: #28A9B5;
+			display: block;
+			line-height: 0px;
+		}
+
+		.border02a:hover {
+			color: #28A9B5;
+			line-height: 1px;
+		}
+
+		.hiddentext02a {
+			position: fixed;
+			display: none;
+			font-family: courier;
+			font-size: 12px;
+			text-align: center;
+			margin-left: 28px;
+		}
+
+		.border02b {
+			margin-left: 227px;
+			position: fixed;
+			font-weight: bold;
+			color: #AEBBBD;
+		}
+
+		.border02b:hover .hiddentext02b {
+			position: fixed;
+			color: #28A9B5;
+			display: block;
+			line-height: 0px;
+		}
+
+		.border02b:hover {
+			color: #28A9B5;
+			line-height: 1px;
+		}
+
+		.hiddentext02b {
+			position: fixed;
+			display: none;
+			font-family: courier;
+			font-size: 12px;
+			text-align: center;
+			margin-left: 28px;
+		}
+
+		.border02c {
+			margin-left: 305px;
+			position: fixed;
+			font-weight: bold;
+			color: #AEBBBD;
+		}
+
+		.border02c:hover .hiddentext02c {
+			position: fixed;
+			color: #28A9B5;
+			display: block;
+			line-height: 0px;
+		}
+
+		.border02c:hover {
+			color: #28A9B5;
+			line-height: 1px;
+		}
+
+		.hiddentext02c {
+			position: fixed;
+			display: none;
+			font-family: courier;
+			font-size: 12px;
+			text-align: center;
+			margin-left: 28px;
+		}
+
+
+		.border03b {
+			margin-left: 476px;
+			position: fixed;
+			font-weight: bold;
+			color: #AEBBBD;
+		}
+
+		.border03b:hover .hiddentext03b {
+			position: fixed;
+			color: #28A9B5;
+			display: block;
+			line-height: 0px;
+		}
+
+		.border03b:hover {
+			color: #28A9B5;
+			line-height: 1px;
+		}
+
+		.hiddentext03b {
+			position: fixed;
+			display: none;
+			font-family: courier;
+			font-size: 12px;
+			text-align: center;
+			margin-left: 38px;
+		}
+
+		.border03c {
+			margin-left: 570px;
+			position: fixed;
+			font-weight: bold;
+			color: #AEBBBD;
+		}
+
+		.border03c:hover .hiddentext03c {
+			position: fixed;
+			color: #28A9B5;
+			display: block;
+			line-height: 0px;
+		}
+
+		.border03c:hover {
+			color: #28A9B5;
+			line-height: 1px;
+		}
+
+		.hiddentext03c {
+			position: fixed;
+			display: none;
+			font-family: courier;
+			font-size: 12px;
+			text-align: center;
+			margin-left: 38px;
+		}
+
+		.border04a {
+			margin-left: 664px;
+			position: fixed;
+			font-weight: bold;
+			color: #AEBBBD;
+		}
+
+		.border04a:hover .hiddentext04a {
+			position: fixed;
+			color: #28A9B5;
+			display: block;
+			line-height: 0px;
+		}
+
+		.border04a:hover {
+			color: #28A9B5;
+			line-height: 1px;
+		}
+
+		.hiddentext04a {
+			position: fixed;
+			display: none;
+			font-family: courier;
+			font-size: 12px;
+			text-align: center;
+			margin-left: 48px;
+		}
+
+		.border04b {
+			margin-left: 780px;
+			position: fixed;
+			font-weight: bold;
+			color: #AEBBBD;
+		}
+
+		.border04b:hover .hiddentext04b {
+			position: fixed;
+			color: #28A9B5;
+			display: block;
+			line-height: 0px;
+		}
+
+		.border04b:hover {
+			color: #28A9B5;
+			line-height: 1px;
+		}
+
+		.hiddentext04b {
+			position: fixed;
+			display: none;
+			font-family: courier;
+			font-size: 12px;
+			text-align: center;
+			margin-left: 48px;
+		}
+
+		.border04c {
+			margin-left: 896px;
+			position: fixed;
+			font-weight: bold;
+			color: #AEBBBD;
+		}
+
+		.border04c:hover .hiddentext04c {
+			position: fixed;
+			color: #28A9B5;
+			display: block;
+			line-height: 0px;
+		}
+
+		.border04c:hover {
+			color: #28A9B5;
+			line-height: 1px;
+		}
+
+		.hiddentext04c {
+			position: fixed;
+			display: none;
+			font-family: courier;
+			font-size: 12px;
+			text-align: center;
+			margin-left: 48px;
+		}
+
+		.border05a {
+			margin-left: 1012px;
+			position: fixed;
+			font-weight: bold;
+			color: #AEBBBD;
+		}
+
+		.border05a:hover .hiddentext05a {
+			position: fixed;
+			color: #28A9B5;
+			display: block;
+			line-height: 0px;
+		}
+
+		.border05a:hover {
+			color: #28A9B5;
+			line-height: 1px;
+		}
+
+		.hiddentext05a {
+			position: fixed;
+			display: none;
+			font-family: courier;
+			font-size: 12px;
+			text-align: center;
+			margin-left: 59px;
+		}
+
+		.border05b {
+			margin-left: 1151px;
+			position: fixed;
+			font-weight: bold;
+			color: #AEBBBD;
+		}
+
+		.border05b:hover .hiddentext05b {
+			position: fixed;
+			color: #28A9B5;
+			display: block;
+			line-height: 0px;
+		}
+
+		.border05b:hover {
+			color: #28A9B5;
+			line-height: 1px;
+		}
+
+		.hiddentext05b {
+			position: fixed;
+			display: none;
+			font-family: courier;
+			font-size: 12px;
+			text-align: center;
+			margin-left: 59px;
+		}
+
+		.border05c {
+			margin-left: 1290px;
+			position: fixed;
+			font-weight: bold;
+			color: #AEBBBD;
+		}
+
+		.border05c:hover .hiddentext05c {
+			position: fixed;
+			color: #28A9B5;
+			display: block;
+			line-height: 0px;
+		}
+
+		.border05c:hover {
+			color: #28A9B5;
+			line-height: 1px;
+		}
+
+		.hiddentext05c {
+			position: fixed;
+			display: none;
+			font-family: courier;
+			font-size: 12px;
+			text-align: center;
+			margin-left: 59px;
+		}
+
+		.title {
+			position: fixed;
+			top: 100px;
+			left: 40%;
+
+		}
+
+		.growth {
+			position: fixed;
+			top: 130px;
+			left: 40%;
+			float: left;
+
+
+		}
+
+		.body {
+			margin-top: 100px;
+			margin-left: 53%;
+			width: 600px;
+
+
+		}
+
+
+		.deep {
+			float: left;
+			margin-right: 3px;
+
+		}
+
+		.body2 {
+
+			margin-left: 1%;
+			float: left;
+			width: 450px;
+
+
+		}
+
+		.body3 {
+			margin-left: 20%;
+			float: left;
+			width: 300px;
+
+		}
+
+		.body4 {
+			margin-left: 30%;
+			float: left;
+			width: 600px;
+
+		}
+
+		.body5 {
+			margin-left: 18%;
+			float: left;
+			width: 500px;
+
+		}
+
+		.body6 {
+			margin-left: 80%;
+			float: left;
+			width: 150px;
+			text-align: justify;
+		}
+
+		.body7 {
+			margin-left: 40%;
+			float: left;
+			width: 450px;
+
+		}
+
+		.body8 {
+			margin-left: 64%;
+			float: left;
+			width: 150px;
+		}
+
+		.body9 {
+			margin-left: 8%;
+			float: left;
+			width: 300px;
+		}
+
+		.body10 {
+			margin-left: 70%;
+			float: left;
+			width: 400px;
+		}
+
+		</style>
+
+
+	<body>
+
+		<a href="../index.html">
+			<div class="homeicon"></div>
+		</a>
+
+		<div class="levelname">
+			03a
+		</div>
+
+		<br>
+		<br>
+
+		<a href="level1a.html"><div class="border01a">
+			IIIIIIIII
+				<div class="hiddentext01a"><p>01a</p></div>
+		</div></a>
+
+		<a href="level1b.html"><div class="border01b">
+			IIIIIIIII
+				<div class="hiddentext01b"><p>01b</p></div>
+		</div></a>
+
+		<a href="level1c.html"><div class="border01c">
+			IIIIIIIII
+				<div class="hiddentext01c"><p>01c</p></div>
+		</div></a>
+
+		<a href="level2a.html"><div class="border02a">
+			IIIIIIIIIIIIII
+				<div class="hiddentext02a"><p>02a</p></div>
+		</div></a>
+
+		<a href="level2b.html"><div class="border02b">
+			IIIIIIIIIIIIII
+				<div class="hiddentext02b"><p>02b</p></div>
+		</div></a>
+
+		<a href="level2c.html"><div class="border02c">
+			IIIIIIIIIIIIII
+				<div class="hiddentext02c"><p>02c</p></div>
+		</div></a>
+
+
+
+		<a href="level3b.html"><div class="border03b">
+			IIIIIIIIIIIIIIIII
+				<div class="hiddentext03b"><p>03b</p></div>
+		</div></a>
+
+		<a href="level3c.html"><div class="border03c">
+			IIIIIIIIIIIIIIIII
+				<div class="hiddentext03c"><p>03c</p></div>
+		</div></a>
+
+		<a href="level4a.html"><div class="border04a">
+			IIIIIIIIIIIIIIIIIIIII
+				<div class="hiddentext04a"><p>04a</p></div>
+		</div></a>
+
+		<a href="level4b.html"><div class="border04b">
+			IIIIIIIIIIIIIIIIIIIII
+				<div class="hiddentext04b"><p>04b</p></div>
+		</div></a>
+
+		<a href="level4c.html"><div class="border04c">
+			IIIIIIIIIIIIIIIIIIIII
+				<div class="hiddentext04c"><p>04c</p></div>
+		</div></a>
+
+		<a href="level5a.html"><div class="border05a">
+			IIIIIIIIIIIIIIIIIIIIIIIII
+				<div class="hiddentext05a"><p>05a</p></div>
+		</div></a>
+
+		<a href="level5b.html"><div class="border05b">
+			IIIIIIIIIIIIIIIIIIIIIIIII
+				<div class="hiddentext05b"><p>05b</p></div>
+		</div></a>
+
+		<a href="level5c.html"><div class="border05c">
+			IIIIIIIIIIIIIIIIIIIIIIIII
+				<div class="hiddentext05c"><p>05c</p></div>
+		</div></a>
+
+		<br>
+		<br>
+		<br>
+		<br>
+
+		<div class="title">
+			<h2><em>An incomplete manifesto for </em></h2>
+		</div>
+
+		<div class="growth">
+			<h1>growth</h1>
+		</div>
+
+		<br>
+		<br>
+		<br>
+
+		<div class="body">
+		01 Allow events to change you. You have to be willing to grow
+		02 Forget about good. Good is a known quantity.
+		03 Process is more important than outcome.
+		04 Love your experiments (as you would an ugly child). Joy is the engine of growth. 06 Capture accidents. <br>
+		</div>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+
+
+			<div class="deep">
+				<h1>
+					<strong>
+					<br>
+					05 Go <br>
+					<em>DEEP</em>
+					</strong>
+				</h1>
+			</div>
+
+		<div class="body2">
+		The wrong answer is the right answer in search of a different question.
+		07 Study. A studio is a place of study. Use the necessity of production as an excuse to study.
+		08 Drift. Allow yourself to wander aimlessly.
+		09 Begin anywhere.
+		10 Everyone is a leader. Growth happens.
+		11 Harvest ideas.
+		12 Keep moving.
+		13 Slow down.
+		14 Don't be cool. <br>
+		</div>
+
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+
+		<div class="body3">
+		Cool is conservative fear dressed in black.
+		15 Ask stupid questions. Growth is fuelled by desire and innocence.
+		16 Collaborate.
+		</div>
+
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+
+		<div class="body4">
+			17 ____________________. Intentionally left blank. Allow space for the ideas you haven't had yet, and for the ideas of others.
+			18 Stay up late.
+			19 Work the metaphor.
+			20 Be careful to take risks. Time is genetic.
+		</div>
+
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+
+		<div class="body5">
+			<em>21 Repeat yourself. If you like it, do it again. If you don't like it, do it again. Repeat yourself. If you like it, do it again. If you don't like it, do it again.</em>
+		</div>
+
+		<br>
+		<br>
+		<br>
+		<br>
+
+		<div class="body6">
+			22 Make your own tools.
+			23 Stand on some- <br> one's shoulders.
+			24 Avoid software.
+			25 Don't clean your desk.
+			26 Don't enter awards competitions.
+			27 Read only left-hand pages.
+			28 Make new words. Expand the lexicon.
+			29 Think with your mind. Forget technology.
+			30 Organization = Liberty.
+		</div>
+
+			<br>
+			<br>
+		<div class="body7">
+			31 Don't borrow money.
+			32 Listen carefully.
+			33 <br> Take field trips.
+			34 Make mistakes faster.
+		</div>
+
+
+		<div class="body8">
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+
+			<h6>
+				35 Imitate. Don't be shy about it. Try to get as close as you can.
+				36 Scat.
+				37 Break it, stretch it, bend it, crush it, crack it, fold it.
+			</h6>
+		</div>
+
+
+		<div class="body9">
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+
+			38 Explore the other edge.
+			39 Coffee breaks, cab rides, green rooms.
+			40 Avoid fields. Jump fences.
+			41 Laugh.
+		</div>
+
+
+		<div class="body10">
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			42 Remember. Growth is only possible as a product of history.
+			43 Power to the people.
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+		</div>
+
+
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+
+
+
+	</body>
+</html>

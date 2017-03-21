@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Level 5 B</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	</head>
+	<style media="screen">
+
+	.homeicon {
+			position: fixed;
+			background-image: url('assets/images/returnhomegrey.png');
+			background-size: cover;
+			left: -50px;
+			transition: .8s;
+			width: 110px;
+			height: 50px;
+			margin-top: -2px;
+			float: left;
+		}
+
+	.homeicon:hover {
+			position: fixed;
+			background-image: url('assets/images/returnhomegrey.png');
+			left: 20px;
+			transition: .8s;
+			background-size: cover;
+			width: 110px;
+			height: 50px;
+			margin-top: -2px;
+			float: left;
+		}
+
+	.levelname {
+		right: 60px;
+		top: 20px;
+		position: fixed;
+		font-family: courier new;
+		font-size: 25px;
+		font-style: italic;
+		color: #AEBBBD;
+	}
+
+	.border01a {
+		position: fixed;
+		font-weight: bold;
+		color: #AEBBBD;
+
+	}
+
+	.border01a:hover .hiddentext01a {
+		position: fixed;
+		color: #28A9B5;
+		display: block;
+		line-height: 0px;
+	}
+
+	.border01a:hover {
+		color: #28A9B5;
+		line-height: 1px;
+	}
+
+	.hiddentext01a {
+		position: fixed;
+		display: none;
+		font-family: courier;
+		font-size: 12px;
+		text-align: center;
+		margin-left: 12px;
+
+	}
+
+	.border01b {
+		margin-left: 49px;
+		position: fixed;
+		font-weight: bold;
+		color: #AEBBBD;
+
+	}
+
+	.border01b:hover .hiddentext01b {
+		position: fixed;
+		color: #28A9B5;
+		display: block;
+		line-height: 0px;
+	}
+
+	.border01b:hover {
+		color: #28A9B5;
+		line-height: 1px;
+	}
+
+	.hiddentext01b {
+		position: fixed;
+		display: none;
+		font-family: courier;
+		font-size: 12px;
+		text-align: center;
+		margin-left: 12px;
+	}
+
+	.border01c {
+		margin-left: 99px;
+		position: fixed;
+		font-weight: bold;
+		color: #AEBBBD;
+
+	}
+
+	.border01c:hover .hiddentext01c {
+		position: fixed;
+		color: #28A9B5;
+		display: block;
+		line-height: 0px;
+	}
+
+	.border01c:hover {
+		color: #28A9B5;
+		line-height: 1px;
+	}
+
+	.hiddentext01c {
+		position: fixed;
+		display: none;
+		font-family: courier;
+		font-size: 12px;
+		text-align: center;
+		margin-left: 12px;
+
+
+	}
+
+	.border02a {
+		margin-left: 149px;
+		position: fixed;
+		font-weight: bold;
+		color: #AEBBBD;
+	}
+
+	.border02a:hover .hiddentext02a {
+		position: fixed;
+		color: #28A9B5;
+		display: block;
+		line-height: 0px;
+	}
+
+	.border02a:hover {
+		color: #28A9B5;
+		line-height: 1px;
+	}
+
+	.hiddentext02a {
+		position: fixed;
+		display: none;
+		font-family: courier;
+		font-size: 12px;
+		text-align: center;
+		margin-left: 28px;
+	}
+
+	.border02b {
+		margin-left: 227px;
+		position: fixed;
+		font-weight: bold;
+		color: #AEBBBD;
+	}
+
+	.border02b:hover .hiddentext02b {
+		position: fixed;
+		color: #28A9B5;
+		display: block;
+		line-height: 0px;
+	}
+
+	.border02b:hover {
+		color: #28A9B5;
+		line-height: 1px;
+	}
+
+	.hiddentext02b {
+		position: fixed;
+		display: none;
+		font-family: courier;
+		font-size: 12px;
+		text-align: center;
+		margin-left: 28px;
+	}
+
+	.border02c {
+		margin-left: 305px;
+		position: fixed;
+		font-weight: bold;
+		color: #AEBBBD;
+	}
+
+	.border02c:hover .hiddentext02c {
+		position: fixed;
+		color: #28A9B5;
+		display: block;
+		line-height: 0px;
+	}
+
+	.border02c:hover {
+		color: #28A9B5;
+		line-height: 1px;
+	}
+
+	.hiddentext02c {
+		position: fixed;
+		display: none;
+		font-family: courier;
+		font-size: 12px;
+		text-align: center;
+		margin-left: 28px;
+	}
+
+	.border03a {
+		margin-left: 382px;
+		position: fixed;
+		font-weight: bold;
+		color: #AEBBBD;
+	}
+
+	.border03a:hover .hiddentext03a {
+		position: fixed;
+		color: #28A9B5;
+		display: block;
+		line-height: 0px;
+	}
+
+	.border03a:hover {
+		color: #28A9B5;
+		line-height: 1px;
+	}
+
+	.hiddentext03a {
+		position: fixed;
+		display: none;
+		font-family: courier;
+		font-size: 12px;
+		text-align: center;
+		margin-left: 38px;
+	}
+
+	.border03b {
+		margin-left: 476px;
+		position: fixed;
+		font-weight: bold;
+		color: #AEBBBD;
+	}
+
+	.border03b:hover .hiddentext03b {
+		position: fixed;
+		color: #28A9B5;
+		display: block;
+		line-height: 0px;
+	}
+
+	.border03b:hover {
+		color: #28A9B5;
+		line-height: 1px;
+	}
+
+	.hiddentext03b {
+		position: fixed;
+		display: none;
+		font-family: courier;
+		font-size: 12px;
+		text-align: center;
+		margin-left: 38px;
+	}
+
+	.border03c {
+		margin-left: 570px;
+		position: fixed;
+		font-weight: bold;
+		color: #AEBBBD;
+	}
+
+	.border03c:hover .hiddentext03c {
+		position: fixed;
+		color: #28A9B5;
+		display: block;
+		line-height: 0px;
+	}
+
+	.border03c:hover {
+		color: #28A9B5;
+		line-height: 1px;
+	}
+
+	.hiddentext03c {
+		position: fixed;
+		display: none;
+		font-family: courier;
+		font-size: 12px;
+		text-align: center;
+		margin-left: 38px;
+	}
+
+	.border04a {
+		margin-left: 664px;
+		position: fixed;
+		font-weight: bold;
+		color: #AEBBBD;
+	}
+
+	.border04a:hover .hiddentext04a {
+		position: fixed;
+		color: #28A9B5;
+		display: block;
+		line-height: 0px;
+	}
+
+	.border04a:hover {
+		color: #28A9B5;
+		line-height: 1px;
+	}
+
+	.hiddentext04a {
+		position: fixed;
+		display: none;
+		font-family: courier;
+		font-size: 12px;
+		text-align: center;
+		margin-left: 48px;
+	}
+
+	.border04b {
+		margin-left: 780px;
+		position: fixed;
+		font-weight: bold;
+		color: #AEBBBD;
+	}
+
+	.border04b:hover .hiddentext04b {
+		position: fixed;
+		color: #28A9B5;
+		display: block;
+		line-height: 0px;
+	}
+
+	.border04b:hover {
+		color: #28A9B5;
+		line-height: 1px;
+	}
+
+	.hiddentext04b {
+		position: fixed;
+		display: none;
+		font-family: courier;
+		font-size: 12px;
+		text-align: center;
+		margin-left: 48px;
+	}
+
+	.border04c {
+		margin-left: 896px;
+		position: fixed;
+		font-weight: bold;
+		color: #AEBBBD;
+	}
+
+	.border04c:hover .hiddentext04c {
+		position: fixed;
+		color: #28A9B5;
+		display: block;
+		line-height: 0px;
+	}
+
+	.border04c:hover {
+		color: #28A9B5;
+		line-height: 1px;
+	}
+
+	.hiddentext04c {
+		position: fixed;
+		display: none;
+		font-family: courier;
+		font-size: 12px;
+		text-align: center;
+		margin-left: 48px;
+	}
+
+	.border05a {
+		margin-left: 1012px;
+		position: fixed;
+		font-weight: bold;
+		color: #AEBBBD;
+	}
+
+	.border05a:hover .hiddentext05a {
+		position: fixed;
+		color: #28A9B5;
+		display: block;
+		line-height: 0px;
+	}
+
+	.border05a:hover {
+		color: #28A9B5;
+		line-height: 1px;
+	}
+
+	.hiddentext05a {
+		position: fixed;
+		display: none;
+		font-family: courier;
+		font-size: 12px;
+		text-align: center;
+		margin-left: 59px;
+	}
+
+
+	.border05c {
+		margin-left: 1290px;
+		position: fixed;
+		font-weight: bold;
+		color: #AEBBBD;
+	}
+
+	.border05c:hover .hiddentext05c {
+		position: fixed;
+		color: #28A9B5;
+		display: block;
+		line-height: 0px;
+	}
+
+	.border05c:hover {
+		color: #28A9B5;
+		line-height: 1px;
+	}
+
+	.hiddentext05c {
+		position: fixed;
+		display: none;
+		font-family: courier;
+		font-size: 12px;
+		text-align: center;
+		margin-left: 59px;
+	}
+
+	.body {
+		font-size: 95px;
+		text-align: left;
+		width: 1400px;
+	}
+
+	.forget {
+		text-decoration: line-through;
+		text-decoration-color: red;
+	}
+
+
+	em {
+		font-size: 120px;
+		font-weight: bold;
+		color: #28A9B5;
+		float: left;
+		padding-right: 15px;
+		padding-bottom: none;
+	}
+
+	</style>
+
+
+<body>
+	<a href="../index.html">
+		<div class="homeicon"></div>
+	</a>
+
+	<div class="levelname">
+		05b
+	</div>
+
+	<br>
+	<br>
+
+	<a href="level1a.html"><div class="border01a">
+		IIIIIIIII
+			<div class="hiddentext01a"><p>01a</p></div>
+	</div></a>
+
+	<a href="level1b.html"><div class="border01b">
+		IIIIIIIII
+			<div class="hiddentext01b"><p>01b</p></div>
+	</div></a>
+
+	<a href="level1c.html"><div class="border01c">
+		IIIIIIIII
+			<div class="hiddentext01c"><p>01c</p></div>
+	</div></a>
+
+	<a href="level2a.html"><div class="border02a">
+		IIIIIIIIIIIIII
+			<div class="hiddentext02a"><p>02a</p></div>
+	</div></a>
+
+	<a href="level2b.html"><div class="border02b">
+		IIIIIIIIIIIIII
+			<div class="hiddentext02b"><p>02b</p></div>
+	</div></a>
+
+	<a href="level2c.html"><div class="border02c">
+		IIIIIIIIIIIIII
+			<div class="hiddentext02c"><p>02c</p></div>
+	</div></a>
+
+	<a href="level3a.html"><div class="border03a">
+		IIIIIIIIIIIIIIIII
+			<div class="hiddentext03a"><p>03a</p></div>
+	</div></a>
+
+	<a href="level3b.html"><div class="border03b">
+		IIIIIIIIIIIIIIIII
+			<div class="hiddentext03b"><p>03b</p></div>
+	</div></a>
+
+	<a href="level3c.html"><div class="border03c">
+		IIIIIIIIIIIIIIIII
+			<div class="hiddentext03c"><p>03c</p></div>
+	</div></a>
+
+	<a href="level4a.html"><div class="border04a">
+		IIIIIIIIIIIIIIIIIIIII
+			<div class="hiddentext04a"><p>04a</p></div>
+	</div></a>
+
+	<a href="level4b.html"><div class="border04b">
+		IIIIIIIIIIIIIIIIIIIII
+			<div class="hiddentext04b"><p>04b</p></div>
+	</div></a>
+
+	<a href="level4c.html"><div class="border04c">
+		IIIIIIIIIIIIIIIIIIIII
+			<div class="hiddentext04c"><p>04c</p></div>
+	</div></a>
+
+	<a href="level5a.html"><div class="border05a">
+		IIIIIIIIIIIIIIIIIIIIIIIII
+			<div class="hiddentext05a"><p>05a</p></div>
+	</div></a>
+
+	<a href="level5c.html"><div class="border05c">
+		IIIIIIIIIIIIIIIIIIIIIIIII
+			<div class="hiddentext05c"><p>05c</p></div>
+	</div></a>
+	<br>
+	<br>
+	<br>
+
+	<div class="body">
+		Allow events to change you. You have to be willing to grow.
+		<div class="forget">
+				Forget about good.
+		</div>
+		Good is a known quantity.
+		Process is more important than outcome.
+		love your experiments (as you would an ugly child).
+
+			<em>
+				GO <br>
+				<br>
+				DEEP.</em>
+
+		Capture accidents. The wrong answer is the right answer in search of a different question.
+		Study.
+		Dr &nbsp; &nbsp;i &nbsp; &nbsp; &nbsp; f &nbsp;t.
+		Allow your- <br>
+		self to wander aimlessly.
+		Begin anywhere.
+		Everyone is a leader. Growth happens.
+		Harvest ideas.
+		Keep moving.
+		Slo &nbsp; &nbsp; &nbsp; &nbsp;w down.
+		Don't be cool. Cool is conserva- <br>
+		tive fear dressed in <strong>black.</strong>
+		Ask stupid questions. Growth is fuelled by desire and innocence.
+		Collaborate.
+		_________________. <br>
+		Intentionally left blank.
+		Stay up late.
+		Work the metaphor.
+		Be careful to take risks. Time is genetic.
+		Repeat yourself. If you like it, do it again. If you don't like it, do it again.
+		Avoid software.
+		Don't clean your desk.
+		Don't enter awards competitions.
+		Read only left-hand pages.
+		Make new words. Expand the lexicon.
+		Think with your mind.
+		Organization = Liberty.
+		Don't borrow money.
+		Listen carefully.
+		Take field trips.
+		Make mistakes faster.
+	</div>
+
+		<div class="imitate">
+				<strong>Imitate. Don't be shy about it.
+				Try to get as close as you can.</strong>
+		</div>
+
+	<div class="body">
+		Scat.
+		Break it, stretch it, bend it, crush it, crack it, fold it.
+		Explore the other edge.
+		Coffee breaks, cab rides, green rooms. <br>
+		&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+
+		Jump <br>
+
+		Avoid fields. &nbsp; &nbsp; &nbsp; &nbsp; fences.
+		Laugh.
+		Remember. Growth is only possible as a product of history.
+		Power to the people.
+
+	</div>
+
+
+	<br>
+	<br>
+
+
+	</body>
+</html>
