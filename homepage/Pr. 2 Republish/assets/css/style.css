@@ -1,0 +1,23 @@
+body {
+  font-family: arial;
+  font-size: 20px;
+  line-height: normal;
+}
+
+a {
+  color:red;
+}
+
+img {
+  width: 400px;
+}
+
+.essay {
+  font-family: times;
+  width: 800px;
+  margin: auto;
+}
+
+blockquote {
+  font-style:italic;
+}
