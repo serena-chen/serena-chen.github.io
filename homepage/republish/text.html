@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>DVD Manual</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	</head>
+
+	<style media="screen">
+
+
+		.homeicon {
+				position: fixed;
+				background-image: url('assets/images/returnhomegrey.png');
+				background-size: cover;
+				left: -50px;
+				transition: .8s;
+				width: 110px;
+				height: 50px;
+				margin-top: 50px;
+				float: left;
+			}
+
+		.homeicon:hover {
+				position: fixed;
+				background-image: url('assets/images/returnhomegrey.png');
+				left: 20px;
+				transition: .8s;
+				background-size: cover;
+				width: 110px;
+				height: 50px;
+				margin-top: 50px;
+				float: left;
+			}
+
+		.essay {
+			font-family: courier new;
+			font-style: italic;
+			color: #AEBBBD;
+			font-size: 25px;
+			right:80px;
+			top: 20px;
+			position: fixed;
+			text-align: right;
+			line-height: 13px;
+		}
+
+		.textimages {
+			z-index: 0;
+			float: left;
+			margin-top: 12.3%;
+			width: 175%;
+			height: 50%;
+		}
+
+		.text {
+			background-image: url("assets/images/text.jpg");
+			background-size: contain;
+			width: 400px;
+			height: 550px;
+			float: left;
+		}
+
+		.text:hover {
+			background-image: url("assets/images/texthover.jpg");
+			background-size: contain;
+			width: 400px;
+			height: 550px;
+			float: left;
+		}
+
+		.text1 {
+			background-image: url("assets/images/text1.jpg");
+			background-size: contain;
+			width: 400px;
+			height: 550px;
+			float: left;
+		}
+
+		.text1:hover {
+			background-image: url("assets/images/text1hover2.jpg");
+			background-size: contain;
+			width: 400px;
+			height: 550px;
+			float: left;
+		}
+
+		.text3 {
+			background-image: url("assets/images/text3.jpg");
+			background-size: contain;
+			width: 400px;
+			height: 550px;
+			float: left;
+		}
+
+		.text3:hover {
+			background-image: url("assets/images/text3hover.jpg");
+			background-size: contain;
+			width: 400px;
+			height: 550px;
+			float: left;
+		}
+
+		.text4 {
+			background-image: url("assets/images/text4.jpg");
+			background-size: contain;
+			width: 400px;
+			height: 550px;
+			float: left;
+		}
+
+		.text4:hover {
+			background-image: url("assets/images/text4hover.jpg");
+			background-size: contain;
+			width: 400px;
+			height: 550px;
+			float: left;
+		}
+
+		.text5 {
+			background-image: url("assets/images/text5.jpg");
+			background-size: contain;
+			width: 400px;
+			height: 550px;
+			float: left;
+		}
+
+		.text5:hover {
+			background-image: url("assets/images/text5hover.jpg");
+			background-size: contain;
+			width: 400px;
+			height: 550px;
+			float: left;
+		}
+
+		.text6 {
+			background-image: url("assets/images/text6.jpg");
+			background-size: contain;
+			width: 400px;
+			height: 550px;
+			float: left;
+		}
+
+		.text6:hover {
+			background-image: url("assets/images/text6hover.jpg");
+			background-size: contain;
+			width: 400px;
+			height: 550px;
+			float: left;
+		}
+
+
+		.bordertext {
+			margin-left: 0px;
+			margin-top: 6.7%;
+			position: fixed;
+			font-weight: bold;
+			color: #AEBBBD;
+
+		}
+
+		.bordertext:hover .hiddentext {
+			position: fixed;
+			color: #28A9B5;
+			display: block;
+			line-height: 0px;
+		}
+
+		.bordertext:hover {
+			color: #28A9B5;
+			line-height: 1px;
+		}
+
+		.hiddentext {
+			position: fixed;
+			display: none;
+			font-family: courier;
+			font-size: 12px;
+			text-align: center;
+			margin-left: 102px;
+		}
+
+		.bordermoodboard {
+			margin-left: 244px;
+			margin-top: 6.7%;
+			position: fixed;
+			font-weight: bold;
+			color: #AEBBBD;
+
+		}
+
+		.bordermoodboard:hover .hiddenmoodboard {
+			position: fixed;
+			color: #28A9B5;
+			display: block;
+			line-height: 0px;
+		}
+
+		.bordermoodboard:hover {
+			color: #28A9B5;
+			line-height: 1px;
+		}
+
+		.hiddenmoodboard {
+			position: fixed;
+			display: none;
+			font-family: courier;
+			font-size: 12px;
+			text-align: center;
+			margin-left: 91px;
+		}
+
+		.borderidea1 {
+			margin-left: 488px;
+			margin-top: 6.7%;
+			position: fixed;
+			font-weight: bold;
+			color: #AEBBBD;
+
+		}
+
+		.borderidea1:hover .hiddenidea1 {
+			position: fixed;
+			color: #28A9B5;
+			display: block;
+			line-height: 0px;
+		}
+
+		.borderidea1:hover {
+			color: #28A9B5;
+			line-height: 1px;
+		}
+
+		.hiddenidea1 {
+			position: fixed;
+			display: none;
+			font-family: courier;
+			font-size: 12px;
+			text-align: center;
+			margin-left: 91px;
+		}
+
+		.borderidea2 {
+			margin-left: 732px;
+			margin-top: 6.7%;
+			position: fixed;
+			font-weight: bold;
+			color: #AEBBBD;
+
+		}
+
+		.borderidea2:hover .hiddenidea2 {
+			position: fixed;
+			color: #28A9B5;
+			display: block;
+			line-height: 0px;
+		}
+
+		.borderidea2:hover {
+			color: #28A9B5;
+			line-height: 1px;
+		}
+
+		.hiddenidea2 {
+			position: fixed;
+			display: none;
+			font-family: courier;
+			font-size: 12px;
+			text-align: center;
+			margin-left: 91px;
+		}
+
+		.borderidea3 {
+			margin-left: 976px;
+			margin-top: 6.7%;
+			position: fixed;
+			font-weight: bold;
+			color: #AEBBBD;
+
+		}
+
+		.borderidea3:hover .hiddenidea3 {
+			position: fixed;
+			color: #28A9B5;
+			display: block;
+			line-height: 0px;
+		}
+
+		.borderidea3:hover {
+			color: #28A9B5;
+			line-height: 1px;
+		}
+
+		.hiddenidea3 {
+			position: fixed;
+			display: none;
+			font-family: courier;
+			font-size: 12px;
+			text-align: center;
+			margin-left: 91px;
+		}
+
+		.borderoutcome {
+			margin-left: 1220px;
+			margin-top: 6.7%;
+			position: fixed;
+			font-weight: bold;
+			color: #AEBBBD;
+
+		}
+
+		.borderoutcome:hover .hiddenoutcome {
+			position: fixed;
+			color: #28A9B5;
+			display: block;
+			line-height: 0px;
+		}
+
+		.borderoutcome:hover {
+			color: #28A9B5;
+			line-height: 1px;
+		}
+
+		.hiddenoutcome {
+			position: fixed;
+			display: none;
+			font-family: courier;
+			font-size: 12px;
+			text-align: center;
+			margin-left: 91px;
+		}
+
+
+
+
+	</style>
+	<body>
+
+		<a href="../index.html">
+			<div class="homeicon"></div>
+		</a>
+
+		<div class="essay">
+			<h1>Operating Instructions</h1>
+			<h2>NINTAUS DVD-N9868</h2>
+		</div>
+
+		<br>
+		<br>
+
+
+		<a href="text.html"><div class="bordertext">
+			IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+	  		<div class="hiddentext"><p>text</p></div>
+		</div>
+		</a>
+
+		<a href="moodboard.html"><div class="bordermoodboard">
+			IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+	  		<div class="hiddenmoodboard"><p>moodboard</p></div>
+		</div>
+		</a>
+
+		<a href="idea1.html"><div class="borderidea1">
+			IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+	  		<div class="hiddenidea1"><p>idea 01</p></div>
+		</div>
+		</a>
+
+		<a href="idea2.html"><div class="borderidea2">
+			IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+	  		<div class="hiddenidea2"><p>idea 02</p></div>
+		</div>
+		</a>
+
+		<a href="idea3.html"><div class="borderidea3">
+			IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+	  		<div class="hiddenidea3"><p>idea 03</p></div>
+		</div>
+		</a>
+
+		<a href="outcome.html"><div class="borderoutcome">
+			IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+	  		<div class="hiddenoutcome"><p>outcome</p></div>
+		</div>
+		</a>
+
+
+ 		<div class="textimages">
+ 			<div class="text"></div>
+			<div class="text1"></div>
+			<div class="text3"></div>
+			<div class="text4"></div>
+			<div class="text5"></div>
+			<div class="text6"></div>
+ 		</div>
+
+
+
+
+
+	</body>
+</html>
