@@ -3,248 +3,12 @@
 	<head>
 		<title>Catfish and the Tindermen</title>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+		<link rel="stylesheet" href="assets/css/main.css">
+    <script src="assets/js/jquery-3.2.0.min.js" charset="utf-8"></script>
+    <script src="assets/js/main.js" charset="utf-8"></script>
+
 	</head>
-
-	<style media="screen">
-
-	body {
-		font-family: courier new;
-		color: grey;
-		font-size: 10px;
-
-	}
-
-	.profiles {
-		z-index: 0;
-		float: left;
-		margin-top: 13.2%;
-		width: 260%;
-		height: 50%;
-	}
-
-
-	.aliceprofile {
-		margin-left: 1%;
-		width: 230px;
-		height: 430px;
-		float: left;
-	}
-
-	.aliceprofile:hover {
-		opacity: .7;
-	}
-
-	.alicecomments {
-		z-index: -6;
-		position: fixed;
-		margin-top: -5%;
-		margin-left: -7%;
-		width: 640px;
-		height: 860px;
-		float: left;
-	}
-
-	.jessprofile {
-
-		margin-left: 1%;
-		width: 230px;
-		height: 430px;
-		float: left;
-	}
-
-	.jessprofile:hover {
-		opacity: .7;
-	}
-
-	.jesscomments {
-		z-index: -5;
-		position: fixed;
-		margin-top: -5%;
-		margin-left: 7%;
-		width: 640px;
-		height: 860px;
-		float: left;
-	}
-
-	.kimprofile {
-		margin-left: 1%;
-		width: 230px;
-		height: 430px;
-		float: left;
-	}
-
-	.kimprofile:hover {
-		opacity: .7;
-	}
-
-	.kimcomments {
-		z-index: -4;
-		position: fixed;
-		margin-top: -4.8%;
-		margin-left: 19%;
-		width: 640px;
-		height: 860px;
-		float: left;
-	}
-
-	.alice2profile {
-		margin-left: 1%;
-		width: 230px;
-		height: 430px;
-		float: left;
-	}
-
-	.alice2profile:hover {
-		opacity: .7;
-	}
-
-	.alice2comments {
-		z-index: -3;
-		position: fixed;
-		margin-top: -5%;
-		margin-left: 38%;
-		width: 700px;
-		height: 860px;
-		float: left;
-	}
-
-	.janeprofile {
-		margin-left: 1%;
-		width: 230px;
-		height: 430px;
-		float: left;
-	}
-
-	.janeprofile:hover {
-		opacity: .7;
-	}
-
-	.janecomments {
-		z-index: -2;
-		position: fixed;
-		margin-top: -5.8%;
-		margin-left: 51%;
-		width: 700px;
-		height: 860px;
-		float: left;
-	}
-
-	.anneprofile {
-		margin-left: 1%;
-		width: 230px;
-		height: 430px;
-		float: left;
-	}
-
-	.anneprofile:hover {
-		opacity: .7;
-	}
-
-	.annecomments {
-		z-index: -1;
-		position: fixed;
-		margin-top: -5.8%;
-		margin-left: 57%;
-		width: 700px;
-		height: 860px;
-		float: left;
-	}
-
-	.zoeprofile {
-		margin-left: 1%;
-		width: 230px;
-		height: 430px;
-		float: left;
-	}
-
-	.zoeprofile:hover {
-		opacity: .7;
-	}
-
-	.danaprofile {
-		margin-left: 1%;
-		width: 230px;
-		height: 430px;
-		float: left;
-	}
-
-	.danaprofile:hover {
-		opacity: .7;
-	}
-
-	.alexprofile {
-		margin-left: 1%;
-		width: 230px;
-		height: 430px;
-		float: left;
-	}
-
-	.alexprofile:hover {
-		opacity: .7;
-	}
-
-	.sophiaprofile {
-		margin-left: 1%;
-		width: 230px;
-		height: 430px;
-		float: left;
-	}
-
-	.sophiaprofile:hover {
-		opacity: .7;
-	}
-
-	.becprofile {
-		margin-left: 1%;
-		width: 230px;
-		height: 430px;
-		float: left;
-	}
-
-	.becprofile:hover {
-		opacity: .7;
-	}
-
-	.bridgetprofile {
-		margin-left: 1%;
-		width: 230px;
-		height: 430px;
-		float: left;
-	}
-
-	.bridgetprofile:hover {
-		opacity: .7;
-	}
-
-	.stephprofile {
-		margin-left: 1%;
-		width: 230px;
-		height: 430px;
-		float: left;
-	}
-
-	.stephprofile:hover {
-		opacity: .7;
-	}
-
-	.credits {
-		float: left;
-		margin-left: .6%;
-		width: 160px;
-	}
-
-	a {
-		text-decoration: none;
-		color: grey;
-	}
-
-	a:hover {
-		text-decoration: none;
-		color: white;
-		background-color: #28A9B5;
-	}
-
-	</style>
 
 	<body>
 
@@ -254,6 +18,14 @@
 		<img class="alice2comments" src="assets/images/alice2/alice2comments.png" alt="">
 		<img class="janecomments" src="assets/images/jane/janecomments.png" alt="">
 		<img class="annecomments" src="assets/images/anne/annecomments.png" alt="">
+		<img class="zoecomments" src="assets/images/zoe/zoecomments.png" alt="">
+		<img class="danacomments" src="assets/images/dana/danacomments.png" alt="">
+		<img class="alexcomments" src="assets/images/alex/alexcomments.png" alt="">
+		<img class="sophiacomments" src="assets/images/sophia/sophiacomments.png" alt="">
+		<img class="beccomments" src="assets/images/bec/beccomments.png" alt="">
+		<img class="bridgetcomments" src="assets/images/bridget/bridgetcomments.png" alt="">
+		<img class="stephcomments" src="assets/images/steph/stephcomments.png" alt="">
+
 
 
 		<div class="profiles">
