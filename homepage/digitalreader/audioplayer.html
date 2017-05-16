@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>The Internet With A Human Face</title>
+
+    <link rel="stylesheet" href="assets/css/audio.css">
+    <script src="assets/js/jquery-3.2.0.min.js" charset="utf-8"></script>
+    <script src="assets/js/main.js" charset="utf-8"></script>
+
+  </head>
+
+  <style media="screen">
+  #pButton{
+      height:60px;
+      width: 60px;
+      border: none;
+      background-size: 50% 50%;
+      background-repeat: no-repeat;
+      background-position: center;
+      float:left;
+      outline:none;
+  }
+
+  .play {
+    background: url('./assets/images/tor1.jpg') no-repeat;
+  }
+
+  .pause {
+    background: url('./assets/images/tor1bw.jpg') no-repeat;
+  }
+  </style>
+
+  <body>
+
+    <audio id="music" preload="true">
+        <source src="http://www.alexkatz.me/codepen/music/interlude.mp3">
+        <source src="http://www.alexkatz.me/codepen/music/interlude.ogg">
+    </audio>
+
+<div id="audioplayer">
+    <button id="pButton" class="play"></button>
+
+    <div id="timeline">
+      <div id="playhead"></div>
+    </div>
+
+</div>
+
+
+  </body>
+
+</html>
