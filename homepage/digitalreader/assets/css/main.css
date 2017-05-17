@@ -3,11 +3,6 @@ body {
   background-color: black;
 }
 
-.hometitle {
-  color: white;
-  font-size: 30px;
-}
-
 .highlight {
   width: 70%;
   height:40px;
@@ -15,6 +10,8 @@ body {
   top:70px;
   z-index: -1;
   display: block;
+  filter: blur(5px);
+  -webkit-filter: blur(1.5px);
 }
 
 .highlighttext1 {
@@ -44,89 +41,14 @@ body {
   margin-top: 6%;
   font-size: 40px;
   color: #CCCCCC;
+  mix-blend-mode: color-dodge;
 }
 
-.links {
+/* Return to top Page */
+
+.returntotop {
   text-decoration: none;
   color: grey;
-}
-
-
-.chapterlink {
-  color: #CCCCCC;
-  text-decoration: none;
-  border-bottom: 2px dotted #CCCCCC;
-}
-
-.chapterlink:hover{
-  color: #CCCCCC;
-  opacity: 0.7;
-  font-style: italic;
-  text-decoration: none;
-  border-bottom: 2px dotted #CCCCCC;
-}
-
-.textlink {
-  color: #CCCCCC;
-  text-decoration: none;
-  border-bottom: 2px dotted #CCCCCC;
-}
-
-.textlink:hover{
-  color: #CCCCCC;
-  opacity: 0.7;
-  font-style: italic;
-  text-decoration: none;
-  border-bottom: 2px dotted #CCCCCC;
-
-}
-
-.backgroundimages {
-  background-size: cover;
-  position:fixed;
-  top:0px;
-  left:0px;
-  z-index: -2;
-  height: 100%;
-  width: 100%;
-  display: none;
-}
-
-.backgroundimages.showme {
-  display: block;
-}
-
-.backgroundimages.bg1 {
-  background-image: url("../images/text1/bg1.jpg");
-}
-
-.backgroundimages.bg2 {
-  background-image: url("../images/text1/bg2.jpg");
-}
-
-.backgroundimages.bg3 {
-  background-image: url("../images/text1/bg5.jpg");
-}
-
-.navigationbar {
-  background-color: black;
-  border-top: 3px dotted white;
-  width: 101%;
-  height: 8%;
-  bottom: 0%;
-  display: flex;
-  display: -webkit-flex;
-  margin-left: -1%;
-  padding-left: 5%;
-  position: fixed;
-  color: white;
-}
-
-.navitem {
-  width: 100%;
-  float: left;
-  flex: 1;
-  -webkit-flex: 1;
 }
 
 .returnicon {
@@ -154,6 +76,81 @@ body {
 
 .returnicontext3:hover {
   background-image: url("../images/icons/returnpink.png");
+}
+
+
+/*rollover text*/
+
+.rollover {
+  color: #CCCCCC;
+  text-decoration: none;
+  border-bottom: 2px dotted #CCCCCC;
+}
+
+.rollover:hover{
+  color: #CCCCCC;
+  opacity: 0.7;
+  font-style: italic;
+  text-decoration: none;
+  border-bottom: 2px dotted #CCCCCC;
+}
+
+.bodytext.noblend {
+  opacity: .5;
+}
+
+/*rollover show images*/
+
+.rollovered {
+  background-size: cover;
+  position:fixed;
+  top:0px;
+  left:0px;
+  z-index: -2;
+  height: 107%;
+  width: 103%;
+  opacity: 0;
+}
+
+.rollovered.showme {
+  opacity: 1;
+}
+
+
+/* Navigation Bar */
+
+.navigationbar {
+  background-color: black;
+  border-top: 3px dotted white;
+  width: 101%;
+  height: 8%;
+  bottom: 0%;
+  display: flex;
+  display: -webkit-flex;
+  margin-left: -1%;
+  padding-left: 5%;
+  position: fixed;
+  color: white;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navitem {
+    flex:0 0 25%;
+}
+
+.chapterlink {
+  color: #CCCCCC;
+  text-decoration: none;
+  border-bottom: 2px dotted #CCCCCC;
+}
+
+.chapterlink:hover{
+  color: #CCCCCC;
+  opacity: 0.7;
+  font-style: italic;
+  text-decoration: none;
+  border-bottom: 2px dotted #CCCCCC;
 }
 
 .homeicon {
@@ -236,6 +233,9 @@ body {
 .relatedicontext3:hover {
   background-image: url("../images/icons/relatedpink.png");
 }
+
+
+/* Navigation popups */
 
 .row3 {
   display: flex;
