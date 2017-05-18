@@ -204,7 +204,72 @@ $('.bg25').mouseenter(function() {
  $('.bg25__images').removeClass('showme');
 });
 
+$('.bg26').mouseenter(function() {
+   $('.bg26__images').addClass('showme');
+ });
 
+ $('.bg26').mouseleave(function() {
+ $('.bg26__images').removeClass('showme');
+});
+
+
+$('.bg27').mouseenter(function() {
+   $('.bg27__images').addClass('showme');
+ });
+
+ $('.bg27').mouseleave(function() {
+ $('.bg27__images').removeClass('showme');
+});
+
+$('.bg28').mouseenter(function() {
+   $('.bg28__images').addClass('showme');
+ });
+
+ $('.bg28').mouseleave(function() {
+ $('.bg28__images').removeClass('showme');
+});
+
+$('.bg29').mouseenter(function() {
+  $('.bg29__images').addClass('showme');
+});
+
+$('.bg29').mouseleave(function() {
+$('.bg29__images').removeClass('showme');
+});
+
+$('.bg30').mouseenter(function() {
+  $('.bg30__images').addClass('showme');
+});
+
+$('.bg30').mouseleave(function() {
+$('.bg30__images').removeClass('showme');
+});
+
+$('.bg31').mouseenter(function() {
+  $('.bg31__images').addClass('showme');
+});
+
+$('.bg31').mouseleave(function() {
+$('.bg31__images').removeClass('showme');
+});
+
+
+
+$('.bg40').mouseenter(function() {
+  $('.bg40__images').addClass('showme');
+});
+
+$('.bg40').mouseleave(function() {
+$('.bg40__images').removeClass('showme');
+});
+
+$('.bg41').mouseenter(function() {
+  $('.bg41__images').addClass('showme');
+});
+
+$('.bg41').mouseleave(function() {
+$('.bg41__images').removeClass('showme');
+});
 
 
 

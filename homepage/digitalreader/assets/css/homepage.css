@@ -37,7 +37,8 @@ body {
   transform: rotate(90deg);
   -webkit-transform: rotate(90deg);
   z-index: 5;
-  margin-left: -600px;
+  margin-left: -760px;
+  width: 120%;
 }
 
 #titlevertical:hover {
