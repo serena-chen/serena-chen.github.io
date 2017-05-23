@@ -38,6 +38,7 @@ body {
 }
 
 .bodytext {
+  z-index: 1;
   margin-top: 6%;
   font-size: 40px;
   color: #CCCCCC;
@@ -95,8 +96,13 @@ body {
   border-bottom: 2px dotted #CCCCCC;
 }
 
+
 .bodytext.noblend {
   opacity: .5;
+}
+
+.highlight.noblend {
+  opacity: .8;
 }
 
 /*rollover show images*/
@@ -139,6 +145,7 @@ body {
 .navitem {
     flex:0 0 25%;
 }
+
 
 .chapterlink {
   color: #CCCCCC;
@@ -246,19 +253,67 @@ body {
 }
 
 .chapterpopup {
-  display: none;
+  z-index: -10;
+  opacity: 0;
   background-color: grey;
   width: 101%;
-  height: 45%;
+  height: 42%;
+  margin-left: -1%;
   position: fixed;
-
   bottom: 8%;
   border-top: 3px dotted white;
 }
 
 .chapterpopup.showme {
-  display: block;
+  z-index: 1;
+  opacity: 1;
 }
+
+.text1info {
+  width: 101%;
+  line-height: 44px;
+  color: #24408e;
+  background-color: white;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  align-content: center;
+}
+
+
+.chapterlist {
+    width: 101%;
+    z-index: 5;
+}
+
+.chapter {
+    padding: 10px 10px;
+    text-align: center;
+    align-content: center;
+}
+
+.chapter:hover {
+    background-color: #24408e;
+    color: #CCCCCC;
+    font-style: italic;
+}
+
+.current {
+    text-decoration: none;
+    color: #CCCCCC;
+    border-bottom: 2px dotted #CCCCCC;
+}
+
+.next {
+    text-decoration: none;
+    color: #CCCCCC;
+}
+
+.next:hover {
+  border-bottom: 2px dotted #CCCCCC;
+
+}
+
 
 .row4 {
   display: flex;
@@ -268,15 +323,17 @@ body {
 }
 
 .relatedpopup {
-  display: none;
+  z-index: -10;
+  opacity: 0;
   background-color: grey;
   width: 101%;
-  height: 45%;
+  height: 42%;
   position: fixed;
   bottom: 8%;
   border-top: 3px dotted white;
 }
 
 .relatedpopup.showme {
-  display: block;
+  z-index: 1;
+  opacity: 1;
 }

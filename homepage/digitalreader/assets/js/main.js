@@ -1,6 +1,16 @@
 $(document).ready(function() {
 
 
+    function page_scroll()
+  {
+   $("html, body").animate({ scrollTop: $(document).height() }, 158000);
+  }
+  function stop_scroll()
+  {
+   $("html, body").stop();
+  }
+
+
 /* Background Images */
 
   $('.bg1').mouseenter(function() {
@@ -253,7 +263,68 @@ $('.bg31').mouseleave(function() {
 $('.bg31__images').removeClass('showme');
 });
 
+$('.bg32').mouseenter(function() {
+  $('.bg32__images').addClass('showme');
+});
 
+$('.bg32').mouseleave(function() {
+$('.bg32__images').removeClass('showme');
+});
+
+$('.bg33').mouseenter(function() {
+  $('.bg33__images').addClass('showme');
+});
+
+$('.bg33').mouseleave(function() {
+$('.bg33__images').removeClass('showme');
+});
+$('.bg34').mouseenter(function() {
+  $('.bg34__images').addClass('showme');
+});
+
+$('.bg34').mouseleave(function() {
+$('.bg34__images').removeClass('showme');
+});
+
+$('.bg35').mouseenter(function() {
+  $('.bg35__images').addClass('showme');
+});
+
+$('.bg35').mouseleave(function() {
+$('.bg35__images').removeClass('showme');
+});
+
+$('.bg36').mouseenter(function() {
+  $('.bg36__images').addClass('showme');
+});
+
+$('.bg36').mouseleave(function() {
+$('.bg36__images').removeClass('showme');
+});
+
+$('.bg37').mouseenter(function() {
+  $('.bg37__images').addClass('showme');
+});
+
+$('.bg37').mouseleave(function() {
+$('.bg37__images').removeClass('showme');
+});
+
+$('.bg38').mouseenter(function() {
+  $('.bg38__images').addClass('showme');
+});
+
+$('.bg38').mouseleave(function() {
+$('.bg38__images').removeClass('showme');
+});
+
+$('.bg39').mouseenter(function() {
+  $('.bg39__images').addClass('showme');
+});
+
+$('.bg39').mouseleave(function() {
+$('.bg39__images').removeClass('showme');
+});
 
 $('.bg40').mouseenter(function() {
   $('.bg40__images').addClass('showme');
@@ -271,6 +342,283 @@ $('.bg41').mouseleave(function() {
 $('.bg41__images').removeClass('showme');
 });
 
+$('.bg42').mouseenter(function() {
+  $('.bg42__images').addClass('showme');
+});
+
+$('.bg42').mouseleave(function() {
+$('.bg42__images').removeClass('showme');
+});
+
+$('.bg43').mouseenter(function() {
+  $('.bg43__images').addClass('showme');
+});
+
+$('.bg43').mouseleave(function() {
+$('.bg43__images').removeClass('showme');
+});
+
+$('.bg44').mouseenter(function() {
+  $('.bg44__images').addClass('showme');
+});
+
+$('.bg44').mouseleave(function() {
+$('.bg44__images').removeClass('showme');
+});
+
+$('.bg45').mouseenter(function() {
+  $('.bg45__images').addClass('showme');
+});
+
+$('.bg45').mouseleave(function() {
+$('.bg45__images').removeClass('showme');
+});
+
+$('.bg46').mouseenter(function() {
+  $('.bg46__images').addClass('showme');
+});
+
+$('.bg46').mouseleave(function() {
+$('.bg46__images').removeClass('showme');
+});
+
+$('.bg47').mouseenter(function() {
+  $('.bg47__images').addClass('showme');
+});
+
+$('.bg47').mouseleave(function() {
+$('.bg47__images').removeClass('showme');
+});
+
+$('.bg48').mouseenter(function() {
+  $('.bg48__images').addClass('showme');
+});
+
+$('.bg48').mouseleave(function() {
+$('.bg48__images').removeClass('showme');
+});
+
+$('.bg49').mouseenter(function() {
+  $('.bg49__images').addClass('showme');
+});
+
+$('.bg49').mouseleave(function() {
+$('.bg49__images').removeClass('showme');
+});
+
+$('.bg50').mouseenter(function() {
+  $('.bg50__images').addClass('showme');
+});
+
+$('.bg50').mouseleave(function() {
+$('.bg50__images').removeClass('showme');
+});
+
+$('.bg51').mouseenter(function() {
+  $('.bg51__images').addClass('showme');
+});
+
+$('.bg51').mouseleave(function() {
+$('.bg51__images').removeClass('showme');
+});
+
+$('.bg52').mouseenter(function() {
+  $('.bg52__images').addClass('showme');
+});
+
+$('.bg52').mouseleave(function() {
+$('.bg52__images').removeClass('showme');
+});
+
+$('.bg53').mouseenter(function() {
+  $('.bg53__images').addClass('showme');
+});
+
+$('.bg53').mouseleave(function() {
+$('.bg53__images').removeClass('showme');
+});
+
+$('.bg54').mouseenter(function() {
+  $('.bg54__images').addClass('showme');
+});
+
+$('.bg54').mouseleave(function() {
+$('.bg54__images').removeClass('showme');
+});
+
+$('.bg55').mouseenter(function() {
+  $('.bg55__images').addClass('showme');
+});
+
+$('.bg55').mouseleave(function() {
+$('.bg55__images').removeClass('showme');
+});
+
+$('.bg56').mouseenter(function() {
+  $('.bg56__images').addClass('showme');
+});
+
+$('.bg56').mouseleave(function() {
+$('.bg56__images').removeClass('showme');
+});
+
+
+
+
+
+$('.bg61').mouseenter(function() {
+  $('.bg61__images').addClass('showme');
+});
+
+$('.bg61').mouseleave(function() {
+$('.bg61__images').removeClass('showme');
+});
+
+$('.bg62').mouseenter(function() {
+  $('.bg62__images').addClass('showme');
+});
+
+$('.bg62').mouseleave(function() {
+$('.bg62__images').removeClass('showme');
+});
+
+$('.bg63').mouseenter(function() {
+  $('.bg63__images').addClass('showme');
+});
+
+$('.bg63').mouseleave(function() {
+$('.bg63__images').removeClass('showme');
+});
+
+$('.bg64').mouseenter(function() {
+  $('.bg64__images').addClass('showme');
+});
+
+$('.bg64').mouseleave(function() {
+$('.bg64__images').removeClass('showme');
+});
+
+$('.bg65').mouseenter(function() {
+  $('.bg65__images').addClass('showme');
+});
+
+$('.bg65').mouseleave(function() {
+$('.bg65__images').removeClass('showme');
+});
+
+
+
+
+
+
+
+
+
+
+
+$('.bg100').mouseenter(function() {
+  $('.bg100__images').addClass('showme');
+});
+
+$('.bg100').mouseleave(function() {
+$('.bg100__images').removeClass('showme');
+});
+
+$('.bg101').mouseenter(function() {
+  $('.bg101__images').addClass('showme');
+});
+
+$('.bg101').mouseleave(function() {
+$('.bg101__images').removeClass('showme');
+});
+
+$('.bg102').mouseenter(function() {
+  $('.bg102__images').addClass('showme');
+});
+
+$('.bg102').mouseleave(function() {
+$('.bg102__images').removeClass('showme');
+});
+
+$('.bg103').mouseenter(function() {
+  $('.bg103__images').addClass('showme');
+});
+
+$('.bg103').mouseleave(function() {
+$('.bg103__images').removeClass('showme');
+});
+
+$('.bg104').mouseenter(function() {
+  $('.bg104__images').addClass('showme');
+});
+
+$('.bg104').mouseleave(function() {
+$('.bg104__images').removeClass('showme');
+});
+
+$('.bg105').mouseenter(function() {
+  $('.bg105__images').addClass('showme');
+});
+
+$('.bg105').mouseleave(function() {
+$('.bg105__images').removeClass('showme');
+});
+
+$('.bg106').mouseenter(function() {
+  $('.bg106__images').addClass('showme');
+});
+
+$('.bg106').mouseleave(function() {
+$('.bg106__images').removeClass('showme');
+});
+
+$('.bg107').mouseenter(function() {
+  $('.bg107__images').addClass('showme');
+});
+
+$('.bg107').mouseleave(function() {
+$('.bg107__images').removeClass('showme');
+});
+
+$('.bg108').mouseenter(function() {
+  $('.bg108__images').addClass('showme');
+});
+
+$('.bg108').mouseleave(function() {
+$('.bg108__images').removeClass('showme');
+});
+
+$('.bg109').mouseenter(function() {
+  $('.bg109__images').addClass('showme');
+});
+
+$('.bg109').mouseleave(function() {
+$('.bg109__images').removeClass('showme');
+});
+
+$('.bg110').mouseenter(function() {
+  $('.bg110__images').addClass('showme');
+});
+
+$('.bg110').mouseleave(function() {
+$('.bg110__images').removeClass('showme');
+});
+
+$('.bg111').mouseenter(function() {
+  $('.bg111__images').addClass('showme');
+});
+
+$('.bg111').mouseleave(function() {
+$('.bg111__images').removeClass('showme');
+});
+
+$('.bg112').mouseenter(function() {
+  $('.bg112__images').addClass('showme');
+});
+
+$('.bg112').mouseleave(function() {
+$('.bg112__images').removeClass('showme');
+});
 
 
 
@@ -286,11 +634,28 @@ $('.rollover').mouseenter(function() {
     $('.bodytext').removeClass('noblend');
   });
 
+  $('.rollover').mouseenter(function() {
+     $('.highlight').addClass('noblend');
+   });
+
+   $('.rollover').mouseleave(function() {
+      $('.highlight').removeClass('noblend');
+    });
+
+    $('.chapter').mouseenter(function() {
+       $('.current').addClass('changecolor');
+     });
+
+     $('.chapter').mouseleave(function() {
+        $('.current').removeClass('changecolor');
+      });
+
 
 /* Nav popups */
 
  $('.chapterlink').click(function() {
     $('.chapterpopup').toggleClass('showme');
+    $('.text1info').toggleClass('showme');
     $('.relatedpopup').removeClass('showme');
   });
 
@@ -384,6 +749,7 @@ function timeUpdate() {
     }
 }
 
+
 //Play and Pause
 function play() {
     // start music
@@ -392,13 +758,16 @@ function play() {
         // remove play, add pause
         pButton.className = "";
         pButton.className = "pause";
+        page_scroll();
     } else { // pause music
         music.pause();
         // remove pause, add play
         pButton.className = "";
         pButton.className = "play";
+        stop_scroll();
     }
 }
+
 
 // Gets audio file duration
 music.addEventListener("canplaythrough", function() {
@@ -410,9 +779,6 @@ music.addEventListener("canplaythrough", function() {
 function getPosition(el) {
     return el.getBoundingClientRect().left;
 }
-
-
-
 
 
 
