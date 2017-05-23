@@ -3,6 +3,10 @@ body {
   background-color: black;
 }
 
+a {
+  text-decoration: none;
+}
+
 .highlight {
   width: 70%;
   height:40px;
@@ -339,10 +343,13 @@ body {
 
 .relatedarticle {
   filter: grayscale(80);
-  width: 400px;
-  height: 180px;
+  width: 24%;
+  height: 65%;
+  margin-top: 2.5%;
+
 }
 
 .relatedarticle:hover {
   filter: none;
+
 }
