@@ -336,3 +336,13 @@ body {
   z-index: 1;
   opacity: 1;
 }
+
+.relatedarticle {
+  filter: grayscale(80);
+  width: 400px;
+  height: 180px;
+}
+
+.relatedarticle:hover {
+  filter: none;
+}
