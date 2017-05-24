@@ -18,6 +18,10 @@ a {
   -webkit-filter: blur(1.5px);
 }
 
+.highlight.showme {
+  display: none;
+}
+
 .highlighttext1 {
   background-color: #24408e;
 }
@@ -42,6 +46,7 @@ a {
 }
 
 .bodytext {
+  z-index: 1;
   margin-top: 6%;
   font-size: 40px;
   color: #CCCCCC;
@@ -60,14 +65,12 @@ a {
   background-size: cover;
   width: 40px;
   height: 40px;
-  z-index: 4;
 }
 
 .returnicon:hover {
   background-size: cover;
   width: 40px;
   height: 40px;
-  z-index: 4;
 }
 
 .returnicontext1:hover {
@@ -169,14 +172,13 @@ a {
   background-size: cover;
   width: 40px;
   height: 40px;
-  z-index: 4;
+  margin-left: -13%;
 }
 
 .homeicon:hover {
   background-size: cover;
   width: 40px;
   height: 40px;
-  z-index: 4;
 }
 
 .homeicontext1:hover {
@@ -192,14 +194,15 @@ a {
 }
 
 #pButton{
-    height:65px;
-    width: 65px;
+    height:80px;
+    width: 80px;
     border: none;
     background-size: 50% 50%;
     background-repeat: no-repeat;
     background-position: center;
     float:left;
     outline:none;
+    margin-left: -101%;
 }
 
 .play {
@@ -218,19 +221,22 @@ a {
   opacity: .7;
 }
 
+.chapters {
+  margin-left: -60%;
+}
+
 .relatedicon {
   background-image: url("../images/icons/relatedwhite.png");
   background-size: cover;
   width: 40px;
   height: 40px;
-  z-index: 4;
+  margin-left: 63%;
 }
 
 .relatedicon:hover {
   background-size: cover;
   width: 40px;
   height: 40px;
-  z-index: 4;
 }
 
 .relatedicontext1:hover {
@@ -256,8 +262,7 @@ a {
 }
 
 .chapterpopup {
-  z-index: -10;
-  opacity: 0;
+  visibility: hidden;
   background-color: grey;
   width: 101%;
   height: 42%;
@@ -268,8 +273,8 @@ a {
 }
 
 .chapterpopup.showme {
-  z-index: 1;
-  opacity: 1;
+
+  visibility: visible;
 }
 
 .text1info {
@@ -289,13 +294,13 @@ a {
     z-index: 5;
 }
 
-.chapter {
+.item {
     padding: 10px 10px;
     text-align: center;
     align-content: center;
 }
 
-.chapter:hover {
+.item:hover {
     background-color: #24408e;
     color: #CCCCCC;
     font-style: italic;
@@ -326,8 +331,7 @@ a {
 }
 
 .relatedpopup {
-  z-index: -10;
-  opacity: 0;
+  visibility: hidden;
   background-color: grey;
   width: 101%;
   height: 42%;
@@ -337,8 +341,7 @@ a {
 }
 
 .relatedpopup.showme {
-  z-index: 1;
-  opacity: 1;
+  visibility: visible;
 }
 
 .relatedarticle {
@@ -346,10 +349,11 @@ a {
   width: 24%;
   height: 65%;
   margin-top: 2.5%;
-
+  
 }
 
 .relatedarticle:hover {
   filter: none;
+
 
 }

@@ -3,7 +3,7 @@ $(document).ready(function() {
 
     function page_scroll()
   {
-   $("html, body").animate({ scrollTop: $(document).height() }, 158000);
+   $("html, body").animate({ scrollTop: $(document).height() }, 195000);
   }
   function stop_scroll()
   {
@@ -506,6 +506,54 @@ $('.bg65').mouseleave(function() {
 $('.bg65__images').removeClass('showme');
 });
 
+$('.bg66').mouseenter(function() {
+  $('.bg66__images').addClass('showme');
+});
+
+$('.bg66').mouseleave(function() {
+$('.bg66__images').removeClass('showme');
+});
+
+$('.bg67').mouseenter(function() {
+  $('.bg67__images').addClass('showme');
+});
+
+$('.bg67').mouseleave(function() {
+$('.bg67__images').removeClass('showme');
+});
+
+$('.bg68').mouseenter(function() {
+  $('.bg68__images').addClass('showme');
+});
+
+$('.bg68').mouseleave(function() {
+$('.bg68__images').removeClass('showme');
+});
+
+$('.bg69').mouseenter(function() {
+  $('.bg69__images').addClass('showme');
+});
+
+$('.bg69').mouseleave(function() {
+$('.bg69__images').removeClass('showme');
+});
+
+$('.bg70').mouseenter(function() {
+  $('.bg70__images').addClass('showme');
+});
+
+$('.bg70').mouseleave(function() {
+$('.bg70__images').removeClass('showme');
+});
+
+$('.bg71').mouseenter(function() {
+  $('.bg71__images').addClass('showme');
+});
+
+$('.bg71').mouseleave(function() {
+$('.bg71__images').removeClass('showme');
+});
+
 
 
 
@@ -668,6 +716,10 @@ $('.rollover').mouseenter(function() {
       $('.relatedpopup').removeClass('showme');
       $('.chapterpopup').removeClass('showme');
     });
+
+    $('.play').click(function() {
+       $('.highlight').toggleClass('showme');
+     });
 
 
   var music = document.getElementById('music'); // id for audio element
