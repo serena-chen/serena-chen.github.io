@@ -1,4 +1,5 @@
 body {
+  background-color: black;
   font-family: arial;
   margin-top: -1%;
 }
@@ -24,6 +25,11 @@ body {
   /* size the div */
   width: 100%;
   height: 45px;
+  font-size: 40px;
+  background-color: black;
+  font-family: Arial, sans-serif;
+  line-height: 45px;
+  
 }
 
 #titlevertical {
@@ -31,9 +37,7 @@ body {
   line-height: 45px;
   display: flex;
   color: white;
-  background-color: black;
-  font-family: Arial, sans-serif;
-  font-size: 18px;
+  font-size: 40px;
   transform: rotate(90deg);
   -webkit-transform: rotate(90deg);
   z-index: 5;
@@ -47,88 +51,45 @@ body {
 }
 
 #titlestill {
-  /* text and colors */
-  line-height: 45px;
-  color: black;
-  background-color: white;
-  font-family: Arial, sans-serif;
-  font-size: 18px;
+  color: white;
 }
 
 #titlerotated {
-  /* text and colors */
-  line-height: 45px;
-  color: black;
-  background-color: white;
-  font-family: Arial, sans-serif;
-  font-size: 18px;
+  color: white;
   transform: rotate(180deg);
   -webkit-transform: rotate(180deg);
 }
 
 #text1quote1 {
-  line-height: 45px;
   color: #24408e;
-  background-color: white;
-  font-family: Arial, sans-serif;
-  font-size: 18px;
 }
 
 #text1quote2 {
-  line-height: 45px;
   color: #24408e;
-  background-color: white;
-  font-family: Arial, sans-serif;
-  font-size: 18px;
 }
 
 #text1quote3 {
-  line-height: 45px;
   color: #24408e;
-  background-color: white;
-  font-family: Arial, sans-serif;
-  font-size: 18px;
 }
 
 #text2quote1 {
-  line-height: 45px;
-  color: #38a172;
-  background-color: white;
-  font-family: Arial, sans-serif;
-  font-size: 18px;
+  color: #009976;
 }
 
 #text2quote2 {
-  line-height: 45px;
-  color: #38a172;
-  background-color: white;
-  font-family: Arial, sans-serif;
-  font-size: 18px;
+  color: #009976;
 }
 
 #text2quote3 {
-  line-height: 45px;
-  color: #38a172;
-  background-color: white;
-  font-family: Arial, sans-serif;
-  font-size: 18px;
+  color: #009976;
 }
 
 #text3quote1 {
-  line-height: 45px;
-  color: #dd5b6e;
-  background-color: white;
-  font-family: Arial, sans-serif;
-  font-size: 18px;
+  color: orchid;
 }
 
 #text3quote2 {
-  line-height: 45px;
-  color: #dd5b6e;
-  background-color: white;
-  font-family: Arial, sans-serif;
-  font-size: 18px;
-
+  color: orchid;
 }
 
 /* marquee links */
@@ -138,7 +99,7 @@ body {
   color: white;
   background-color: #24408e;
   font-family: Arial, sans-serif;
-  font-size: 18px;
+  font-size: 40px;
   width: 100%;
   height: 45px;
   justify-content: space-around;
@@ -146,23 +107,16 @@ body {
 }
 
 #gototext1:hover {
-  line-height: 45px;
   color: #24408e;
   background-color: white;
-  font-family: Arial, sans-serif;
-  font-size: 18px;
-  width: 100%;
-  height: 45px;
-  justify-content: space-around;
-  align-items: center;
 }
 
 #gototext2 {
   line-height: 45px;
   color: white;
-  background-color: #38a172;
+  background-color: #009976;
   font-family: Arial, sans-serif;
-  font-size: 18px;
+  font-size: 40px;
   width: 100%;
   height: 45px;
   justify-content: space-around;
@@ -171,25 +125,17 @@ body {
 }
 
 #gototext2:hover {
-  line-height: 45px;
-  color: #38a172;
+  color: #009976;
   background-color: white;
-  font-family: Arial, sans-serif;
-  font-size: 18px;
-  width: 100%;
-  height: 45px;
-  justify-content: space-around;
-  align-items: center;
-  text-align: center;
   z-index: 6;
 }
 
 #gototext3 {
   line-height: 45px;
   color: white;
-  background-color: #dd5b6e;
+  background-color: orchid;
   font-family: Arial, sans-serif;
-  font-size: 18px;
+  font-size: 40px;
   width: 100%;
   height: 45px;
   justify-content: space-around;
@@ -197,13 +143,6 @@ body {
 }
 
 #gototext3:hover {
-  line-height: 45px;
-  color: #dd5b6e;
+  color: orchid;
   background-color: white;
-  font-family: Arial, sans-serif;
-  font-size: 18px;
-  width: 100%;
-  height: 45px;
-  justify-content: space-around;
-  align-items: center;
 }

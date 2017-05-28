@@ -4,6 +4,9 @@
     <meta charset="utf-8">
     <title>Home</title>
 
+    <script src="assets/js/jquery-3.2.0.min.js" charset="utf-8"></script>
+    <script src="assets/js/main.js" charset="utf-8"></script>
+
     <style media="screen">
 
     .variations {
@@ -157,14 +160,59 @@
       color: white;
     }
 
+    .onpageload {
+      z-index: 1;
+      position: fixed;
+      visibility: visible;
+    }
+
+    .onpageload.showme {
+      visibility: hidden;
+    }
+
+    .static {
+      margin-top: -10%;
+      margin-left: -10px;
+      background-position: center;
+      background-size: cover;
+      width: 1600px;
+      height: 1080px;
+    }
+
+    .prompt {
+      z-index: 2;
+      position: fixed;
+      text-decoration: none;
+      font-family: courier;
+      font-style: normal;
+      font-size: 130px;
+      text-align: center;
+      display: flex;
+      color: white;
+      margin-top: 20%;
+      margin-left: -37%;
+      cursor: pointer;
+    }
+
+    .prompt:hover {
+      font-style: italic;
+      color: #AEBBBD;
+    }
+
     </style>
   </head>
 
   <body>
+
+    <div class="onpageload">
+        <b><span class="prompt">enter</span></b>
+        <img class="static" src="assets/images/static2.gif"></a>
+    </div>
+
     <br>
     <br>
 
-    <a class="name" href="loadpage/loadpage.html"><b>Serena Chen</b></a>
+    <a class="name" href="./index.html"><b>Serena Chen</b></a>
 
     <br>
     <br>
