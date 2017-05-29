@@ -11,31 +11,38 @@ $(document).ready(function() {
   $('.rollover1').mouseenter(function() {
      $('.highlighttext1').addClass('showme');
      $('.text1').addClass('showme');
+     $('.bodymarquee').addClass('showme');
    });
 
    $('.rollover1').mouseleave(function() {
       $('.highlighttext1').removeClass('showme');
       $('.text1').removeClass('showme');
+      $('.bodymarquee').removeClass('showme');
     });
 
     $('.rollover2').mouseenter(function() {
        $('.highlighttext2').addClass('showme');
        $('.text2').addClass('showme');
+       $('.bodymarquee').addClass('showme');
+
      });
 
      $('.rollover2').mouseleave(function() {
         $('.highlighttext2').removeClass('showme');
         $('.text2').removeClass('showme');
+        $('.bodymarquee').removeClass('showme');
       });
 
       $('.rollover3').mouseenter(function() {
          $('.highlighttext3').addClass('showme');
          $('.text3').addClass('showme');
+         $('.bodymarquee').addClass('showme');
        });
 
        $('.rollover3').mouseleave(function() {
           $('.highlighttext3').removeClass('showme');
           $('.text3').removeClass('showme');
+          $('.bodymarquee').removeClass('showme');
         });
 
 
@@ -43,12 +50,16 @@ $(document).ready(function() {
 /* Nav popups */
 
 $('.rantlisticon').click(function() {
-   $('.rantnumberpopup').toggleClass('hideme');
+   $('.rantnumberpopup').toggleClass('showme');
  });
 
  $('.bgimage').click(function() {
-    $('.rantnumberpopup').addClass('hideme');
+    $('.rantnumberpopup').removeClass('showme');
   });
+
+  $('.bodymarquee').click(function() {
+     $('.rantnumberpopup').removeClass('showme');
+   });
 
 
 

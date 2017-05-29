@@ -46,6 +46,8 @@ a {
   background-color: orchid;
 }
 
+/*marquee text */
+
 .textinfo {
   color: white;
   width: 70%;
@@ -81,6 +83,8 @@ a {
   display: block;
 }
 
+/*body text */
+
 .row1 {
   display: flex;
   flex-wrap: wrap;
@@ -92,6 +96,20 @@ a {
   width: 70%;
 }
 
+.bodymarquee {
+  color: white;
+  width: 70%;
+  height: 181%;
+  position: fixed;
+  z-index: -1;
+  text-align: center;
+  font-size: 40px;
+  opacity: 1;
+}
+
+.bodymarquee.showme {
+  opacity: .05;
+}
 
 
 /* Return to top Page */
@@ -262,9 +280,9 @@ a {
 
 
 .rantnumberpopup {
-  visibility: visible;
+  visibility: hidden;
   background-color: grey;
-  opacity: .9;
+  opacity: 1;
   width: 101%;
   height: 13.8%;
   margin-left: -1%;
@@ -273,8 +291,8 @@ a {
   border-top: 3px dotted white;
 }
 
-.rantnumberpopup.hideme {
-  visibility: hidden;
+.rantnumberpopup.showme {
+  visibility: visible;
 }
 
 .item {

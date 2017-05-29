@@ -83,7 +83,7 @@ a {
 }
 
 .returnicontext3:hover {
-  background-image: url("../images/icons/returnpink.png");
+  background-image: url("../images/icons/returnpink2.png");
 }
 
 
@@ -192,7 +192,7 @@ a {
 }
 
 .homeicontext3:hover {
-  background-image: url("../images/icons/homepink.png");
+  background-image: url("../images/icons/homepink2.png");
 }
 
 #pButton{
@@ -252,7 +252,7 @@ a {
 }
 
 .relatedicontext3:hover {
-  background-image: url("../images/icons/relatedpink.png");
+  background-image: url("../images/icons/relatedpink2.png");
 }
 
 
@@ -269,7 +269,6 @@ a {
   visibility: hidden;
   background-color: grey;
   width: 101%;
-  height: 42%;
   margin-left: -1%;
   position: fixed;
   bottom: 8%;
@@ -280,10 +279,21 @@ a {
   visibility: visible;
 }
 
-.text1info {
+.text1popup {
+  height: 42%;
+}
+
+.text2popup {
+  height: 10%;
+}
+
+.text3popup {
+  height: 10%;
+}
+
+.infomarquee {
   width: 101%;
   line-height: 44px;
-  color: #24408e;
   background-color: white;
   font-family: Arial, sans-serif;
   font-size: 20px;
@@ -291,6 +301,17 @@ a {
   align-content: center;
 }
 
+.text1info {
+  color: #24408e;
+}
+
+.text2info {
+  color: #009976;
+}
+
+.text3info {
+  color: orchid;
+}
 
 .chapterlist {
     width: 101%;
@@ -303,16 +324,23 @@ a {
     align-content: center;
 }
 
-.item:hover {
-    background-color: #24408e;
-    color: #CCCCCC;
-    font-style: italic;
+.text1chapters:hover {
+  background-color: #24408e;
 }
+
+.text2chapters:hover {
+  background-color: #009976;
+}
+
+.text2chapters:hover {
+  background-color: orchid;
+}
+
 
 .current {
     text-decoration: none;
-    color: #CCCCCC;
-    border-bottom: 2px dotted #CCCCCC;
+    color: black;
+
 }
 
 .next {
@@ -407,16 +435,4 @@ a {
 
 .rantnumberpopup.hideme {
   visibility: hidden;
-}
-
-.item {
-    padding: 10px 10px;
-    text-align: center;
-    align-content: center;
-}
-
-.item:hover {
-    background-color: #24408e;
-    color: #CCCCCC;
-    font-style: italic;
 }
