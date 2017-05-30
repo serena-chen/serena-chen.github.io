@@ -378,20 +378,26 @@ a {
   position: fixed;
   bottom: 8%;
   border-top: 3px dotted white;
+
 }
 
 .relatedpopup.showme {
   visibility: visible;
 }
 
+.h_scroll {
+  overflow-y: scroll;
+}
+
 .relatedlist {
-  width: 200%;
-  
+  width: 2000px;
+
 }
 
 .relatedarticle {
   filter: grayscale(80);
-  margin-top: 2.5%;
+  margin-top: 1%;
+  margin-right: .3%;
   align-items: center;
 
 }
@@ -415,8 +421,20 @@ a {
   height: 220px;
 }
 
+.articlecaptions {
+  float: left;
+  margin-top: 1.15%;
+  margin-bottom: 1.15%;
+  text-align: center;
+  width: 360px;
+  color: #CCCCCC;
 
 
+}
+
+.link2 {
+  margin-left: .9%;
+}
 
 
 

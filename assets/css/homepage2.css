@@ -87,9 +87,8 @@ a {
 
 .row1 {
   display: flex;
-  display: -webkit-flex;
   flex-wrap: wrap;
-  -webkit-flex-wrap: wrap;
+
   align-items: center;
   justify-content: center;
 }
@@ -168,7 +167,7 @@ a {
 
 .navitem {
     flex:0 0 25%;
-    -webkit-flex: 0 0 33.33%;
+
 }
 
 
@@ -275,12 +274,8 @@ a {
 /* popup */
 
 .row4 {
-  
   display: flex;
-  display: -webkit-flex;
   flex-wrap: wrap;
-  -webkit-flex-wrap: wrap;
-
   align-items: center;
   justify-content: center;
 }
