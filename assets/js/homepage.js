@@ -51,6 +51,8 @@ $(document).ready(function() {
 
 $('.rantlisticon').click(function() {
    $('.rantnumberpopup').toggleClass('showme');
+   $('.bodymarquee').removeClass('changeblend');
+   $('.aboutpopup').removeClass('showme');
  });
 
  $('.bgimage').click(function() {
@@ -60,6 +62,12 @@ $('.rantlisticon').click(function() {
   $('.bodymarquee').click(function() {
      $('.rantnumberpopup').removeClass('showme');
    });
+
+   $('.abouticon').click(function() {
+      $('.aboutpopup').toggleClass('showme');
+      $('.bodymarquee').toggleClass('changeblend');
+      $('.rantnumberpopup').removeClass('showme');
+    });
 
 
 
