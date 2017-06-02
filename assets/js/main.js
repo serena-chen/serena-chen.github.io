@@ -786,6 +786,56 @@ $('.rollover').mouseenter(function() {
         $('.current').removeClass('changecolor');
       });
 
+/* hover on related links */
+
+      $('.link1__image').mouseenter(function() {
+         $('.link1').addClass('changecolor');
+       });
+
+       $('.link1__image').mouseleave(function() {
+          $('.link1').removeClass('changecolor');
+        });
+
+        $('.link2__image').mouseenter(function() {
+           $('.link2').addClass('changecolor');
+         });
+
+         $('.link2__image').mouseleave(function() {
+            $('.link2').removeClass('changecolor');
+          });
+
+          $('.link3__image').mouseenter(function() {
+             $('.link3').addClass('changecolor');
+           });
+
+           $('.link3__image').mouseleave(function() {
+              $('.link3').removeClass('changecolor');
+            });
+
+            $('.link4__image').mouseenter(function() {
+               $('.link4').addClass('changecolor');
+             });
+
+             $('.link4__image').mouseleave(function() {
+                $('.link4').removeClass('changecolor');
+              });
+
+              $('.link5__image').mouseenter(function() {
+                 $('.link5').addClass('changecolor');
+               });
+
+               $('.link5__image').mouseleave(function() {
+                  $('.link5').removeClass('changecolor');
+                });
+
+                $('.link6__image').mouseenter(function() {
+                   $('.link6').addClass('changecolor');
+                 });
+
+                 $('.link6__image').mouseleave(function() {
+                    $('.link6').removeClass('changecolor');
+                  });
+
 
 /* Nav popups */
 
@@ -793,15 +843,18 @@ $('.rollover').mouseenter(function() {
     $('.chapterpopup').toggleClass('showme');
     $('.text1info').toggleClass('showme');
     $('.relatedpopup').removeClass('showme');
+    $('.relatedpopuptext2').removeClass('showme');
   });
 
   $('.relatedicon').click(function() {
      $('.relatedpopup').toggleClass('showme');
+     $('.relatedpopuptext2').toggleClass('showme');
      $('.chapterpopup').removeClass('showme');
    });
 
    $('.row1').click(function() {
       $('.relatedpopup').removeClass('showme');
+      $('.relatedpopuptext2').removeClass('showme');
       $('.chapterpopup').removeClass('showme');
     });
 

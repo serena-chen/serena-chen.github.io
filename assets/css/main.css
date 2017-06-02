@@ -337,7 +337,7 @@ a {
   background-color: #009976;
 }
 
-.text2chapters:hover {
+.text3chapters:hover {
   background-color: orchid;
 }
 
@@ -359,6 +359,8 @@ a {
 }
 
 
+/*related nav popup contents*/
+
 .row4 {
   display: flex;
   display: -webkit-flex;
@@ -378,10 +380,23 @@ a {
   position: fixed;
   bottom: 8%;
   border-top: 3px dotted white;
-
 }
 
 .relatedpopup.showme {
+  visibility: visible;
+}
+
+.relatedpopuptext2 {
+  visibility: hidden;
+  background-color: grey;
+  width: 101%;
+  height: 42%;
+  position: fixed;
+  bottom: 9.5%;
+  border-top: 3px dotted white;
+}
+
+.relatedpopuptext2.showme {
   visibility: visible;
 }
 
@@ -390,19 +405,36 @@ a {
 }
 
 .relatedlist {
-  width: 2000px;
+  width: 1847px;
+}
 
+.relatedlisttwo {
+  width: 1000px;
+}
+
+.relatedlistsix {
+  width: 2222.8px;
 }
 
 .relatedarticle {
   filter: grayscale(80);
-  margin-top: 1%;
+  margin-top: 1.25%;
   margin-right: .3%;
   align-items: center;
+}
 
+.relatedarticle2 {
+  filter: grayscale(80);
+  margin-top: 30px;
+  margin-right: 8px;
+  align-items: center;
 }
 
 .relatedarticle:hover {
+  filter: none;
+}
+
+.relatedarticle2:hover {
   filter: none;
 }
 
@@ -421,50 +453,70 @@ a {
   height: 220px;
 }
 
+.link4__image {
+  width: 360px;
+  height: 220px;
+}
+
+.link5__image {
+  width: 360px;
+  height: 220px;
+}
+
+.link6__image {
+  width: 360px;
+  height: 220px;
+}
+
 .articlecaptions {
   float: left;
-  margin-top: 1.15%;
-  margin-bottom: 1.15%;
+  margin-top: 1%;
+  margin-bottom: 1.1%;
+  margin-left: .3%;
   text-align: center;
   width: 360px;
   color: #CCCCCC;
-
-
 }
 
-.link2 {
-  margin-left: .9%;
+.articlecaptions2 {
+  float: left;
+  margin-top: 1.6%;
+  margin-bottom: 1.6%;
+  margin-left: .3%;
+  text-align: center;
+  width: 360px;
+  color: #CCCCCC;
+}
+
+.link1.changecolor {
+  color: red;
 }
 
 
-
-/* HOMEPAGE 2 CSS */
-
-.rantlisticon {
-  background-image: url("../images/icons/relatedwhite.png");
-  background-size: cover;
-  width: 40px;
-  height: 40px;
-  margin-left: 63%;
+.link2.changecolor {
+  color: red;
 }
 
-.rantlisticon:hover {
-  background-size: cover;
-  width: 40px;
-  height: 40px;
+.link3 {
+  margin-left: .4%;
 }
 
-.rantnumberpopup {
-  visibility: visible;
-  background-color: grey;
-  width: 101%;
-  height: 13.8%;
-  margin-left: -1%;
-  position: fixed;
-  bottom: 8%;
-  border-top: 3px dotted white;
+.link3.changecolor {
+  color: red;
 }
 
-.rantnumberpopup.hideme {
-  visibility: hidden;
+.link4 {
+  margin-left: .75%;
+}
+
+.link4.changecolor {
+  color: red;
+}
+
+.link5 {
+  margin-left: .60%;
+}
+
+.link5.changecolor {
+  color: red;
 }

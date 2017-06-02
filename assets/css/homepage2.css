@@ -1,309 +1,148 @@
 body {
+  background-color: black;
   font-family: arial;
-  background-color: black;
+  margin-top: -1%;
 }
 
-a {
-  text-decoration: none;
-}
-
-.bgimage {
-  background-size: cover;
-  position:fixed;
-  top:0px;
-  left:0px;
-  z-index: -2;
-  height: 107%;
-  width: 103%;
-
-}
-
-.highlight {
-  width: 70%;
-  height:40px;
-  position: fixed;
-  top:70px;
-  z-index: -1;
+.bigtitle {
+  color: black;
+  font-size: 150px;
   display: none;
-  filter: blur(5px);
-  -webkit-filter: blur(1.5px);
+  position: fixed;
+  z-index: 10;
 }
 
-.highlight.showme {
+.bigtitle.showme {
   display: block;
-  opacity: .8;
 }
 
-.highlighttext1 {
+.marquee {
+  position: relative;
+  overflow: hidden;
+  /* position the div */
+  text-align: center;
+  margin: 0 auto;
+  /* size the div */
+  width: 100%;
+  height: 45px;
+  font-size: 40px;
+  background-color: black;
+  font-family: Arial, sans-serif;
+  line-height: 45px;
+  
+}
+
+#titlevertical {
+  position: fixed;
+  line-height: 45px;
+  display: flex;
+  color: white;
+  font-size: 40px;
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  z-index: 5;
+  margin-left: -760px;
+  width: 120%;
+}
+
+#titlevertical:hover {
+  color: black;
+  background-color: grey;
+}
+
+#titlestill {
+  color: white;
+}
+
+#titlerotated {
+  color: white;
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+}
+
+#text1quote1 {
+  color: #24408e;
+}
+
+#text1quote2 {
+  color: #24408e;
+}
+
+#text1quote3 {
+  color: #24408e;
+}
+
+#text2quote1 {
+  color: #009976;
+}
+
+#text2quote2 {
+  color: #009976;
+}
+
+#text2quote3 {
+  color: #009976;
+}
+
+#text3quote1 {
+  color: orchid;
+}
+
+#text3quote2 {
+  color: orchid;
+}
+
+/* marquee links */
+
+#gototext1 {
+  line-height: 45px;
+  color: white;
   background-color: #24408e;
-}
-
-.highlighttext2 {
-  background-color: #009976;
-}
-
-.highlighttext3 {
-  background-color: orchid;
-}
-
-/*marquee text */
-
-.textinfo {
-  color: white;
-  width: 70%;
-  height: 40px;
-  top: 70px;
-  position: fixed;
-  z-index: 1;
-  text-align: center;
+  font-family: Arial, sans-serif;
   font-size: 40px;
-}
-
-.text1 {
-  display: none;
-}
-
-.text1.showme {
-  display: block;
-}
-
-.text2 {
-  display: none;
-}
-
-.text2.showme {
-  display: block;
-}
-
-.text3 {
-  display: none;
-}
-
-.text3.showme {
-  display: block;
-}
-
-/*body text */
-
-.row1 {
-  display: flex;
-  flex-wrap: wrap;
-
-  align-items: center;
-  justify-content: center;
-}
-
-.col__2of3 {
-  width: 70%;
-}
-
-.bodymarquee {
-  color: white;
-  width: 70%;
-  height: 181%;
-  position: fixed;
-  z-index: -1;
-  text-align: center;
-  font-size: 40px;
-  opacity: 1;
-}
-
-.bodymarquee.showme {
-  opacity: .05;
-}
-
-
-/* Return to top Page */
-
-.returntotop {
-  text-decoration: none;
-  color: grey;
-}
-
-.returnicon {
-  background-image: url("../images/icons/returnwhite.jpg");
-  background-size: cover;
-  width: 40px;
-  height: 40px;
-}
-
-.returnicon:hover {
-  background-size: cover;
-  width: 40px;
-  height: 40px;
-}
-
-.returnicontext1:hover {
-  background-image: url("../images/icons/returnblue.png");
-}
-
-.returnicontext2:hover {
-  background-image: url("../images/icons/returngreen.png");
-}
-
-.returnicontext3:hover {
-  background-image: url("../images/icons/returnpink.png");
-}
-
-
-
-/* Navigation Bar */
-
-.navigationbar {
-  background-color: black;
-  border-top: 3px dotted white;
-  width: 101%;
-  height: 8%;
-  bottom: 0%;
-  display: flex;
-  display: -webkit-flex;
-  margin-left: -1%;
-  padding-left: 5%;
-  position: fixed;
-  color: white;
+  width: 100%;
+  height: 45px;
   justify-content: space-around;
   align-items: center;
 }
 
-.navitem {
-    flex:0 0 25%;
-
+#gototext1:hover {
+  color: #24408e;
+  background-color: white;
 }
 
-
-.homeicon {
-  background-image: url("../images/icons/homewhite.png");
-  background-size: cover;
-  width: 40px;
-  height: 40px;
-  margin-left: -13%;
-}
-
-.homeicon:hover {
-  background-size: cover;
-  width: 40px;
-  height: 40px;
-}
-
-.homeicontext1:hover {
-  background-image: url("../images/icons/homeblue.png");
-}
-
-.homeicontext2:hover {
-  background-image: url("../images/icons/homegreen.png");
-}
-
-.homeicontext3:hover {
-  background-image: url("../images/icons/homepink.png");
-}
-
-#pButton{
-    height:80px;
-    width: 80px;
-    border: none;
-    background-size: 50% 50%;
-    background-repeat: no-repeat;
-    background-position: center;
-    float:left;
-    outline:none;
-    margin-left: -101%;
-    cursor: pointer;
-}
-
-.play {
-  background: url('../images/icons/playwhite.png') no-repeat;
-}
-
-.play:hover {
-  opacity: .7;
-}
-
-.pause {
-  background: url('../images/icons/pausewhite.png') no-repeat;
-}
-
-.pause:hover {
-  opacity: .7;
-}
-
-.chapters {
-  margin-left: -60%;
-}
-
-
-.item {
-    padding: 10px 10px;
-    text-align: center;
-    align-content: center;
-}
-
-.item:hover {
-    background-color: #24408e;
-
-    font-style: italic;
-}
-
-
-.next {
-    text-decoration: none;
-    color: #CCCCCC;
-}
-
-.next:hover {
-  border-bottom: 2px dotted #CCCCCC;
-  color: grey;
-}
-
-.rantlisticon {
-  background-image: url("../images/icons/relatedwhite.png");
-  background-size: cover;
-  width: 40px;
-  height: 40px;
-  margin-left: 63%;
-  cursor: pointer;
-}
-
-.rantlisticon:hover {
-  background-image: url("../images/icons/relatedblue.png");
-  background-size: cover;
-  width: 40px;
-  height: 40px;
-}
-
-
-/* popup */
-
-.row4 {
-  display: flex;
-  flex-wrap: wrap;
+#gototext2 {
+  line-height: 45px;
+  color: white;
+  background-color: #009976;
+  font-family: Arial, sans-serif;
+  font-size: 40px;
+  width: 100%;
+  height: 45px;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
+  z-index: 6;
 }
 
-
-.rantnumberpopup {
-  visibility: hidden;
-  background-color: grey;
-  opacity: 1;
-  width: 101%;
-  height: 13.8%;
-  margin-left: -1%;
-  position: fixed;
-  bottom: 8%;
-  border-top: 3px dotted white;
+#gototext2:hover {
+  color: #009976;
+  background-color: white;
+  z-index: 6;
 }
 
-.rantnumberpopup.showme {
-  visibility: visible;
+#gototext3 {
+  line-height: 45px;
+  color: white;
+  background-color: orchid;
+  font-family: Arial, sans-serif;
+  font-size: 40px;
+  width: 100%;
+  height: 45px;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.item {
-    padding: 10px 10px;
-    text-align: center;
-    align-content: center;
-}
-
-.item:hover {
-    background-color: white;
-    font-style: italic;
+#gototext3:hover {
+  color: orchid;
+  background-color: white;
 }
