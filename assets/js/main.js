@@ -3,7 +3,7 @@ $(document).ready(function() {
 
     function page_scroll()
   {
-   $("html, body").animate({ scrollTop: $(document).height() }, 345000);
+   $("html, body").animate({ scrollTop: $(document).height() }, 342000);
   }
   function stop_scroll()
   {
