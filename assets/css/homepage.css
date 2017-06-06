@@ -86,11 +86,20 @@ a {
 /*body text */
 
 .row1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+
+      -ms-flex-align: center;
+
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .col__2of3 {
@@ -159,18 +168,25 @@ a {
   width: 101%;
   height: 8%;
   bottom: 0%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   display: -webkit-flex;
   margin-left: -1%;
   padding-left: 5%;
   position: fixed;
   color: white;
-  justify-content: space-around;
-  align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .navitem {
-    flex:0 0 25%;
+    -webkit-box-flex:0;
+        -ms-flex:0 0 25%;
+            flex:0 0 25%;
 
 }
 
@@ -238,7 +254,8 @@ a {
 .item {
     padding: 10px 10px;
     text-align: center;
-    align-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
 }
 
 .item:hover {
@@ -331,10 +348,17 @@ a {
 }
 
 .row4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 
@@ -357,7 +381,8 @@ a {
 .item {
     padding: 10px 10px;
     text-align: center;
-    align-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
 }
 
 .item:hover {
