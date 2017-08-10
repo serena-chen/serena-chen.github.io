@@ -58,13 +58,19 @@
   height: 170px;
   font-size: 178px;
   font-weight: bold;
-  font-stretch: ultra-condensed;
+
   background-color: #A1192C;
   float: left;
   position: fixed;
 
   margin-top: 118px;
   padding-top: 0px;
+}
+
+.stretch {
+  transform: scale(1,1.25);
+  margin-left: -4px;
+  margin-top: -10px;
 }
 
 .black2 {
@@ -81,12 +87,17 @@
   float: left;
 }
 
+.stretch2 {
+  transform: scale(1,1.4);
+  margin-left: 3px;
+}
+
 .black3 {
   color: #E8E8C9;
   background-color: black;
   font-size: 58px;
   font-weight: bold;
-  letter-spacing: 4px;
+  letter-spacing: 8px;
   text-align: center;
   position: fixed;
   margin-top: 288px;
