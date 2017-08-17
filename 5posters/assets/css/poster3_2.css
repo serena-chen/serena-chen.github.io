@@ -1,0 +1,159 @@
+/*! normalize.css v6.0.0 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}article,aside,footer,header,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figcaption,figure,main{display:block}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details,menu{display:block}summary{display:list-item}canvas{display:inline-block}template{display:none}[hidden]{display:none}/*# sourceMappingURL=normalize.min.css.map */
+
+
+.bgbox{
+  z-index: -8;
+  background-color: beige;
+  width: 700px;
+  height: 700px;
+  margin-left: 370px;
+  margin-top: 40px;
+  position: fixed;
+  border-radius: 10px;
+}
+
+.stereo {
+  font-family: arial;
+  font-size: 12px;
+  transform: scale(2,1);
+  margin-left: 60px;
+  margin-top: 20px;
+  float: left;
+}
+
+.command {
+  font-family: cursive;
+  font-weight: bolder;
+  font-size: 25px;
+  margin-left: 560px;
+  margin-top: 10px;
+}
+
+.record {
+  font-size: 14px;
+  font-family: monospace;
+  margin-left: 616px;
+  margin-top: -2px;
+}
+
+.blacktext {
+  z-index: 1;
+  font-family: impact;
+  color: black;
+  font-size: 25px;
+  letter-spacing: 2px;
+  margin-top: 50px;
+  margin-left: 39px;
+  float: left;
+}
+
+.rectanglestart {
+  position: fixed;
+  margin-top: 200px;
+  z-index: -1;
+  background-color: beige;
+  width: 10px;
+  height: 520px;
+
+  transition: 5s;
+  opacity: 0;
+}
+
+.rectangleend {
+  opacity: 1;
+}
+
+.one {
+  margin-left: 475px;
+}
+
+.two {
+  margin-left: 512px;
+}
+
+.three {
+  margin-left: 570px;
+}
+
+.four {
+  margin-left: 643px;
+  width: 8px;
+}
+
+.five {
+  margin-left: 730px;
+  width: 5px;
+}
+
+.six {
+  margin-left: 770px;
+  width: 5px;
+}
+
+.seven {
+  margin-left: 780px;
+  width: 13px;
+}
+
+.eight {
+  margin-left: 830px;
+}
+
+.nine {
+  margin-left: 867px;
+}
+
+.ten {
+  margin-left: 920px;
+}
+
+.eleven {
+  margin-left: 967px;
+}
+
+
+
+.text1start {
+    z-index: -3;
+    font-family: impact;
+    font-size: 110px;
+    letter-spacing: 9px;
+    line-height: 89px;
+    transform: scale(1,1.4);
+
+    top: 285px;
+    left: -100px;
+    opacity: 0;
+    color: crimson;
+    transition: 4s;
+    left: -200px;
+    position: fixed;
+}
+
+.text1start.text1end {
+  left: 425px;
+  opacity: 1;
+  position: fixed;
+}
+
+.text2start {
+    z-index: -2;
+    font-family: impact;
+    font-size: 110px;
+    letter-spacing: 5px;
+    line-height: 89px;
+    transform: scale(1,1.4);
+
+    top: 285px;
+    left: 445px;
+    opacity: 0;
+    color: orangered;
+    transition: 4s;
+    position: fixed;
+}
+
+.text2start.text2end {
+
+  opacity: .8;
+  position: fixed;
+}

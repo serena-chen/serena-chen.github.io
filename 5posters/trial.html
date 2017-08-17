@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Trial</title>
+
+    <script src="assets/js/jquery-3.2.0.min.js" charset="utf-8"></script>
+    <script src="assets/js/trial.js" charset="utf-8"></script>
+
+  </head>
+
+  <style media="screen">
+
+  .yellowrectangle{
+margin-left: 10px;
+width:1400px;
+height: 3200px;
+background-color: yellow;
+position: absolute;
+z-index: -20;
+}
+
+.numbertitle{
+font-family: arial;
+font-weight: bold;
+font-size: 250pt;
+margin-left: 20px;
+}
+
+.stedtitle{
+font-family: arial;
+font-weight: bold;
+font-size: 120pt;
+margin-left:20px;
+color: white;
+}
+
+
+/* NEW CHANGE */
+
+.subtitle{
+font-family: arial;
+font-weight: bold;
+margin-left:20px;
+font-size: 100pt;
+color: black;
+opacity: 1;
+}
+
+.subtitle.showme {
+  opacity: 0;
+}
+
+.body{
+font-size: 80pt;
+font-weight: normal;
+color: black;
+margin-left: 20px;
+width: 900px;
+font-family: arial;
+z-index: -10;
+position: absolute;
+
+
+}
+
+.underline_text {
+    border-bottom: solid 2px black;
+    display: inline;
+    padding-bottom: 3px;
+  }
+
+.rollover{
+color: black;
+}
+
+.rollover.changecolor {
+color: white;
+}
+
+.appear{
+position: fixed;
+display: none;
+pointer-events: all;
+cursor: pointer;
+top: 50px;
+left: 20px;
+}
+
+.appear.showme{
+display: block;
+top: 50px;
+left: 20px;
+}
+
+
+.felixdates{
+text-align: right;
+width:200px;
+font-size: 80pt;
+font-weight: normal;
+color: black;
+margin-left: 480px;
+width: 900px;
+font-family: arial;
+z-index: 20;
+position: absolute;
+opacity: 0;
+}
+
+.felixdates:hover {
+  opacity: 1;
+}
+
+
+  </style>
+  <body>
+
+    <div class="yellowrectangle">
+    <div class="numbertitle">1</div>
+    <div class="stedtitle"> Stedelijk Museum Amsterdam</div>
+    <div class="subtitle">januari 78</div>
+    <div class="body ">
+    tentoonstelligen<br>
+    <span class="rollover">
+    felix van de beek <br>
+    pierre an soest <br>
+    don potts <br>
+    her rijke omermogen <br>
+    fotoreportage van <br>
+    oscar van alphen<br>
+    friso kramer <br>
+    gortenm roland holst <br>
+    en hun tijd <br>
+    andere sktiviteiten<br>
+    s.e.m emsemble<br>
+    j.c.e emsemble <br>
+    instituut voor <br>
+    sonologie:<br>
+    elekronische muziek
+  </div>
+
+  <div class="felixdates">
+    <br>
+    61-19 2
+
+  </div>
+
+  </div>
+
+  </body>
+</html>
