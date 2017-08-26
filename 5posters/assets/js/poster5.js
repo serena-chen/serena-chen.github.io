@@ -42,13 +42,20 @@ $(document).ready(function() {
 
 
 
-/* SOUND ON HOVER */
+/* SOUND VARIABLES */
 
         var audioPower = document.createElement('audio');
         audioPower.setAttribute('src', 'assets/images/powerdown.mp3');
         $.get();
         audioPower.addEventListener("load", function() {
           audioPower.play();
+        }, true);
+
+        var audioPowerup = document.createElement('audio');
+        audioPowerup.setAttribute('src', 'assets/images/powerup.mp3');
+        $.get();
+        audioPowerup.addEventListener("load", function() {
+          audioPowerup.play();
         }, true);
 
         var audioName = document.createElement('audio');
@@ -73,6 +80,9 @@ $(document).ready(function() {
                 audio.currentTime = 0
             }
         }
+
+
+/* SOUND ON HOVER */
 
         $(".text1").hover(
           function() {
@@ -108,9 +118,12 @@ $(document).ready(function() {
         );
 
 
+        /* CHANGE SOUND ON RE_HOVER */
+
+
         $(".disappear").mouseenter(
           function() {
-            audioBell.play();
+            audioPowerup.play();
 
           },
 
@@ -118,16 +131,19 @@ $(document).ready(function() {
 
         $(".disappear").mouseleave(
           function() {
-            audioBell.pause();
+            audioPowerup.pause();
 
-            if (audioBell.paused) {
-                audioBell.currentTime = 0
+            if (audioup.paused) {
+                audioup.currentTime = 0
             }else{
-                audioBell.currentTime = 0
+                audioup.currentTime = 0
             }
           },
 
         );
+
+
+
 
 
 

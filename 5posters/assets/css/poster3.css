@@ -91,69 +91,6 @@
   float: left;
 }
 
-.rectanglestart {
-  position: fixed;
-  margin-top: 200px;
-  z-index: -1;
-  background-color: beige;
-  width: 10px;
-  height: 520px;
-
-  transition: 5s;
-  opacity: 0;
-}
-
-.rectangleend {
-  opacity: 1;
-}
-
-.one {
-  margin-left: 475px;
-}
-
-.two {
-  margin-left: 512px;
-}
-
-.three {
-  margin-left: 570px;
-}
-
-.four {
-  margin-left: 643px;
-  width: 8px;
-}
-
-.five {
-  margin-left: 730px;
-  width: 5px;
-}
-
-.six {
-  margin-left: 770px;
-  width: 5px;
-}
-
-.seven {
-  margin-left: 780px;
-  width: 13px;
-}
-
-.eight {
-  margin-left: 830px;
-}
-
-.nine {
-  margin-left: 867px;
-}
-
-.ten {
-  margin-left: 920px;
-}
-
-.eleven {
-  margin-left: 967px;
-}
 
 
 
