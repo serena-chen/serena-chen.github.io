@@ -8,64 +8,137 @@
 
 body {
   margin: 0;
+  height: 1000px;
 }
 
 
-/* Start here */
+/* IMAGE ROWS */
 
-.container {
+img {
+  max-width: 60%;
+  display: block;
+  margin: auto;
+}
+
+.row {
   display: flex;
-  border: 10px solid goldenrod;
-  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.row2 {
+  margin-left: 100px;
 }
 
 
-
-.box {
-  text-align: center;
-  font-family: arial;
-  color: #fff;
-  text-shadow: 1px 1px 1px rgba(0,0,0,0.3) ;
-  text-transform: uppercase;
-
+.content {
+  /*background-color: peachpuff;*/
+  padding: 20px;
+  margin: 20px;
+  float: left;
 }
 
-.box {
+.content img {
+  /*max-width: 100%;
+  min-width: 30%;*/
+}
+
+.content.enlarge {
+  width: 150%;
+}
+
+img:hover {
+  cursor: pointer;
+}
+
+.oval {
+  -webkit-clip-path: ellipse(38% 49% at 50% 50%);
+  clip-path: ellipse(38% 49% at 50% 50%);
+}
+
+/*FLEX GRID ITEMS */
+
+.col_1of3 {
   flex: 0 0 33.333%;
 }
 
-.content {
-  padding: 20px;
-  margin: 20px;
-}
-
-
-.box1 .content{
-  background-color: darkgreen;
-}
-
-
-.box2 .content {
-  background-color: #FFEB3B;
-
-}
-
-.box3 .content {
-
-  background-color: lightblue;
-}
-
-
-
-
-.box1 {
-
-}
-
-.box2 {
+.col_2of3 {
   flex: 0 0 66.666%;
 }
 
-.box3 {
+.col_1of2 {
+  flex: 0 0 50%;
+}
 
+.col_1of6 {
+  flex: 0 0 16.67%;
+}
+
+.col_1of5 {
+  flex: 0 0 20%;
+}
+
+
+
+
+/* IMAGE ALIGNMENT */
+
+.align_top {
+  align-self: flex-start;
+}
+
+.align_center {
+  align-self: center;
+}
+
+
+
+/* FILTERS */
+
+.container {
+  position: fixed;
+  margin-left: 50px;
+  bottom: 50px;
+  font-family: arial;
+  z-index: 1;
+}
+
+.filteritem:hover {
+  font-style: italic;
+  cursor: pointer;
+}
+
+
+.item1.selected {
+  color: blue;
+}
+
+.item1:hover.selected {
+  font-style: normal;
+}
+
+.item2.selected {
+  color: blue;
+}
+
+.item2:hover.selected {
+  font-style: normal;
+}
+
+.item3.selected {
+  color: blue;
+}
+
+.item3:hover.selected {
+  font-style: normal;
+}
+
+
+.item1images.deselectimages {
+  filter: grayscale(100) blur(7px);
+  opacity: .3;
+}
+
+.item3images.deselectimages {
+  filter: grayscale(100) blur(7px);
+  opacity: .3;
 }

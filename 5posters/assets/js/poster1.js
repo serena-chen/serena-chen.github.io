@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
 
-
+/*
 
         var audioBlue = document.createElement('audio');
         audioBlue.setAttribute('src', 'assets/images/blue1.mp3');
@@ -80,6 +80,7 @@ $(document).ready(function() {
 
         );
 
+*/
 
 
 
