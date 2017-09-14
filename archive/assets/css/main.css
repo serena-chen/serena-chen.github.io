@@ -15,7 +15,7 @@ body {
 /* IMAGE ROWS */
 
 img {
-  max-width: 60%;
+  max-width: 70%;
   display: block;
   margin: auto;
 }
@@ -27,6 +27,14 @@ img {
 
 .row2 {
   margin-left: 100px;
+}
+
+.row4 {
+  margin-left: 20px;
+}
+
+.row7 {
+  margin-left: 50px;
 }
 
 
@@ -42,18 +50,47 @@ img {
   min-width: 30%;*/
 }
 
+.content2{
+  padding: 10px;
+  margin: 10px;
+}
+
+
 .content.enlarge {
-  width: 150%;
+  transform: scale(1.7);
+  /*width: 150%;*/
 }
 
 img:hover {
   cursor: pointer;
 }
 
+/* IMAGE BORDERS */
+
 .oval {
   -webkit-clip-path: ellipse(38% 49% at 50% 50%);
   clip-path: ellipse(38% 49% at 50% 50%);
 }
+
+.oval2 {
+  -webkit-clip-path: ellipse(29% 37% at 50% 50%);
+  clip-path: ellipse(29% 37% at 50% 50%);
+}
+
+.oval3 {
+  -webkit-clip-path: ellipse(37% 29% at 50% 50%);
+  clip-path: ellipse(37% 29% at 50% 50%);
+}
+
+.rectangle {
+  border-radius: 10px;
+}
+
+.circle {
+  -webkit-clip-path: circle(50% at 50% 50%);
+  clip-path: circle(50% at 50% 50%);
+}
+
 
 /*FLEX GRID ITEMS */
 
@@ -75,6 +112,18 @@ img:hover {
 
 .col_1of5 {
   flex: 0 0 20%;
+}
+
+.col_1of7 {
+  flex: 0 0 14.285%;
+}
+
+.col_1of8 {
+  flex: 0 0 12.5%;
+}
+
+.col_1of9 {
+  flex: 0 0 11.11%;
 }
 
 
@@ -110,6 +159,7 @@ img:hover {
 
 .item1.selected {
   color: blue;
+  font-size: 30px;
 }
 
 .item1:hover.selected {
@@ -118,6 +168,7 @@ img:hover {
 
 .item2.selected {
   color: blue;
+  font-size: 30px;
 }
 
 .item2:hover.selected {
@@ -126,6 +177,8 @@ img:hover {
 
 .item3.selected {
   color: blue;
+  font-size: 30px;
+
 }
 
 .item3:hover.selected {
