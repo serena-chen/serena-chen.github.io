@@ -1,0 +1,85 @@
+/* Note target the body first with the modifer.
+For example, every evenSecond change the div color to blue.
+Every oddSecond change the div color to red
+
+body.evenS .time {
+  color:blue;
+}
+
+body.oddS .time {
+  color:red;
+}
+
+Target multiple together. Every evenSecond only in the evening, display an image.
+
+body.evenS.pm .sunset {
+  display:block;
+}
+
+*/
+
+
+/* Time CSS here */
+
+body.evenS {
+  background-color: black;
+}
+
+body.oddS {
+  background-color: white;
+}
+
+body.evenS .time , body.evenS .message{
+ color: blue;
+}
+
+body.oddS .time , body.oddS .message {
+  color: red;
+}
+
+
+body.am .image_swap .eclipse , body.am .image_swap .message .afternoon {
+  display: none;
+}
+
+body.pm .image_swap .eclipse , body.pm .image_swap .message .afternoon {
+  display: block
+}
+
+
+body.am .image_swap .sunrise , body.am .image_swap .message .morning {
+  display: block;
+}
+
+body.pm .image_swap .sunrise , body.pm .image_swap .message .morning {
+  display: none;
+}
+
+
+body.h12.quarterM .grace {
+  display: block;
+}
+
+.grace {
+  display: none;
+}
+
+.target-div, .target-div2, .target-div3 {
+  display: none;
+}
+
+body.h11.break-one .target-div, body.h11.break-one .target-div2, body.h11.break-one .target-div3 {
+  display: block;
+}
+
+body.h11.work-one {
+background-color: green;
+}
+
+body.h11.work-two {
+background-color: blue;
+}
+
+body.h11.break-two {
+background-color: orange;
+}

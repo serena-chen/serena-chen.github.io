@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+
+/* Start here */
+
+body {
+
+}
+
+
+.time {
+  font-size: 100px;
+  font-family: arial;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 80px;
+}
+
+.image_swap {
+  margin: auto;
+  width: 600px;
+}
+
+.image_swap img {
+  max-width: 100%;
+}
+
+.image_swap .message {
+  text-align: center;
+  font-size: 40px;
+
+}
+
+.grace {
+  font-size: 100px;
+  text-align: center;
+  color: red;
+}
