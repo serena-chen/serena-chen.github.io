@@ -2,18 +2,195 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Title</title>
+    <title>DeskMate TM</title>
+
+    <link rel="stylesheet" href="assets/css/_normalize.css">
+    <link rel="stylesheet" href="assets/css/_debug.css">
+
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/time.css">
+    <link rel="stylesheet" href="assets/css/quote.css">
+    <link rel="stylesheet" href="assets/css/weather.css">
+
     <script src="assets/js/jquery-3.2.0.min.js" charset="utf-8"></script>
+    <script src="assets/js/moment-with-locales.min.js" charset="utf-8"></script>
+    <script src="assets/js/jquery.simpleWeather.js" charset="utf-8"></script>
+    <script src="assets/js/jquery.simpleWeather.min.js" charset="utf-8"></script>
+
+
+    <script src="assets/js/time.js" charset="utf-8"></script>
+    <script src="assets/js/popup.js" charset="utf-8"></script>
+    <script src="assets/js/quote.js" charset="utf-8"></script>
+    <script src="assets/js/weather.js" charset="utf-8"></script>
+
+
     <script src="assets/js/main.js" charset="utf-8"></script>
   </head>
+
   <body>
 
     <!-- Start here -->
 
+    <div class="break-screen">
+
+      <div class="time"></div>
+
+      <div class="countdown">
+        <span>05:00:00</span>
+      </div>
+
+      <div class="exercise-swap">
+
+
+        <div class="exercise-set-one show_video">
+          <video class="test" width="728" height="410">
+            <source src="assets/images/cloud.mp4" type="video/mp4">
+          </video>
+        </div>
+
+        <div class="exercise-set-two">
+          <img width="680" height="480" src="assets/images/officeworkout1.jpg" alt="">
+        </div>
+
+        <div class="exercise-set-three">
+          <img width="480" height="480" src="assets/images/eyechart1.jpg" alt="">
+        </div>
+
+        <div class="exercise-set-four show_video2">
+          <video width="728" height="410">
+            <source src="assets/images/river.mp4" type="video/mp4">
+          </video>
+        </div>
+
+        <div class="exercise-set-five show_video3">
+          <video width="728" height="410">
+            <source src="assets/images/breathe.mp4" type="video/mp4">
+          </video>
+        </div>
+
+        <div class="exercise-set-six">
+          <img width="750" height="500" src="assets/images/dot.gif" alt="">
+        </div>
+
+        <div class="exercise-set-seven">
+          <img width="530" height="530" src="assets/images/jumpingjack1.jpg" alt="">
+        </div>
+
+        <div class="exercise-set-eight">
+          <img width="700" height="480" src="assets/images/eye3.jpg" alt="">
+        </div>
+
+        <div class="exercise-set-nine show_video4">
+          <video width="728" height="410">
+            <source src="assets/images/stretch.mp4" type="video/mp4">
+          </video>
+        </div>
+
+        <div class="exercise-set-ten">
+          <img width="570" height="500" src="assets/images/illusion2.gif" alt="">
+        </div>
+
+        <div class="exercise-set-eleven">
+          <img width="800" height="500" src="assets/images/wally2.jpg" alt="">
+        </div>
+
+        <div class="exercise-set-twelve">
+          <img width="800" height="500" src="assets/images/eye2.jpg" alt="">
+        </div>
+
+        <div class="exercise-set-thirteen">
+          <img width="800" height="500" src="assets/images/cradle2.gif" alt="">
+        </div>
+
+        <div class="exercise-set-fourteen">
+          <img width="350" height="500" src="assets/images/illusion1.gif" alt="">
+        </div>
+
+        <div class="exercise-set-fifteen">
+          <img width="800" height="500" src="assets/images/speedreading1.gif" alt="">
+        </div>
+
+        <div class="exercise-set-sixteen">
+          <img width="800" height="500" src="assets/images/dot3.gif" alt="">
+        </div>
+
+        <div class="exercise-set-seventeen">
+          <img width="800" height="500" src="assets/images/officeworkout2.jpg" alt="">
+        </div>
+
+        <div class="exercise-set-eighteen show_video5">
+          <video width="728" height="410">
+            <source src="assets/images/rain.mp4" type="video/mp4">
+          </video>
+        </div>
+
+        <div class="exercise-set-nineteen show_video6">
+          <video width="728" height="410">
+            <source src="assets/images/office.mp4" type="video/mp4">
+          </video>
+        </div>
+
+        
+      </div>
 
 
 
+    </div>
+
+
+    <div class="work-screen">
+
+      <div id="container">
+
+        <div id="buttonContainer">
+          <a href="#" id="quoteButton">Inspire Me</a>
+        </div>
+
+        <div id="quoteContainer">
+          <p></p>
+        </div>
+
+      </div>
+
+      <div id="weather"></div>
+
+      <div class="time"></div>
+
+
+      <div class="countdown">
+        <span>20:00:00</span>
+      </div>
+
+
+
+
+
+      <div class="popup-container">
+
+        <div class="popup-item yellow note1">
+          <span>NOTE 1!!</span>
+        </div>
+
+        <div class="popup-item pink note2">
+          <span>NOTE2</span>
+        </div>
+
+
+      </div>
+
+
+
+
+    </div>
+
+
+
+
+
+    <!-- remove later, used for debugging -->
+    <button type="button" id="pause" name="button">Pause</button>
+    <textarea id="timeClasses" name="name" rows="2" cols="40">evenS oddS evenM oddM halfS fullS quarterM halfM threequatersM fullM am pm
+    </textarea>
 
   </body>
 </html>

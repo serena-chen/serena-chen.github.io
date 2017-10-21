@@ -1,0 +1,131 @@
+/* Time CSS here */
+
+/*body.evenS {
+  background-color: black;
+}
+
+body.oddS {
+  background-color: white;
+}
+
+body.evenS .time , body.evenS .message{
+ color: blue;
+}
+
+body.oddS .time , body.oddS .message {
+  color: red;
+}
+
+
+body.am .image_swap .eclipse , body.am .image_swap .message .afternoon {
+  display: none;
+}
+
+body.pm .image_swap .eclipse , body.pm .image_swap .message .afternoon {
+  display: block
+}
+
+
+body.am .image_swap .sunrise , body.am .image_swap .message .morning {
+  display: block;
+}
+
+body.pm .image_swap .sunrise , body.pm .image_swap .message .morning {
+  display: none;
+}
+*/
+
+
+
+/*.target-div, .target-div2, .target-div3 {
+  display: none;
+}
+
+body.h1.break-one .target-div, body.h1.break-one .target-div2, body.h1.break-one .target-div3 {
+  display: block;
+}
+
+body.h1.work-one {
+background-color: green;
+}
+
+body.h1.work-two {
+background-color: blue;
+}
+
+
+/*EXERCISES BY HOUR */
+
+.break-screen {
+  display: none;
+}
+
+.exercise-set-one , .exercise-set-two , .exercise-set-three , .exercise-set-four , .exercise-set-five , .exercise-set-six , .exercise-set-seven , .exercise-set-eight , .exercise-set-nine, .exercise-set-ten , .exercise-set-eleven , .exercise-set-twelve, .exercise-set-thirteen , .exercise-set-fourteen , .exercise-set-fifteen , .exercise-set-sixteen , .exercise-set-seventeen , .exercise-set-eighteen , .exercise-set-nineteen {
+  display: none;
+
+}
+
+body.h12.break-one .break-screen , body.h12.break-one .break-screen .exercise-set-one , body.h12.break-two .break-screen , body.h12.break-two .break-screen .exercise-set-two {
+  display: block;
+}
+
+body.h1.break-one .break-screen , body.h1.break-one .break-screen .exercise-set-three , body.h1.break-two .break-screen , body.h1.break-two .break-screen .exercise-set-four {
+  display: block;
+}
+
+body.h2.break-one .break-screen , body.h2.break-one .break-screen .exercise-set-five , body.h2.break-two .break-screen , body.h2.break-two .break-screen .exercise-set-six {
+  display: block;
+}
+
+body.h3.break-one .break-screen , body.h3.break-one .break-screen .exercise-set-seven , body.h3.break-two .break-screen , body.h3.break-two .break-screen .exercise-set-eight {
+  display: block;
+}
+
+body.h8.break-one .break-screen , body.h8.break-one .break-screen .exercise-set-nine , body.h8.break-two .break-screen , body.h8.break-two .break-screen .exercise-set-ten {
+  display: block;
+}
+
+body.h5.break-one .break-screen , body.h5.break-one .break-screen .exercise-set-eleven , body.h5.break-two .break-screen , body.h5.break-two .break-screen .exercise-set-one {
+  display: block;
+}
+
+body.h6.break-one .break-screen , body.h6.break-one .break-screen .exercise-set-twelve , body.h6.break-two .break-screen , body.h6.break-two .break-screen .exercise-set-thirteen {
+  display: block;
+}
+
+body.h7.break-one .break-screen , body.h7.break-one .break-screen .exercise-set-fourteen , body.h7.break-two .break-screen , body.h7.break-two .break-screen .exercise-set-two {
+  display: block;
+}
+
+body.h8.break-one .break-screen , body.h8.break-one .break-screen .exercise-set-four , body.h8.break-two .break-screen , body.h8.break-two .break-screen .exercise-set-fifteen {
+  display: block;
+}
+
+body.h9.break-one .break-screen , body.h9.break-one .break-screen .exercise-set-sixteen , body.h9.break-two .break-screen , body.h9.break-two .break-screen .exercise-set-seventeen {
+  display: block;
+}
+
+body.h10.break-one .break-screen , body.h10.break-one .break-screen .exercise-set-eighteen , body.h10.break-two .break-screen , body.h10.break-two .break-screen .exercise-set-twelve {
+  display: block;
+}
+
+body.h11.break-one .break-screen , body.h11.break-one .break-screen .exercise-set-six , body.h11.break-two .break-screen , body.h11.break-two .break-screen .exercise-set-nineteen {
+  display: block;
+}
+
+
+/*WORK SCREEN POPUPs BY TIME */
+
+
+.note1 , .note2 {
+  display: none;
+}
+
+
+body.h12.halfH .work-screen .popup-container .note1 {
+  display: block;
+}
+
+body.h9.fullH .work-screen .popup-container .note2 {
+  display: block;
+}
