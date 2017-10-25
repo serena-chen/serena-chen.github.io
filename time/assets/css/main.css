@@ -68,7 +68,7 @@ body {
   height: 600px;
   padding: 10px;
   justify-content: space-around;
-  background-color: red;
+  /*background-color: red;*/
 }
 
 .exercise-swap img {
