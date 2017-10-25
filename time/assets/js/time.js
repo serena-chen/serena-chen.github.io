@@ -110,8 +110,8 @@ $(document).ready(function() {
     }
 
     function checkHalfMinute(momentMinute){
-      if(momentMinute < 20) {halfMinute = 'work-one'; checkVideo();}
-      else if(momentMinute < 25){halfMinute = 'break-one'; checkVideo();}
+      if(momentMinute < 25) {halfMinute = 'work-one'; checkVideo();}
+      else if(momentMinute < 30){halfMinute = 'break-one'; checkVideo();}
       else if(momentMinute < 55){halfMinute = 'work-two'; checkVideo();}
       else {halfMinute = 'break-two'; checkVideo();}
     }
