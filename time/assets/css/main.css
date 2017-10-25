@@ -117,10 +117,6 @@ body {
 }
 
 
-.hideme {
-  display: none;
-}
-
 .yellow {
   background-color: lightyellow;
   border: 5px solid lightyellow;
