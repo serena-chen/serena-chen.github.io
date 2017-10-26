@@ -8,76 +8,87 @@ $(document).ready(function() {
   var updateHour = ' ';
 
   function checkVideo(){
-    if($('.show_video').css('display') == 'block')
+    if($('.show_video1').css('display') == 'block')
     {
-      $(".show_video video")[0].play();
+      $(".show_video1 .video1")[0].play();
     }
 
-    else if ($('.show_video').css('display') == 'none') {
-      $(".show_video video")[0].pause();
+    else if ($('.show_video1').css('display') == 'none') {
+      $(".show_video1 .video1")[0].pause();
     }
 
-  }
-
-  function checkVideo(){
     if($('.show_video2').css('display') == 'block')
     {
-      $(".show_video2 video")[0].play();
+      $(".show_video2 .video2")[0].play();
     }
 
     else if ($('.show_video2').css('display') == 'none') {
-      $(".show_video2 video")[0].pause();
+      $(".show_video2 .video2")[0].pause();
     }
 
-  }
-
-  function checkVideo(){
     if($('.show_video3').css('display') == 'block')
     {
-      $(".show_video3 video")[0].play();
+      $(".show_video3 .video3")[0].play();
     }
 
     else if ($('.show_video3').css('display') == 'none') {
-      $(".show_video3 video")[0].pause();
+      $(".show_video3 .video3")[0].pause();
     }
 
-  }
-
-  function checkVideo(){
     if($('.show_video4').css('display') == 'block')
     {
-      $(".show_video4 video")[0].play();
+      $(".show_video4 .video4")[0].play();
     }
 
     else if ($('.show_video4').css('display') == 'none') {
-      $(".show_video4 video")[0].pause();
+      $(".show_video4 .video4")[0].pause();
     }
 
-  }
-
-  function checkVideo(){
     if($('.show_video5').css('display') == 'block')
     {
-      $(".show_video5 video")[0].play();
+      $(".show_video5 .video5")[0].play();
     }
 
     else if ($('.show_video5').css('display') == 'none') {
-      $(".show_video5 video")[0].pause();
+      $(".show_video5 .video5")[0].pause();
     }
 
-  }
-
-  function checkVideo(){
     if($('.show_video6').css('display') == 'block')
     {
-      $(".show_video6 video")[0].play();
+      $(".show_video6 .video6")[0].play();
     }
 
     else if ($('.show_video6').css('display') == 'none') {
-      $(".show_video6 video")[0].pause();
+      $(".show_video6 .video6")[0].pause();
     }
 
   }
+
+  function runCountdown(){
+
+    var timer2 = "25:01";
+    var interval = setInterval(function() {
+
+
+    var timer = timer2.split(':');
+
+    var minutes = parseInt(timer[0], 10);
+    var seconds = parseInt(timer[1], 10);
+    --seconds;
+    minutes = (seconds < 0) ? --minutes : minutes;
+    seconds = (seconds < 0) ? 59 : seconds;
+    seconds = (seconds < 10) ? '0' + seconds : seconds;
+
+    $('.countdown').html(minutes + ':' + seconds);
+    if (minutes < 0) clearInterval(interval);
+
+    if ((seconds <= 0) && (minutes <= 0)) clearInterval(interval);
+    timer2 = minutes + ':' + seconds;
+  }, 1000);
+
+  }
+
+runCountdown("25:01")
 
 
 
@@ -110,10 +121,25 @@ $(document).ready(function() {
     }
 
     function checkHalfMinute(momentMinute){
-      if(momentMinute < 25) {halfMinute = 'work-one'; checkVideo();}
-      else if(momentMinute < 30){halfMinute = 'break-one'; checkVideo();}
-      else if(momentMinute < 55){halfMinute = 'work-two'; checkVideo();}
-      else {halfMinute = 'break-two'; checkVideo();}
+      if(momentMinute < 25) {halfMinute = 'work-one'; checkVideo(); }
+      else if(momentMinute < 30){halfMinute = 'break-one'; checkVideo(); }
+      else if(momentMinute < 55){halfMinute = 'work-two'; checkVideo(); }
+      else {halfMinute = 'break-two'; checkVideo(); }
+    }
+
+    function checkHours(momentMinute){
+      if(momentMinute < 5) {updateHour = 'every5';}
+      else if (momentMinute < 10) {updateHour = 'every10';}
+      else if (momentMinute < 15) {updateHour = 'every15';}
+      else if (momentMinute < 20) {updateHour = 'every20';}
+      else if (momentMinute < 25) {updateHour = 'every25';}
+      else if (momentMinute < 30) {updateHour = 'every30';}
+      else if (momentMinute < 35) {updateHour = 'every35';}
+      else if (momentMinute < 40) {updateHour = 'every40';}
+      else if (momentMinute < 45) {updateHour = 'every45';}
+      else if (momentMinute < 50) {updateHour = 'every50';}
+      else if (momentMinute < 55) {updateHour = 'every55';}
+      else {updateHour = 'fullH';}
     }
 
     function checkHours(momentMinute){

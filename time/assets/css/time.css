@@ -1,66 +1,12 @@
 /* Time CSS here */
 
-/*body.evenS {
-  background-color: black;
-}
-
-body.oddS {
-  background-color: white;
-}
-
-body.evenS .time , body.evenS .message{
- color: blue;
-}
-
-body.oddS .time , body.oddS .message {
-  color: red;
-}
-
-
-body.am .image_swap .eclipse , body.am .image_swap .message .afternoon {
-  display: none;
-}
-
-body.pm .image_swap .eclipse , body.pm .image_swap .message .afternoon {
-  display: block
-}
-
-
-body.am .image_swap .sunrise , body.am .image_swap .message .morning {
-  display: block;
-}
-
-body.pm .image_swap .sunrise , body.pm .image_swap .message .morning {
-  display: none;
-}
-*/
-
-
-
-/*.target-div, .target-div2, .target-div3 {
-  display: none;
-}
-
-body.h1.break-one .target-div, body.h1.break-one .target-div2, body.h1.break-one .target-div3 {
-  display: block;
-}
-
-body.h1.work-one {
-background-color: green;
-}
-
-body.h1.work-two {
-background-color: blue;
-}
-
-
 /*EXERCISES BY HOUR */
 
 .break-screen {
   display: none;
 }
 
-.exercise-set-one , .exercise-set-two , .exercise-set-three , .exercise-set-four , .exercise-set-five , .exercise-set-six , .exercise-set-seven , .exercise-set-eight , .exercise-set-nine, .exercise-set-ten , .exercise-set-eleven , .exercise-set-twelve, .exercise-set-thirteen , .exercise-set-fourteen , .exercise-set-fifteen , .exercise-set-sixteen , .exercise-set-seventeen , .exercise-set-eighteen , .exercise-set-nineteen {
+.exercise-set-one , .exercise-set-two , .exercise-set-three , .exercise-set-four , .exercise-set-five , .exercise-set-six , .exercise-set-seven , .exercise-set-eight , .exercise-set-nine , .exercise-set-ten , .exercise-set-eleven , .exercise-set-twelve, .exercise-set-thirteen , .exercise-set-fourteen , .exercise-set-fifteen , .exercise-set-sixteen , .exercise-set-seventeen , .exercise-set-eighteen , .exercise-set-nineteen {
   display: none;
 
 }
@@ -73,7 +19,8 @@ body.h1.break-one .break-screen , body.h1.break-one .break-screen .exercise-set-
   display: block;
 }
 
-body.h2.break-one .break-screen , body.h2.break-one .break-screen .exercise-set-five , body.h2.break-two .break-screen , body.h2.break-two .break-screen .exercise-set-six {
+body.h2.break-one .break-screen , body.h2.break-one .break-screen .exercise-set-five , body.h2.break-two .break-screen ,
+body.h2.break-two .break-screen .exercise-set-six {
   display: block;
 }
 
@@ -81,7 +28,8 @@ body.h3.break-one .break-screen , body.h3.break-one .break-screen .exercise-set-
   display: block;
 }
 
-body.h8.break-one .break-screen , body.h8.break-one .break-screen .exercise-set-nine , body.h8.break-two .break-screen , body.h8.break-two .break-screen .exercise-set-ten {
+body.h4.break-one .break-screen , body.h4.break-one .break-screen .exercise-set-nine , body.h4.break-two .break-screen ,
+body.h4.break-two .break-screen .exercise-set-ten {
   display: block;
 }
 
@@ -97,7 +45,8 @@ body.h7.break-one .break-screen , body.h7.break-one .break-screen .exercise-set-
   display: block;
 }
 
-body.h8.break-one .break-screen , body.h8.break-one .break-screen .exercise-set-four , body.h8.break-two .break-screen , body.h8.break-two .break-screen .exercise-set-fifteen {
+body.h8.break-one .break-screen , body.h8.break-one .break-screen .exercise-set-four , body.h8.break-two .break-screen ,
+body.h8.break-two .break-screen .exercise-set-fifteen {
   display: block;
 }
 
@@ -117,15 +66,66 @@ body.h11.break-one .break-screen , body.h11.break-one .break-screen .exercise-se
 /*WORK SCREEN POPUPs BY TIME */
 
 
-.note1 , .note2 {
+.note1 , .note2 , .note3 , .note4 , .note5 , .note6 , .note7 , .note8 , .note9 , .note10 , .note11 , .note12 , .note13 , .note14 ,
+.note15, .note16 , .note17 , .note18 , .note19 , .note20 , .note21 , .note22 , .note23 , .note24 , .note25 , .note26 , .note27 , .note28 ,
+.note29 {
   display: none;
 }
 
+.note200, .note201 , .note202 , .note203 , .note204 , .note205 , .note206 , .note207 , .note208 , .note209 , .note210 , .note211 , .note212 , .note213 , .note214 , .note215, .note216 , .note217 , .note218 {
+  display: none;
+}
 
-body.h12.halfH .work-screen .popup-container .note1 {
+  /*EVERY 15 MINS */
+
+  /*HOUR 12 */
+
+body.h10.quarterH .work-screen .popup-container .note1 , body.h10.quarterH .work-screen .popup-container .note2 ,
+body.h10.quarterH .work-screen .popup-container .note3 , body.h10.quarterH .work-screen .popup-container .note4 ,
+body.h10.quarterH .work-screen .popup-container .note6  {
   display: block;
 }
 
-body.h9.fullH .work-screen .popup-container .note2 {
+body.h10.halfH .work-screen .popup-container .note5 , body.h10.halfH .work-screen .popup-container .note7 ,
+body.h10.halfH .work-screen .popup-container .note8 , body.h10.halfH .work-screen .popup-container .note9 ,
+body.h10.halfH .work-screen .popup-container .note10  {
+  display: block;
+}
+
+body.h10.threeH .work-screen .popup-container .note11 , body.h10.threeH .work-screen .popup-container .note12 ,
+body.h10.threeH .work-screen .popup-container .note13 , body.h10.threeH .work-screen .popup-container .note14 ,
+body.h10.threeH .work-screen .popup-container .note15  {
+  display: block;
+}
+
+body.h10.fullH .work-screen .popup-container .note16 , body.h10.fullH .work-screen .popup-container .note17 ,
+body.h10.fullH .work-screen .popup-container .note18 , body.h10.fullH .work-screen .popup-container .note19 ,
+body.h10.fullH .work-screen .popup-container .note20  {
+  display: block;
+}
+
+  /* HOUR 1 */
+
+
+
+
+  /*by minute: REPEATS EVERY HOUR */
+
+body.m1 .work-screen .popup-container .note200 , body.m3 .work-screen .popup-container .note201,
+body.m7 .work-screen .popup-container .note202 , body.m11 .work-screen .popup-container .note203,
+body.m14 .work-screen .popup-container .note204 , body.m20 .work-screen .popup-container .note205,
+body.m24 .work-screen .popup-container .note206 , body.m31 .work-screen .popup-container .note207,
+body.m33 .work-screen .popup-container .note208 , body.m35 .work-screen .popup-container .note209,
+body.m37 .work-screen .popup-container .note210 , body.m39 .work-screen .popup-container .note211,
+body.m41 .work-screen .popup-container .note212 , body.m43 .work-screen .popup-container .note213,
+body.m48 .work-screen .popup-container .note214 , body.m51 .work-screen .popup-container .note215,
+body.m8 .work-screen .popup-container .note216 , body.m53 .work-screen .popup-container .note217,
+body.m54 .work-screen .popup-container .note218 {
+  display: block;
+}
+
+  /*SPECIFIC TIME */
+
+body.h12.m1.pm .work-screen .popup-container .note29 {
   display: block;
 }
