@@ -12,23 +12,42 @@
 
 body {
 background-color: lightgray;
-margin: 30px;
+margin-left: 30px;
+margin-top: 50px;
+font-size: 70px;
+font-family: arial;
+text-transform: uppercase;
 }
 
-.message {
-  font-size: 50px;
-  font-family: arial;
-  color: white;
+.title {
+  color: blue;
   line-height: 65px;
+  -webkit-text-stroke: 1.3px white;
 }
 
 a {
   text-decoration: none;
+}
+
+.projects {
   color: white;
   cursor: pointer;
 }
 
-a:hover {
-  text-decoration: underline solid white;
+.projects:hover {
+  text-decoration: underline solid blue;
   color: rgba(0, 0, 0, 0);
+}
+
+.footer {
+  margin-bottom:0px;
+}
+
+.back {
+  color: rgba(0, 0, 0, 0);
+  -webkit-text-stroke: 1.3px white;
+}
+
+.back:hover {
+  color: blue;
 }
