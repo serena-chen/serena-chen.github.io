@@ -19,8 +19,8 @@ body.h1.break-one .break-screen , body.h1.break-one .break-screen .exercise-set-
   display: block;
 }
 
-body.h3.break-one .break-screen , body.h3.break-one .break-screen .exercise-set-five , body.h3.break-two .break-screen ,
-body.h3.break-two .break-screen .exercise-set-six {
+body.h2.break-one .break-screen , body.h2.break-one .break-screen .exercise-set-five , body.h2.break-two .break-screen ,
+body.h2.break-two .break-screen .exercise-set-six {
   display: block;
 }
 
@@ -58,7 +58,7 @@ body.h10.break-one .break-screen , body.h10.break-one .break-screen .exercise-se
   display: block;
 }
 
-body.h3.break-one .break-screen , body.h3.break-one .break-screen .exercise-set-six , body.h3.break-two .break-screen , body.h3.break-two .break-screen .exercise-set-nineteen {
+body.h11.break-one .break-screen , body.h11.break-one .break-screen .exercise-set-six , body.h11.break-two .break-screen , body.h11.break-two .break-screen .exercise-set-nineteen {
   display: block;
 }
 
