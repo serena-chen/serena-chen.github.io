@@ -265,6 +265,7 @@ body {
 
 .note28 {
   margin-left: 580px;
+  margin-top: 40px;
 }
 
 .note29 {
@@ -278,8 +279,8 @@ body {
 }
 
 .note31 {
-  margin-left: 980px;
-  margin-top: -176px;
+  margin-left: 910px;
+  margin-top: -90px;
 }
 
 .note32 {
@@ -503,8 +504,8 @@ body {
 }
 
 .note76 {
-  margin-left: 160px;
-  margin-top: -10px;
+  margin-left: 360px;
+  margin-top: -300px;
 }
 
 .note77 {
@@ -592,6 +593,160 @@ body {
   margin-top: -310px;
 }
 
+.note94 {
+  margin-left: 780px;
+  margin-top: 100px;
+}
+
+.note95 {
+  margin-top: -300px;
+  margin-left: 250px;
+}
+
+.note96 {
+  margin-left: 1130px;
+  margin-top: -320px;
+}
+
+.note97 {
+  margin-left: 910px;
+  margin-top: -120px;
+}
+
+.note98 {
+  margin-left: 130px;
+  margin-top: -160px;
+}
+
+.note99 {
+  margin-left: 630px;
+  margin-top: 180px;
+}
+
+.note100 {
+  margin-left: 770px;
+  margin-top: -200px;
+}
+
+.note101 {
+  margin-left: 1210px;
+  margin-top: -300px;
+}
+
+.note102 {
+  margin-left: 743px;
+  margin-top: 110px;
+}
+
+.note103 {
+  margin-left: 200px;
+  margin-top: -140px;
+}
+
+.note104 {
+  margin-left: 390px;
+  margin-top: -315px;
+}
+
+.note105 {
+  margin-left: 680px;
+  margin-top: -245px;
+}
+
+.note106 {
+  margin-left: 890px;
+  margin-top: 95px;
+}
+
+.note107 {
+  margin-left: 1210px;
+  margin-top: -360px;
+}
+
+.note108 {
+  margin-left: 10px;
+  margin-top: -290px;
+}
+
+.note109 {
+  margin-left: 390px;
+  margin-top: -315px;
+}
+
+.note110 {
+  margin-left: 680px;
+  margin-top: -245px;
+}
+
+.note111 {
+  margin-left: 890px;
+  margin-top: 95px;
+}
+
+.note112 {
+  margin-left: 1010px;
+  margin-top: -120px;
+}
+
+.note113 {
+  margin-left: 130px;
+  margin-top: -160px;
+}
+
+.note114 {
+  margin-left: 630px;
+  margin-top: 180px;
+}
+
+.note115 {
+  margin-left: 10px;
+  margin-top: -290px;
+}
+
+.note116 {
+  margin-left: 1010px;
+  margin-top: -120px;
+}
+
+.note117 {
+  margin-left: 740px;
+  margin-top: -310px;
+}
+
+.note118 {
+  margin-left: 780px;
+  margin-top: 100px;
+}
+
+.note119 {
+  margin-top: -300px;
+  margin-left: 250px;
+}
+
+.note120 {
+  margin-left: 1130px;
+  margin-top: -320px;
+}
+
+.note121 {
+  margin-left: 910px;
+  margin-top: -120px;
+}
+
+.note122 {
+  margin-left: 130px;
+  margin-top: -160px;
+}
+
+.note123 {
+  margin-left: 630px;
+  margin-top: 180px;
+}
+
+.note124 {
+  margin-left: 670px;
+  margin-top: -80px;
+}
 
 
 
@@ -723,7 +878,7 @@ body {
 }
 
 .note224 {
-  margin-left: 750px;
+  margin-left: 500px;
   margin-top: -370px;
 }
 
@@ -738,7 +893,7 @@ body {
 }
 
 .note227 {
-  margin-left: 1130px;
+  margin-left: 1200px;
   margin-top: 110px;
 }
 
@@ -755,4 +910,133 @@ body {
 .note230 {
   margin-left: 1230px;
   margin-top: -290px;
+}
+
+.note231 {
+  margin-left: 1130px;
+  margin-top: -290px;
+}
+
+
+
+
+/*BREAK SCREEN POPUPs */
+
+.note300 , .note323 {
+  margin-top: -200px;
+  margin-left: 30px;
+}
+
+.note301 , .note324 {
+  margin-top: -400px;
+  margin-left: 990px;
+}
+
+.note302 , .note325 {
+  margin-top: -100px;
+  margin-left: 120px;
+}
+
+.note303 , .note326 {
+  margin-top: -600px;
+  margin-left: 500px;
+}
+
+.note304 , .note327 {
+  margin-top: -500px;
+  margin-left: 250px;
+}
+
+.note305 , .note328 {
+  margin-top: -700px;
+  margin-left: 1100px;
+}
+
+.note306 , .note329 {
+  margin-top: -600px;
+  margin-left: 1200px;
+}
+
+
+
+.note307 , .note330 {
+  margin-top: -165px;
+  margin-left: 760px;
+}
+
+.note308 , .note331 {
+  margin-top: -440px;
+  margin-left: 390px;
+}
+
+.note309 , .note332 {
+  margin-top: -135px;
+  margin-left: 1200px;
+}
+
+.note310 , .note333 {
+  margin-top: -460px;
+  margin-left: 100px;
+}
+
+.note311 , .note334 {
+  margin-top: -165px;
+  margin-left: 740px;
+}
+
+
+
+.note312 {
+  margin-top: -595px;
+  margin-left: 120px;
+}
+
+.note313 {
+  margin-top: -445px;
+  margin-left: 50px;
+}
+
+.note314 {
+  margin-top: -105px;
+  margin-left: 225px;
+}
+
+.note315 {
+  margin-top: -200px;
+  margin-left: 1080px;
+}
+
+.note316 {
+  margin-top: -300px;
+  margin-left: 1180px;
+}
+
+.note317 {
+  margin-top: -600px;
+  margin-left: 1120px;
+}
+
+.note318 {
+  margin-top: -540px;
+  margin-left: 970px;
+}
+
+.note319 {
+  margin-top: -480px;
+  margin-left: 280px;
+}
+
+.note320 {
+  margin-top: -650px;
+  margin-left: 650px;
+}
+
+.note321 {
+  margin-top: -130px;
+  margin-left: 820px;
+}
+
+.note322 {
+  margin-top: -650px;
+  margin-left: 610px;
 }

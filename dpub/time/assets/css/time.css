@@ -2,63 +2,72 @@
 
 /*EXERCISES BY HOUR */
 
-.break-screen {
+/*.break-screen {
   display: none;
-}
+}*/
 
-.exercise-set-one , .exercise-set-two , .exercise-set-three , .exercise-set-four , .exercise-set-five , .exercise-set-six , .exercise-set-seven , .exercise-set-eight , .exercise-set-nine , .exercise-set-ten , .exercise-set-eleven , .exercise-set-twelve, .exercise-set-thirteen , .exercise-set-fourteen , .exercise-set-fifteen , .exercise-set-sixteen , .exercise-set-seventeen , .exercise-set-eighteen , .exercise-set-nineteen {
+.exercise-set-one , .exercise-set-two , .exercise-set-three , .exercise-set-fou , .exercise-set-five , .exercise-set-six , .exercise-set-seven , .exercise-set-eight , .exercise-set-nine , .exercise-set-ten , .exercise-set-eleven , .exercise-set-twelve, .exercise-set-thirteen , .exercise-set-fourteen , .exercise-set-fifteen , .exercise-set-sixteen , .exercise-set-seventeen , .exercise-set-eighteen , .exercise-set-nineteen {
   display: none;
 
 }
 
-body.h12.break-one .break-screen , body.h12.break-one .break-screen .exercise-set-one , body.h12.break-two .break-screen , body.h12.break-two .break-screen .exercise-set-two {
+body.h12.break-one .break-screen , body.h12.break-one .break-screen .exercise-set-one ,
+body.h12.break-two .break-screen , body.h12.break-two .break-screen .exercise-set-two {
   display: block;
 }
 
-body.h1.break-one .break-screen , body.h1.break-one .break-screen .exercise-set-three , body.h1.break-two .break-screen , body.h1.break-two .break-screen .exercise-set-four {
+/*body.h1.break-one .break-screen , body.h1.break-one .break-screen .exercise-set-three ,
+body.h1.break-two .break-screen , body.h1.break-two .break-screen .exercise-set-four {
+  display: block;
+}*/
+
+/*body.h2.break-one .break-screen , body.h2.break-one .break-screen .exercise-set-five ,
+body.h2.break-two .break-screen , body.h2.break-two .break-screen .exercise-set-six {
+  display: block;
+}*/
+
+body.h3.break-one .break-screen , body.h3.break-one .break-screen .exercise-set-seven ,
+body.h3.break-two .break-screen , body.h3.break-two .break-screen .exercise-set-eight {
   display: block;
 }
 
-body.h2.break-one .break-screen , body.h2.break-one .break-screen .exercise-set-five , body.h2.break-two .break-screen ,
-body.h2.break-two .break-screen .exercise-set-six {
+body.h4.break-one .break-screen , body.h4.break-one .break-screen .exercise-set-nine ,
+body.h4.break-two .break-screen , body.h4.break-two .break-screen .exercise-set-ten {
   display: block;
 }
 
-body.h3.break-one .break-screen , body.h3.break-one .break-screen .exercise-set-seven , body.h3.break-two .break-screen , body.h3.break-two .break-screen .exercise-set-eight {
+body.h5.break-one .break-screen , body.h5.break-one .break-screen .exercise-set-eleven ,
+body.h5.break-two .break-screen , body.h5.break-two .break-screen .exercise-set-one {
   display: block;
 }
 
-body.h4.break-one .break-screen , body.h4.break-one .break-screen .exercise-set-nine , body.h4.break-two .break-screen ,
-body.h4.break-two .break-screen .exercise-set-ten {
+body.h6.break-one .break-screen , body.h6.break-one .break-screen .exercise-set-twelve ,
+body.h6.break-two .break-screen , body.h6.break-two .break-screen .exercise-set-thirteen {
   display: block;
 }
 
-body.h5.break-one .break-screen , body.h5.break-one .break-screen .exercise-set-eleven , body.h5.break-two .break-screen , body.h5.break-two .break-screen .exercise-set-one {
+body.h7.break-one .break-screen , body.h7.break-one .break-screen .exercise-set-fourteen ,
+body.h7.break-two .break-screen , body.h7.break-two .break-screen .exercise-set-two {
   display: block;
 }
 
-body.h6.break-one .break-screen , body.h6.break-one .break-screen .exercise-set-twelve , body.h6.break-two .break-screen , body.h6.break-two .break-screen .exercise-set-thirteen {
+body.h8.break-one .break-screen , body.h8.break-one .break-screen .exercise-set-four ,
+body.h8.break-two .break-screen , body.h8.break-two .break-screen .exercise-set-fifteen {
   display: block;
 }
 
-body.h7.break-one .break-screen , body.h7.break-one .break-screen .exercise-set-fourteen , body.h7.break-two .break-screen , body.h7.break-two .break-screen .exercise-set-two {
+body.h9.break-one .break-screen , body.h9.break-one .break-screen .exercise-set-sixteen ,
+body.h9.break-two .break-screen , body.h9.break-two .break-screen .exercise-set-seventeen {
   display: block;
 }
 
-body.h8.break-one .break-screen , body.h8.break-one .break-screen .exercise-set-four , body.h8.break-two .break-screen ,
-body.h8.break-two .break-screen .exercise-set-fifteen {
+body.h10.break-one .break-screen , body.h10.break-one .break-screen .exercise-set-eighteen ,
+body.h10.break-two .break-screen , body.h10.break-two .break-screen .exercise-set-twelve {
   display: block;
 }
 
-body.h9.break-one .break-screen , body.h9.break-one .break-screen .exercise-set-sixteen , body.h9.break-two .break-screen , body.h9.break-two .break-screen .exercise-set-seventeen {
-  display: block;
-}
-
-body.h10.break-one .break-screen , body.h10.break-one .break-screen .exercise-set-eighteen , body.h10.break-two .break-screen , body.h10.break-two .break-screen .exercise-set-twelve {
-  display: block;
-}
-
-body.h11.break-one .break-screen , body.h11.break-one .break-screen .exercise-set-six , body.h11.break-two .break-screen , body.h11.break-two .break-screen .exercise-set-nineteen {
+body.h11.break-one .break-screen , body.h11.break-one .break-screen .exercise-set-six ,
+body.h11.break-two .break-screen , body.h11.break-two .break-screen .exercise-set-nineteen {
   display: block;
 }
 
@@ -74,13 +83,20 @@ body.h11.break-one .break-screen , body.h11.break-one .break-screen .exercise-se
 .note54 , .note55 , .note56 , .note57 , .note58 , .note59 , .note60 , .note61 , .note62 , .note63 , .note64 , .note65 , .note66 ,
 .note67 , .note68 , .note69 , .note70 , .note71 , .note72 , .note73 , .note74 , .note75 , .note76 , .note77 , .note78 , .note79 ,
 .note80 , .note81 , .note82 , .note83 , .note84 , .note85 , .note86 , .note87 , .note88 , .note89 , .note90 , .note91 , .note92 ,
-.note93 {
+.note93 , .note94 , .note95 , .note96 , .note97 , .note98 , .note99 , .note100 , .note101 , .note102 , .note103 , .note104 , .note105 ,
+.note106 , .note107 , .note108 , .note109 , .note110 , .note111 , .note112 , .note113 , .note114 , .note115, .note116 , .note117 , .note118 , .note119 , .note120 , .note121 , .note122 , .note123 , .note124 {
   display: none;
 }
 
 .note200, .note201 , .note202 , .note203 , .note204 , .note205 , .note206 , .note207 , .note208 , .note209 , .note210 , .note211 ,
 .note212 , .note213 , .note214 , .note215, .note216 , .note217 , .note218 , .note219 , .note220 , .note221 , .note222 , .note223 ,
-.note224 , .note225, .note226 , .note227 , .note228 , .note229 , .note230 {
+.note224 , .note225, .note226 , .note227 , .note228 , .note229 , .note230 , .note231 {
+  display: none;
+}
+
+.note300 , .note301 , .note302 , .note303 , .note304 , .note305 , .note306 , .note307 , .note308 , .note309 , .note310 , .note311 ,
+.note312 , .note313 , .note314 , .note315 , .note316 , .note317 , .note318 , .note319 , .note320 , .note321 , .note322 , .note323 ,
+.note324 , .note325 , .note326 , .note327 , .note328 , .note329 , .note330 , .note331 , .note332 , .note333 , .note334 {
   display: none;
 }
 
@@ -244,9 +260,9 @@ body.h3.quarterH .work-screen .popup-container .note73 , body.h3.quarterH .work-
 body.h7.quarterH .work-screen .popup-container .note69 , body.h7.quarterH .work-screen .popup-container .note70 ,
 body.h7.quarterH .work-screen .popup-container .note71 , body.h7.quarterH .work-screen .popup-container .note72 ,
 body.h7.quarterH .work-screen .popup-container .note73 , body.h7.quarterH .work-screen .popup-container .note74 ,
-body.h10.quarterH .work-screen .popup-container .note69 , body.h10.quarterH .work-screen .popup-container .note70 ,
-body.h10.quarterH .work-screen .popup-container .note71 , body.h10.quarterH .work-screen .popup-container .note72 ,
-body.h10.quarterH .work-screen .popup-container .note73 , body.h10.quarterH .work-screen .popup-container .note74 {
+body.h11.quarterH .work-screen .popup-container .note69 , body.h11.quarterH .work-screen .popup-container .note70 ,
+body.h11.quarterH .work-screen .popup-container .note71 , body.h11.quarterH .work-screen .popup-container .note72 ,
+body.h11.quarterH .work-screen .popup-container .note73 , body.h11.quarterH .work-screen .popup-container .note74 {
 display: block;
 }
 
@@ -256,9 +272,9 @@ body.h3.halfH .work-screen .popup-container .note79 , body.h3.halfH .work-screen
 body.h7.halfH .work-screen .popup-container .note75 , body.h7.halfH .work-screen .popup-container .note76 ,
 body.h7.halfH .work-screen .popup-container .note77 , body.h7.halfH .work-screen .popup-container .note78 ,
 body.h7.halfH .work-screen .popup-container .note79 , body.h7.halfH .work-screen .popup-container .note80 ,
-body.h10.halfH .work-screen .popup-container .note75 , body.h10.halfH .work-screen .popup-container .note76 ,
-body.h10.halfH .work-screen .popup-container .note77 , body.h10.halfH .work-screen .popup-container .note78 ,
-body.h10.halfH .work-screen .popup-container .note79 , body.h10.halfH .work-screen .popup-container .note80 {
+body.h11.halfH .work-screen .popup-container .note75 , body.h11.halfH .work-screen .popup-container .note76 ,
+body.h11.halfH .work-screen .popup-container .note77 , body.h11.halfH .work-screen .popup-container .note78 ,
+body.h11.halfH .work-screen .popup-container .note79 , body.h11.halfH .work-screen .popup-container .note80 {
 display: block;
 }
 
@@ -268,9 +284,9 @@ body.h3.threeH .work-screen .popup-container .note85 , body.h3.threeH .work-scre
 body.h7.threeH .work-screen .popup-container .note81 , body.h7.threeH .work-screen .popup-container .note82 ,
 body.h7.threeH .work-screen .popup-container .note83 , body.h7.threeH .work-screen .popup-container .note84 ,
 body.h7.threeH .work-screen .popup-container .note85 , body.h7.threeH .work-screen .popup-container .note86
-body.h10.threeH .work-screen .popup-container .note81 , body.h10.threeH .work-screen .popup-container .note82 ,
-body.h10.threeH .work-screen .popup-container .note83 , body.h10.threeH .work-screen .popup-container .note84 ,
-body.h10.threeH .work-screen .popup-container .note85 , body.h10.threeH .work-screen .popup-container .note86 {
+body.h11.threeH .work-screen .popup-container .note81 , body.h11.threeH .work-screen .popup-container .note82 ,
+body.h11.threeH .work-screen .popup-container .note83 , body.h11.threeH .work-screen .popup-container .note84 ,
+body.h11.threeH .work-screen .popup-container .note85 , body.h11.threeH .work-screen .popup-container .note86 {
 display: block;
 }
 
@@ -282,10 +298,10 @@ body.h7.fullH .work-screen .popup-container .note87 , body.h7.fullH .work-screen
 body.h7.fullH .work-screen .popup-container .note89 , body.h7.fullH .work-screen .popup-container .note90 ,
 body.h7.fullH .work-screen .popup-container .note91 , body.h7.fullH .work-screen .popup-container .note92 ,
 body.h7.fullH .work-screen .popup-container .note93 ,
-body.h10.fullH .work-screen .popup-container .note87 , body.h10.fullH .work-screen .popup-container .note88 ,
-body.h10.fullH .work-screen .popup-container .note89 , body.h10.fullH .work-screen .popup-container .note90 ,
-body.h10.fullH .work-screen .popup-container .note91 , body.h10.fullH .work-screen .popup-container .note92 ,
-body.h10.fullH .work-screen .popup-container .note93 {
+body.h11.fullH .work-screen .popup-container .note87 , body.h11.fullH .work-screen .popup-container .note88 ,
+body.h11.fullH .work-screen .popup-container .note89 , body.h11.fullH .work-screen .popup-container .note90 ,
+body.h11.fullH .work-screen .popup-container .note91 , body.h11.fullH .work-screen .popup-container .note92 ,
+body.h11.fullH .work-screen .popup-container .note93 {
 display: block;
 }
 
@@ -306,12 +322,105 @@ body.m44 .work-screen .popup-container .note222, body.m46 .work-screen .popup-co
 body.m47 .work-screen .popup-container .note224, body.m48 .work-screen .popup-container .note225,
 body.m49 .work-screen .popup-container .note226, body.m50 .work-screen .popup-container .note227,
 body.m52 .work-screen .popup-container .note228, body.m53 .work-screen .popup-container .note229,
-body.m54 .work-screen .popup-container .note230 {
+body.m54 .work-screen .popup-container .note230, body.m16 .work-screen .popup-container .note231 {
   display: block;
 }
 
   /*SPECIFIC TIME */
 
-body.h12.m1.pm .work-screen .popup-container .note29 {
+  /*EVERY MORNING 8am */
+
+body.h8.m1.am .work-screen .popup-container .note94 ,
+body.h8.am .work-screen .popup-container .note95 ,
+body.h8.am .work-screen .popup-container .note96 ,
+body.h8.m5.am .work-screen .popup-container .note97 ,
+body.h8.m6.am .work-screen .popup-container .note98 ,
+body.h8.am.halfH .work-screen .popup-container .note100 {
+  display: block;
+}
+
+  /*MONDAY 9am */
+body.monday.h8.am.threeH .work-screen .popup-container .note101 ,
+body.monday.h9.m1.am .work-screen .popup-container .note102 ,
+body.monday.h9.am.quarterH .work-screen .popup-container .note103 ,
+body.monday.h9.m15.am .work-screen .popup-container .note104 ,
+body.monday.h9.m15.am .work-screen .popup-container .note105 ,
+body.monday.h9.m26.am .work-screen .popup-container .note106 {
+  display: block;
+}
+
+  /*FRIDAY 9am */
+body.friday.h9.am .work-screen .popup-container .note107 ,
+body.friday .work-screen .popup-container .note108 ,
+body.friday.h9.am.quarterH .work-screen .popup-container .note109 ,
+body.friday.h9.m15.am .work-screen .popup-container .note110 ,
+body.friday.h9.m32.am .work-screen .popup-container .note111 {
+  display: block;
+}
+
+/*FRIDAY 5pm */
+body.friday.h5.pm.quarterH .work-screen .popup-container .note112 ,
+body.friday.h5.m4.pm .work-screen .popup-container .note113 ,
+body.friday.h5.m8.halfH .work-screen .popup-container .note114 {
+  display: block;
+}
+
+/*FRIDAY LATE NIGHT */
+body.friday.h7.pm .work-screen .popup-container .note115 ,
+body.friday.h9.pm.halfH .work-screen .popup-container .note116 {
+  display: block;
+}
+
+/*SATURDAY LATE NIGHT */
+body.saturday.h8.m31.pm .work-screen .popup-container .note117 ,
+body.saturday.h9.m2.pm .work-screen .popup-container .note118 ,
+body.saturday.h9.m8.pm .work-screen .popup-container .note119 ,
+body.saturday.h10.m10.pm .work-screen .popup-container .note120 ,
+body.saturday.h10.m37.pm .work-screen .popup-container .note121 ,
+body.saturday.h11.pm.quarterH .work-screen .popup-container .note122 ,
+body.saturday.h11.m6.pm .work-screen .popup-container .note123 {
+  display: block;
+}
+
+/*NOON */
+body.h12.m1.pm .work-screen .popup-container .note124 {
+  display: block;
+}
+
+
+/*WORK SCREEN POPUPS*/
+
+/*EXERCISE SET 1 & 2 */
+body.h12.halfH .break-screen .popup-container .note300 , body.h12.halfH .break-screen .popup-container .note301 ,
+body.h12.halfH .break-screen .popup-container .note302 , body.h12.halfH .break-screen .popup-container .note303 ,
+body.h12.halfH .break-screen .popup-container .note304 , body.h12.halfH .break-screen .popup-container .note305 ,
+body.h12.halfH .break-screen .popup-container .note306 ,
+body.h12.m26 .break-screen .popup-container .note307 , body.h12.m27 .break-screen .popup-container .note308 ,
+body.h12.m28 .break-screen .popup-container .note309 , body.h12.m28 .break-screen .popup-container .note310 ,
+body.h12.m29 .break-screen .popup-container .note311 ,
+body.h12.fullH .break-screen .popup-container .note312 , body.h12.fullH .break-screen .popup-container .note313 ,
+body.h12.fullH .break-screen .popup-container .note314 , body.h12.fullH .break-screen .popup-container .note315 ,
+body.h12.fullH .break-screen .popup-container .note316 , body.h12.fullH .break-screen .popup-container .note317 ,
+body.h12.m56 .break-screen .popup-container .note318 , body.h12.m57 .break-screen .popup-container .note319 ,
+body.h12.m57 .break-screen .popup-container .note320 , body.h12.m58 .break-screen .popup-container .note321 ,
+body.h12.m59 .break-screen .popup-container .note322 {
+  display: block;
+}
+
+/*SET 3 & 4*/
+
+body.h1.halfH .break-screen .popup-container .note323 , body.h1.halfH .break-screen .popup-container .note324 ,
+body.h1.halfH .break-screen .popup-container .note325 , body.h1.halfH .break-screen .popup-container .note326 ,
+body.h1.halfH .break-screen .popup-container .note327 , body.h1.halfH .break-screen .popup-container .note328 ,
+body.h1.halfH .break-screen .popup-container .note329 ,
+body.h1.m26 .break-screen .popup-container .note330 , body.h1.m27 .break-screen .popup-container .note331 ,
+body.h1.m28 .break-screen .popup-container .note332 , body.h1.m28 .break-screen .popup-container .note333 ,
+body.h1.m29 .break-screen .popup-container .note334 ,
+body.h1.fullH .break-screen .popup-container .note312 , body.h1.fullH .break-screen .popup-container .note313 ,
+body.h1.fullH .break-screen .popup-container .note314 , body.h1.fullH .break-screen .popup-container .note315 ,
+body.h1.fullH .break-screen .popup-container .note316 , body.h1.fullH .break-screen .popup-container .note317 ,
+body.h1.m56 .break-screen .popup-container .note318 , body.h1.m57 .break-screen .popup-container .note319 ,
+body.h1.m57 .break-screen .popup-container .note320 , body.h1.m58 .break-screen .popup-container .note321 ,
+body.h1.m59 .break-screen .popup-container .note322 {
   display: block;
 }
