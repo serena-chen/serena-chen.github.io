@@ -215,8 +215,6 @@ $('.nav_face').click(function(event){
 
 
 
-
-
 $('.nav_all').click(function(event){
   $('.item').removeClass('deselect');
 
@@ -224,6 +222,15 @@ $('.nav_all').click(function(event){
 
   $(this).addClass('highlight');
 
+});
+
+
+$('.nav_large').click(function(event){
+  $('.item').addClass('large')
+});
+
+$('.nav_thumbnail').click(function(event){
+  $('.item').removeClass('large')
 });
 
 

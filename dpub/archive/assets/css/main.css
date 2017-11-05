@@ -25,7 +25,12 @@ img {
   margin-top: 80px;
   display: flex;
   align-items: flex-end;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
+
+  mix-blend-mode: difference;
+  position: relative;
+  z-index: 99997;
+  pointer-events: none;
 }
 
 .spacer {
@@ -48,12 +53,17 @@ img {
 
 .spacer.enlarge {
   transform: scale(1.7);
-  /*width: 150%;*/
 }
 
 img:hover {
   cursor: pointer;
 }
+
+.item.large {
+  flex: 0 0 25%;
+}
+
+
 
 
 /* IMAGE BORDER CLIPS */
@@ -142,24 +152,24 @@ img:hover {
 
 /* FIXED TITLE */
 
-.header {
+.center {
   width: 100%;
   position: fixed;
-  padding: 40px;
-  top: 0px;
-  left: 0px;
   z-index: 1;
+  margin-top: 300px;
 }
 
 .title {
   transition: 1s;
   text-align: center;
-  font-size: 38px;
+  font-size: 90px;
   text-transform: uppercase;
 
   background: -webkit-linear-gradient(-95deg, rgba(76,76,76,1) 0%,rgba(71,71,71,1) 13%,rgba(229,229,229,1) 54%,rgba(43,43,43,1) 86%,rgba(19,19,19,1) 100%);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+
+  filter: opacity(.8);
 }
 
 .title:hover {
@@ -171,29 +181,48 @@ img:hover {
 
 /* FILTERS */
 
-.footer {
+.header {
   position: fixed;
-  margin-left: 50px;
-  bottom: 50px;
-  z-index: 1;
+  /*margin-left: 50px;*/
+  padding: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: auto;
+  top: 0px;
+  z-index: 99999;
+  width: 100%;
+  /*background-color: rgba(76,76,76,.3);*/
+  text-align: center;
+}
+
+.footer {
+  width: 100%;
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 99998;
+}
+
+.nav {
+  font-size: 13px;
 }
 
 .nav span {
-  display: block;
+  display: inline-block;
   text-transform: uppercase;
+  padding: 5px;
 }
 
 .nav span:hover {
-
   transform: rotateX(180deg);
   cursor: pointer;
 }
 
 .highlight {
-  background: -webkit-linear-gradient(-97deg, rgba(76,76,76,1) 0%,rgba(71,71,71,1) 13%,rgba(229,229,229,1) 54%,rgba(43,43,43,1) 86%,rgba(19,19,19,1) 100%);
+  background: -webkit-linear-gradient(93deg, rgba(76,76,76,1) 0%,rgba(71,71,71,1) 13%,rgba(229,229,229,1) 54%,rgba(43,43,43,1) 86%,rgba(19,19,19,1) 100%);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-  font-size: 27px;
+  font-size: 20px;
 
 }
 

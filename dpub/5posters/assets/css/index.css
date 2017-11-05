@@ -3,35 +3,38 @@
 body {
   cursor: url('http://www.rw-designer.com/cursor-extern.php?id=86926') , auto ;
   height: 2300px;
+  margin: 0;
 }
 
 /* STATIC */
 
 .container1 {
-  display: flex;
+  /*display: flex;
   flex-wrap:wrap;
   width:100vw;
-  height: 10vh;
-  align-items:center;
-  justify-content:center;
+  height: 10vh;*/
+  margin: auto;
+  width: 100%;
+  height: 80%;
+  position: fixed;
+  top: 20px;
 
 }
 
 .title {
-  position: fixed;
+  padding-top: 20px;
   text-align: center;
-
-  margin-top: 30px;
   font-family: arial;
   font-size: 30px;
   z-index: 1;
 }
 
 .frame {
-  position: fixed;
-  margin-top: 340px;
-  width: 450px;
-  height: 350px;
+  display: block;
+  margin: auto;
+  margin-top: 25px;
+  width: 40%;
+  height: 65%;
   z-index: -1;
 }
 

@@ -8,22 +8,25 @@
 
 #container{
   display: inline-block;
-	width:900px;
-	margin: 8px;
-  margin-right: 15px;
+  width:100%;
   top: 0px;
   left: 0px;
+  margin-top: 5px;
   float: left;
+  /*background-color: blue;*/
 }
 
 
 #quoteContainer{
-	width:60%;
+  width: 50%;
 	background: #fff;
 	/*padding:10px;*/
 	margin-left: 15px;
 	text-align: left;
   height:70px;
+  font-style: italic;
+  line-height: 20px;
+  color: grey;
 }
 #buttonContainer{
   margin-left: 15px;
@@ -32,8 +35,8 @@
 #quoteButton{
 	width:200px;
 	margin-top: 10px;
-	border:2px solid red;
-	color:red;
+	border:2px solid blue;
+	color: blue;
 	font-weight: bold;
 	padding:5px;
 	text-decoration: none;
@@ -44,7 +47,7 @@
 
 #quoteButton:hover{
 	cursor:pointer;
-	background:red;
+	background:blue;
 	color: white;
 }
 #quoteButton:active{
@@ -53,11 +56,6 @@
 #quoteButton{
 	display: inline-block;
 }
-/*#quoteGenius{
-	font-style: italic;
-	font-weight: 600;
-	text-align: center;
-}*/
 
 
 /*MEDIA QUERIES*/

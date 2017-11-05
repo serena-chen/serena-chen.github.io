@@ -3,8 +3,8 @@ $(document).ready(function() {
 
 // Add jQuery here
 
-$('#weather h2').hover(function(event){
-  $('#weather ul , #weather li').addClass('showme');
+$('h2').Click(function(event){
+  $('#weather ul').addClass('showme');
 
 });
 

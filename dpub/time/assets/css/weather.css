@@ -17,15 +17,16 @@
 }
 
 #weather {
-  display: inline-block;
-  width: 500px;
-  margin-top: -20px;
+  padding-right: 15px;
   text-align: right;
   text-transform: uppercase;
+  align-self: flex-start;
+  top: 0;
+  width: 500px;
 }
 
 i {
-  color: red;
+
   font-family: 'weather';
   font-size: 80px;
   font-weight: normal;
@@ -33,7 +34,7 @@ i {
   line-height: 1.0;
   text-transform: none;
   text-align: right;
-  /*-webkit-text-stroke: 2px red;*/
+  -webkit-text-stroke: 1.5px blue;
 }
 
 .icon-0:before { content: ":"; }
@@ -91,17 +92,18 @@ h2 {
 
 #weather h2 {
   margin: 0 0 3px;
+  margin-top: -20px;
   color: white;
   font-size: 40px;
   font-weight: 300;
   text-align: right;
-  -webkit-text-stroke: 1.3px red;
+  -webkit-text-stroke: 1.3px blue;
   /*text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);*/
 }
 
 #weather h2:hover {
-  cursor: pointer;
-  color: red;
+  cursor: default;
+  /*color: blue;*/
 }
 
 #weather ul {
@@ -110,13 +112,15 @@ h2 {
 }
 
 #weather li {
-  background: red;
+  list-style-type: none;
   border-radius: 5px;
+  font-size: 13px;
+  color: grey;
 }
 
-#weather ul , #weather li {
+/*#weather ul , #weather li {
   display: none;
-}
+}*/
 
 .showme {
   display: inline-block;

@@ -62,6 +62,33 @@ $(document).ready(function() {
       $(".show_video6 .video6")[0].pause();
     }
 
+    if($('.show_video7').css('display') == 'block')
+    {
+      $(".show_video7 .video7")[0].play();
+    }
+
+    else if ($('.show_video7').css('display') == 'none') {
+      $(".show_video7 .video7")[0].pause();
+    }
+
+    if($('.show_video8').css('display') == 'block')
+    {
+      $(".show_video8 .video8")[0].play();
+    }
+
+    else if ($('.show_video8').css('display') == 'none') {
+      $(".show_video8 .video8")[0].pause();
+    }
+
+    if($('.show_video9').css('display') == 'block')
+    {
+      $(".show_video9 .video9")[0].play();
+    }
+
+    else if ($('.show_video9').css('display') == 'none') {
+      $(".show_video9 .video9")[0].pause();
+    }
+
   }
 
   function runCountdown(){

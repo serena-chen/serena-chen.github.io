@@ -39,8 +39,22 @@ body {
 }
 
 
-.work-screen {
+.header {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  height: 80%;
+  /*background-color: pink;*/
+}
 
+.col1of3 {
+  flex: 0 0 33.33%;
+}
+
+.col2of3 {
+  flex: 0 0 66.67%;
 }
 
 .break-screen {
@@ -90,6 +104,11 @@ body {
 
 
 /* NOTEPOPUPS */
+
+.popup-container {
+  margin-top: -60px;
+}
+
 
 .popup-item {
   position: fixed;
@@ -893,7 +912,7 @@ body {
 }
 
 .note227 {
-  margin-left: 1200px;
+  margin-left: 1120px;
   margin-top: 110px;
 }
 
@@ -922,121 +941,146 @@ body {
 
 /*BREAK SCREEN POPUPs */
 
-.note300 , .note323 {
+/*BREAK 1 */
+
+.note300 , .note323 , .note346 , .note369 , .note392 , .note415 , .note427 ,
+.note450 , .note462 , .note474 , .note497 {
   margin-top: -200px;
   margin-left: 30px;
 }
 
-.note301 , .note324 {
+.note301 , .note324 , .note347 , .note370 , .note393 , .note416 , .note428 ,
+.note451 , .note463 , .note475 , .note498 {
   margin-top: -400px;
   margin-left: 990px;
 }
 
-.note302 , .note325 {
+.note302 , .note325 , .note348 , .note371 , .note394 , .note417 , .note429 ,
+.note452 , .note464 , .note476 , .note499 {
   margin-top: -100px;
   margin-left: 120px;
 }
 
-.note303 , .note326 {
+.note303 , .note326 , .note349 , .note372 , .note395 , .note418 , .note430 ,
+.note453 , .note465 , .note477 , .note500 {
   margin-top: -600px;
   margin-left: 500px;
 }
 
-.note304 , .note327 {
+.note304 , .note327 , .note350 , .note373 , .note396 , .note419 , .note431 ,
+.note454 , .note466 , .note478 , .note501 {
   margin-top: -500px;
   margin-left: 250px;
 }
 
-.note305 , .note328 {
+.note305 , .note328 , .note351 , .note374 , .note397 , .note420 , .note432 ,
+.note455 , .note467 , .note479 , .note502 {
   margin-top: -700px;
   margin-left: 1100px;
 }
 
-.note306 , .note329 {
+.note306 , .note329 , .note352 , .note375 , .note398 , .note421 , .note433 ,
+.note456 , .note468 , .note480 , .note503{
   margin-top: -600px;
   margin-left: 1200px;
 }
 
 
-
-.note307 , .note330 {
+.note307 , .note330 , .note353 , .note376 , .note399 , .note422 , .note434 ,
+.note457 , .note469 , .note481 , .note504 {
   margin-top: -165px;
   margin-left: 760px;
 }
 
-.note308 , .note331 {
+.note308 , .note331 , .note354 , .note377 , .note400 , .note423 , .note435 ,
+.note458 , .note470 , .note482 , .note505 {
   margin-top: -440px;
   margin-left: 390px;
 }
 
-.note309 , .note332 {
+.note309 , .note332 , .note355 , .note378 , .note401 , .note424 , .note436 ,
+.note459 , .note471 , .note483 , .note506 {
   margin-top: -135px;
   margin-left: 1200px;
 }
 
-.note310 , .note333 {
+.note310 , .note333 , .note356 , .note379 , .note402 , .note425 , .note437 ,
+.note460 , .note472 , .note484 , .note507 {
   margin-top: -460px;
   margin-left: 100px;
 }
 
-.note311 , .note334 {
+.note311 , .note334 , .note357 , .note380 , .note403 , .note426 , .note438 ,
+.note461 , .note473 , .note485 , .note508 {
   margin-top: -165px;
   margin-left: 740px;
 }
 
 
+/*BREAK 2 */
 
-.note312 {
+.note312 , .note335 , .note358 , .note381 , .note404 , .note439 , .note486 ,
+.note509 , .note520 , .note531 {
   margin-top: -595px;
   margin-left: 120px;
 }
 
-.note313 {
+.note313 , .note336 , .note359 , .note382 , .note405 , .note440 , .note487 ,
+.note510 , .note521 , .note532 {
   margin-top: -445px;
   margin-left: 50px;
 }
 
-.note314 {
+.note314 , .note337 , .note360 , .note383 , .note406 , .note441 , .note488 ,
+.note511 , .note522 , .note533 {
   margin-top: -105px;
   margin-left: 225px;
 }
 
-.note315 {
+.note315 , .note338 , .note361 , .note384 , .note407 , .note442 , .note489 ,
+.note512 , .note523 , .note534 {
   margin-top: -200px;
   margin-left: 1080px;
 }
 
-.note316 {
+.note316 , .note339 , .note362 , .note385 , .note408 , .note443 , .note490 ,
+.note513 , .note524 , .note535 {
   margin-top: -300px;
   margin-left: 1180px;
 }
 
-.note317 {
+.note317 , .note340 , .note363 , .note386 , .note409 , .note444 , .note491 ,
+.note514 , .note525 , .note536 {
   margin-top: -600px;
   margin-left: 1120px;
 }
 
-.note318 {
+.note318 , .note341 , .note364 , .note387 , .note410 , .note445 , .note492 ,
+.note515 , .note526 , .note537 {
   margin-top: -540px;
   margin-left: 970px;
 }
 
-.note319 {
+.note319 , .note342 , .note365 , .note388 , .note411 , .note446 , .note493 ,
+.note516 , .note527 , .note538 {
   margin-top: -480px;
   margin-left: 280px;
 }
 
-.note320 {
+.note320 , .note343 , .note366 , .note389 , .note412 , .note447 , .note494 ,
+.note517 , .note528 , .note539{
   margin-top: -650px;
   margin-left: 650px;
 }
 
-.note321 {
+.note321 , .note344 , .note367 , .note390 , .note413 , .note448 , .note495 ,
+.note518 , .note529 , .note540 {
   margin-top: -130px;
   margin-left: 820px;
 }
 
-.note322 {
+.note322 , .note345 , .note368 , .note391 , .note414 , .note449 , .note496 ,
+.note519 , .note530 , .note541 {
   margin-top: -650px;
   margin-left: 610px;
 }
