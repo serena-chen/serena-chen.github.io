@@ -12,7 +12,7 @@
 
 }
 
-/*body.h12.break-one .break-screen , body.h12.break-one .break-screen .exercise-set-one ,
+body.h12.break-one .break-screen , body.h12.break-one .break-screen .exercise-set-one ,
 body.h12.break-two .break-screen , body.h12.break-two .break-screen .exercise-set-two {
   display: block;
 }
@@ -20,7 +20,7 @@ body.h12.break-two .break-screen , body.h12.break-two .break-screen .exercise-se
 body.h1.break-one .break-screen , body.h1.break-one .break-screen .exercise-set-three ,
 body.h1.break-two .break-screen , body.h1.break-two .break-screen .exercise-set-four {
   display: block;
-}*/
+}
 
 body.h2.break-one .break-screen , body.h2.break-one .break-screen .exercise-set-five ,
 body.h2.break-two .break-screen , body.h2.break-two .break-screen .exercise-set-six {
@@ -120,9 +120,9 @@ body.h11.break-two .break-screen , body.h11.break-two .break-screen .exercise-se
 }
 
 
-  /*CHANGE EVERY 15 MINS */
+/*CHANGE EVERY 15 MINS */
 
-  /*HOURS 12,4,8 */
+/*HOURS 12,4,8 */
 
 body.h12.quarterH .work-screen .popup-container .note1 , body.h12.quarterH .work-screen .popup-container .note2 ,
 body.h12.quarterH .work-screen .popup-container .note3 , body.h12.quarterH .work-screen .popup-container .note4 ,
@@ -133,7 +133,7 @@ body.h4.quarterH .work-screen .popup-container .note6 ,
 body.h8.quarterH .work-screen .popup-container .note1 , body.h8.quarterH .work-screen .popup-container .note2 ,
 body.h8.quarterH .work-screen .popup-container .note3 , body.h8.quarterH .work-screen .popup-container .note4 ,
 body.h8.quarterH .work-screen .popup-container .note6  {
-  display: block;
+display: block;
 }
 
 body.h12.halfH .work-screen .popup-container .note5 , body.h12.halfH .work-screen .popup-container .note7 ,
@@ -145,7 +145,7 @@ body.h4.halfH .work-screen .popup-container .note10 ,
 body.h8.halfH .work-screen .popup-container .note5 , body.h8.halfH .work-screen .popup-container .note7 ,
 body.h8.halfH .work-screen .popup-container .note8 , body.h8.halfH .work-screen .popup-container .note9 ,
 body.h8.halfH .work-screen .popup-container .note10 {
-  display: block;
+display: block;
 }
 
 body.h12.threeH .work-screen .popup-container .note11 , body.h12.threeH .work-screen .popup-container .note12 ,
@@ -157,7 +157,7 @@ body.h4.threeH .work-screen .popup-container .note15 ,
 body.h8.threeH .work-screen .popup-container .note11 , body.h8.threeH .work-screen .popup-container .note12 ,
 body.h8.threeH .work-screen .popup-container .note13 , body.h8.threeH .work-screen .popup-container .note14 ,
 body.h8.threeH .work-screen .popup-container .note15 {
-  display: block;
+display: block;
 }
 
 body.h12.fullH .work-screen .popup-container .note16 , body.h12.fullH .work-screen .popup-container .note17 ,
@@ -169,10 +169,10 @@ body.h4.fullH .work-screen .popup-container .note20 ,
 body.h8.fullH .work-screen .popup-container .note16 , body.h8.fullH .work-screen .popup-container .note17 ,
 body.h8.fullH .work-screen .popup-container .note18 , body.h8.fullH .work-screen .popup-container .note19 ,
 body.h8.fullH .work-screen .popup-container .note20 {
-  display: block;
+display: block;
 }
 
-  /* HOURS 1,5,9 */
+/* HOURS 1,5,9 */
 
 body.h1.quarterH .work-screen .popup-container .note21 , body.h1.quarterH .work-screen .popup-container .note22 ,
 body.h1.quarterH .work-screen .popup-container .note23 , body.h1.quarterH .work-screen .popup-container .note24 ,
@@ -183,7 +183,7 @@ body.h5.quarterH .work-screen .popup-container .note25 , body.h5.quarterH .work-
 body.h9.quarterH .work-screen .popup-container .note21 , body.h9.quarterH .work-screen .popup-container .note22 ,
 body.h9.quarterH .work-screen .popup-container .note23 , body.h9.quarterH .work-screen .popup-container .note24 ,
 body.h9.quarterH .work-screen .popup-container .note25 , body.h9.quarterH .work-screen .popup-container .note26 {
-  display: block;
+display: block;
 }
 
 body.h1.halfH .work-screen .popup-container .note27 , body.h1.halfH .work-screen .popup-container .note28 ,
@@ -195,7 +195,7 @@ body.h5.halfH .work-screen .popup-container .note31 , body.h5.halfH .work-screen
 body.h9.halfH .work-screen .popup-container .note27 , body.h9.halfH .work-screen .popup-container .note28 ,
 body.h9.halfH .work-screen .popup-container .note29 , body.h9.halfH .work-screen .popup-container .note30 ,
 body.h9.halfH .work-screen .popup-container .note31 , body.h9.halfH .work-screen .popup-container .note32 {
-  display: block;
+display: block;
 }
 
 body.h1.threeH .work-screen .popup-container .note33 , body.h1.threeH .work-screen .popup-container .note34 ,
@@ -207,7 +207,7 @@ body.h5.threeH .work-screen .popup-container .note37 , body.h5.threeH .work-scre
 body.h9.threeH .work-screen .popup-container .note33 , body.h9.threeH .work-screen .popup-container .note34 ,
 body.h9.threeH .work-screen .popup-container .note35 , body.h9.threeH .work-screen .popup-container .note36 ,
 body.h9.threeH .work-screen .popup-container .note37 , body.h9.threeH .work-screen .popup-container .note38 {
-  display: block;
+display: block;
 }
 
 body.h1.fullH .work-screen .popup-container .note39 , body.h1.fullH .work-screen .popup-container .note40 ,
@@ -219,7 +219,7 @@ body.h5.fullH .work-screen .popup-container .note43 , body.h5.fullH .work-screen
 body.h9.fullH .work-screen .popup-container .note39 , body.h9.fullH .work-screen .popup-container .note40 ,
 body.h9.fullH .work-screen .popup-container .note41 , body.h9.fullH .work-screen .popup-container .note42 ,
 body.h9.fullH .work-screen .popup-container .note43 , body.h9.fullH .work-screen .popup-container .note44 {
-  display: block;
+display: block;
 }
 
 /* HOURs 2,6,10 */
@@ -325,7 +325,7 @@ body.h11.fullH .work-screen .popup-container .note93 {
 display: block;
 }
 
-  /*by minute: REPEATS EVERY HOUR */
+/*by minute: REPEATS EVERY HOUR */
 
 body.m1 .work-screen .popup-container .note200 , body.m3 .work-screen .popup-container .note201,
 body.m5 .work-screen .popup-container .note202 , body.m7 .work-screen .popup-container .note203,
@@ -343,12 +343,12 @@ body.m47 .work-screen .popup-container .note224, body.m48 .work-screen .popup-co
 body.m49 .work-screen .popup-container .note226, body.m50 .work-screen .popup-container .note227,
 body.m52 .work-screen .popup-container .note228, body.m53 .work-screen .popup-container .note229,
 body.m54 .work-screen .popup-container .note230, body.m16 .work-screen .popup-container .note231 {
-  display: block;
+display: block;
 }
 
-  /*SPECIFIC TIME */
+/*SPECIFIC TIME */
 
-  /*EVERY MORNING 8am */
+/*EVERY MORNING 8am */
 
 body.h8.m1.am .work-screen .popup-container .note94 ,
 body.h8.am .work-screen .popup-container .note95 ,
@@ -356,39 +356,39 @@ body.h8.am .work-screen .popup-container .note96 ,
 body.h8.m5.am .work-screen .popup-container .note97 ,
 body.h8.m6.am .work-screen .popup-container .note98 ,
 body.h8.am.halfH .work-screen .popup-container .note100 {
-  display: block;
+display: block;
 }
 
-  /*MONDAY 9am */
+/*MONDAY 9am */
 body.monday.h8.am.threeH .work-screen .popup-container .note101 ,
 body.monday.h9.m1.am .work-screen .popup-container .note102 ,
 body.monday.h9.am.quarterH .work-screen .popup-container .note103 ,
 body.monday.h9.m15.am .work-screen .popup-container .note104 ,
 body.monday.h9.m15.am .work-screen .popup-container .note105 ,
 body.monday.h9.m26.am .work-screen .popup-container .note106 {
-  display: block;
+display: block;
 }
 
-  /*FRIDAY 9am */
+/*FRIDAY 9am */
 body.friday.h9.am .work-screen .popup-container .note107 ,
 body.friday .work-screen .popup-container .note108 ,
 body.friday.h9.am.quarterH .work-screen .popup-container .note109 ,
 body.friday.h9.m15.am .work-screen .popup-container .note110 ,
 body.friday.h9.m32.am .work-screen .popup-container .note111 {
-  display: block;
+display: block;
 }
 
 /*FRIDAY 5pm */
 body.friday.h5.pm.quarterH .work-screen .popup-container .note112 ,
 body.friday.h5.m4.pm .work-screen .popup-container .note113 ,
 body.friday.h5.m8.halfH .work-screen .popup-container .note114 {
-  display: block;
+display: block;
 }
 
 /*FRIDAY LATE NIGHT */
 body.friday.h7.pm .work-screen .popup-container .note115 ,
 body.friday.h9.pm.halfH .work-screen .popup-container .note116 {
-  display: block;
+display: block;
 }
 
 /*SATURDAY LATE NIGHT */
@@ -399,229 +399,229 @@ body.saturday.h10.m10.pm .work-screen .popup-container .note120 ,
 body.saturday.h10.m37.pm .work-screen .popup-container .note121 ,
 body.saturday.h11.pm.quarterH .work-screen .popup-container .note122 ,
 body.saturday.h11.m6.pm .work-screen .popup-container .note123 {
-  display: block;
+display: block;
 }
 
 /*NOON */
 body.h12.m1.pm .work-screen .popup-container .note124 {
-  display: block;
+display: block;
 }
 
 
-/*WORK SCREEN POPUPS*/
+/*BREAK SCREEN POPUPS*/
 
 /*EXERCISE SET 1 & 2 */
-body.h12.halfH .break-screen .popup-container .note300 , body.h12.halfH .break-screen .popup-container .note301 ,
-body.h12.halfH .break-screen .popup-container .note302 , body.h12.halfH .break-screen .popup-container .note303 ,
-body.h12.halfH .break-screen .popup-container .note304 , body.h12.halfH .break-screen .popup-container .note305 ,
-body.h12.halfH .break-screen .popup-container .note306 ,
-body.h12.m26 .break-screen .popup-container .note307 , body.h12.m27 .break-screen .popup-container .note308 ,
-body.h12.m28 .break-screen .popup-container .note309 , body.h12.m28 .break-screen .popup-container .note310 ,
-body.h12.m29 .break-screen .popup-container .note311 ,
-body.h12.fullH .break-screen .popup-container .note312 , body.h12.fullH .break-screen .popup-container .note313 ,
-body.h12.fullH .break-screen .popup-container .note314 , body.h12.fullH .break-screen .popup-container .note315 ,
-body.h12.fullH .break-screen .popup-container .note316 , body.h12.fullH .break-screen .popup-container .note317 ,
-body.h12.m56 .break-screen .popup-container .note318 , body.h12.m57 .break-screen .popup-container .note319 ,
-body.h12.m57 .break-screen .popup-container .note320 , body.h12.m58 .break-screen .popup-container .note321 ,
-body.h12.m59 .break-screen .popup-container .note322 {
+body.h12.halfH .break-screen .popup-container2 .note300 , body.h12.halfH .break-screen .popup-container2 .note301 ,
+body.h12.halfH .break-screen .popup-container2 .note302 , body.h12.halfH .break-screen .popup-container2 .note303 ,
+body.h12.halfH .break-screen .popup-container2 .note304 , body.h12.halfH .break-screen .popup-container2 .note305 ,
+body.h12.halfH .break-screen .popup-container2 .note306 ,
+body.h12.m26 .break-screen .popup-container2 .note307 , body.h12.m27 .break-screen .popup-container2 .note308 ,
+body.h12.m28 .break-screen .popup-container2 .note309 , body.h12.m28 .break-screen .popup-container2 .note310 ,
+body.h12.m29 .break-screen .popup-container2 .note311 ,
+body.h12.fullH .break-screen .popup-container2 .note312 , body.h12.fullH .break-screen .popup-container2 .note313 ,
+body.h12.fullH .break-screen .popup-container2 .note314 , body.h12.fullH .break-screen .popup-container2 .note315 ,
+body.h12.fullH .break-screen .popup-container2 .note316 , body.h12.fullH .break-screen .popup-container2 .note317 ,
+body.h12.m56 .break-screen .popup-container2 .note318 , body.h12.m57 .break-screen .popup-container2 .note319 ,
+body.h12.m57 .break-screen .popup-container2 .note320 , body.h12.m58 .break-screen .popup-container2 .note321 ,
+body.h12.m59 .break-screen .popup-container2 .note322 {
   display: block;
 }
 
 /*SET 3 & 4*/
 
-body.h1.halfH .break-screen .popup-container .note323 , body.h1.halfH .break-screen .popup-container .note324 ,
-body.h1.halfH .break-screen .popup-container .note325 , body.h1.halfH .break-screen .popup-container .note326 ,
-body.h1.halfH .break-screen .popup-container .note327 , body.h1.halfH .break-screen .popup-container .note328 ,
-body.h1.halfH .break-screen .popup-container .note329 ,
-body.h1.m26 .break-screen .popup-container .note330 , body.h1.m27 .break-screen .popup-container .note331 ,
-body.h1.m28 .break-screen .popup-container .note332 , body.h1.m28 .break-screen .popup-container .note333 ,
-body.h1.m29 .break-screen .popup-container .note334 ,
-body.h1.fullH .break-screen .popup-container .note335 , body.h1.fullH .break-screen .popup-container .note336 ,
-body.h1.fullH .break-screen .popup-container .note337 , body.h1.fullH .break-screen .popup-container .note338 ,
-body.h1.fullH .break-screen .popup-container .note339 , body.h1.fullH .break-screen .popup-container .note340 ,
-body.h1.m56 .break-screen .popup-container .note341 , body.h1.m57 .break-screen .popup-container .note342 ,
-body.h1.m57 .break-screen .popup-container .note343 , body.h1.m58 .break-screen .popup-container .note344 ,
-body.h1.m59 .break-screen .popup-container .note345 {
+body.h1.halfH .break-screen .popup-container2 .note323 , body.h1.halfH .break-screen .popup-container2 .note324 ,
+body.h1.halfH .break-screen .popup-container2 .note325 , body.h1.halfH .break-screen .popup-container2 .note326 ,
+body.h1.halfH .break-screen .popup-container2 .note327 , body.h1.halfH .break-screen .popup-container2 .note328 ,
+body.h1.halfH .break-screen .popup-container2 .note329 ,
+body.h1.m26 .break-screen .popup-container2 .note330 , body.h1.m27 .break-screen .popup-container2 .note331 ,
+body.h1.m28 .break-screen .popup-container2 .note332 , body.h1.m28 .break-screen .popup-container2 .note333 ,
+body.h1.m29 .break-screen .popup-container2 .note334 ,
+body.h1.fullH .break-screen .popup-container2 .note335 , body.h1.fullH .break-screen .popup-container2 .note336 ,
+body.h1.fullH .break-screen .popup-container2 .note337 , body.h1.fullH .break-screen .popup-container2 .note338 ,
+body.h1.fullH .break-screen .popup-container2 .note339 , body.h1.fullH .break-screen .popup-container2 .note340 ,
+body.h1.m56 .break-screen .popup-container2 .note341 , body.h1.m57 .break-screen .popup-container2 .note342 ,
+body.h1.m57 .break-screen .popup-container2 .note343 , body.h1.m58 .break-screen .popup-container2 .note344 ,
+body.h1.m59 .break-screen .popup-container2 .note345 {
   display: block;
 }
 
 /*SET 5 & 6*/
 
-body.h2.halfH .break-screen .popup-container .note346 , body.h2.halfH .break-screen .popup-container .note347 ,
-body.h2.halfH .break-screen .popup-container .note348 , body.h2.halfH .break-screen .popup-container .note349 ,
-body.h2.halfH .break-screen .popup-container .note350 , body.h2.halfH .break-screen .popup-container .note351 ,
-body.h2.halfH .break-screen .popup-container .note352 ,
-body.h2.m26 .break-screen .popup-container .note353 , body.h2.m27 .break-screen .popup-container .note354 ,
-body.h2.m28 .break-screen .popup-container .note355 , body.h2.m28 .break-screen .popup-container .note356 ,
-body.h2.m29 .break-screen .popup-container .note357 ,
-body.h2.fullH .break-screen .popup-container .note358 , body.h2.fullH .break-screen .popup-container .note359 ,
-body.h2.fullH .break-screen .popup-container .note360 , body.h2.fullH .break-screen .popup-container .note361 ,
-body.h2.fullH .break-screen .popup-container .note362 , body.h2.fullH .break-screen .popup-container .note363 ,
-body.h2.m56 .break-screen .popup-container .note364 , body.h2.m57 .break-screen .popup-container .note365 ,
-body.h2.m57 .break-screen .popup-container .note366 , body.h2.m58 .break-screen .popup-container .note367 ,
-body.h2.m59 .break-screen .popup-container .note368 {
+body.h2.halfH .break-screen .popup-container2 .note346 , body.h2.halfH .break-screen .popup-container2 .note347 ,
+body.h2.halfH .break-screen .popup-container2 .note348 , body.h2.halfH .break-screen .popup-container2 .note349 ,
+body.h2.halfH .break-screen .popup-container2 .note350 , body.h2.halfH .break-screen .popup-container2 .note351 ,
+body.h2.halfH .break-screen .popup-container2 .note352 ,
+body.h2.m26 .break-screen .popup-container2 .note353 , body.h2.m27 .break-screen .popup-container2 .note354 ,
+body.h2.m28 .break-screen .popup-container2 .note355 , body.h2.m28 .break-screen .popup-container2 .note356 ,
+body.h2.m29 .break-screen .popup-container2 .note357 ,
+body.h2.fullH .break-screen .popup-container2 .note358 , body.h2.fullH .break-screen .popup-container2 .note359 ,
+body.h2.fullH .break-screen .popup-container2 .note360 , body.h2.fullH .break-screen .popup-container2 .note361 ,
+body.h2.fullH .break-screen .popup-container2 .note362 , body.h2.fullH .break-screen .popup-container2 .note363 ,
+body.h2.m56 .break-screen .popup-container2 .note364 , body.h2.m57 .break-screen .popup-container2 .note365 ,
+body.h2.m57 .break-screen .popup-container2 .note366 , body.h2.m58 .break-screen .popup-container2 .note367 ,
+body.h2.m59 .break-screen .popup-container2 .note368 {
   display: block;
 }
 
 
 /*SET 7 & 8*/
 
-body.h3.halfH .break-screen .popup-container .note369 , body.h3.halfH .break-screen .popup-container .note370 ,
-body.h3.halfH .break-screen .popup-container .note371 , body.h3.halfH .break-screen .popup-container .note372 ,
-body.h3.halfH .break-screen .popup-container .note373 , body.h3.halfH .break-screen .popup-container .note374 ,
-body.h3.halfH .break-screen .popup-container .note375 ,
-body.h3.m26 .break-screen .popup-container .note376 , body.h3.m27 .break-screen .popup-container .note377 ,
-body.h3.m28 .break-screen .popup-container .note378 , body.h3.m28 .break-screen .popup-container .note379 ,
-body.h3.m29 .break-screen .popup-container .note380 ,
-body.h3.fullH .break-screen .popup-container .note381 , body.h3.fullH .break-screen .popup-container .note382 ,
-body.h3.fullH .break-screen .popup-container .note383 , body.h3.fullH .break-screen .popup-container .note384 ,
-body.h3.fullH .break-screen .popup-container .note385 , body.h3.fullH .break-screen .popup-container .note386 ,
-body.h3.m56 .break-screen .popup-container .note387 , body.h3.m57 .break-screen .popup-container .note388 ,
-body.h3.m57 .break-screen .popup-container .note389 , body.h3.m58 .break-screen .popup-container .note390 ,
-body.h3.m59 .break-screen .popup-container .note391 {
+body.h3.halfH .break-screen .popup-container2 .note369 , body.h3.halfH .break-screen .popup-container2 .note370 ,
+body.h3.halfH .break-screen .popup-container2 .note371 , body.h3.halfH .break-screen .popup-container2 .note372 ,
+body.h3.halfH .break-screen .popup-container2 .note373 , body.h3.halfH .break-screen .popup-container2 .note374 ,
+body.h3.halfH .break-screen .popup-container2 .note375 ,
+body.h3.m26 .break-screen .popup-container2 .note376 , body.h3.m27 .break-screen .popup-container2 .note377 ,
+body.h3.m28 .break-screen .popup-container2 .note378 , body.h3.m28 .break-screen .popup-container2 .note379 ,
+body.h3.m29 .break-screen .popup-container2 .note380 ,
+body.h3.fullH .break-screen .popup-container2 .note381 , body.h3.fullH .break-screen .popup-container2 .note382 ,
+body.h3.fullH .break-screen .popup-container2 .note383 , body.h3.fullH .break-screen .popup-container2 .note384 ,
+body.h3.fullH .break-screen .popup-container2 .note385 , body.h3.fullH .break-screen .popup-container2 .note386 ,
+body.h3.m56 .break-screen .popup-container2 .note387 , body.h3.m57 .break-screen .popup-container2 .note388 ,
+body.h3.m57 .break-screen .popup-container2 .note389 , body.h3.m58 .break-screen .popup-container2 .note390 ,
+body.h3.m59 .break-screen .popup-container2 .note391 {
   display: block;
 }
 
 /*SET 9 & 10*/
 
-body.h4.halfH .break-screen .popup-container .note392 , body.h4.halfH .break-screen .popup-container .note393 ,
-body.h4.halfH .break-screen .popup-container .note394 , body.h4.halfH .break-screen .popup-container .note395 ,
-body.h4.halfH .break-screen .popup-container .note396 , body.h4.halfH .break-screen .popup-container .note397 ,
-body.h4.halfH .break-screen .popup-container .note398 ,
-body.h4.m26 .break-screen .popup-container .note399 , body.h4.m27 .break-screen .popup-container .note400 ,
-body.h4.m28 .break-screen .popup-container .note401 , body.h4.m28 .break-screen .popup-container .note402 ,
-body.h4.m29 .break-screen .popup-container .note403 ,
-body.h4.fullH .break-screen .popup-container .note404 , body.h4.fullH .break-screen .popup-container .note405 ,
-body.h4.fullH .break-screen .popup-container .note406 , body.h4.fullH .break-screen .popup-container .note407 ,
-body.h4.fullH .break-screen .popup-container .note408 , body.h4.fullH .break-screen .popup-container .note409 ,
-body.h4.m56 .break-screen .popup-container .note410 , body.h4.m57 .break-screen .popup-container .note411 ,
-body.h4.m57 .break-screen .popup-container .note412 , body.h4.m58 .break-screen .popup-container .note413 ,
-body.h4.m59 .break-screen .popup-container .note414 {
+body.h4.halfH .break-screen .popup-container2 .note392 , body.h4.halfH .break-screen .popup-container2 .note393 ,
+body.h4.halfH .break-screen .popup-container2 .note394 , body.h4.halfH .break-screen .popup-container2 .note395 ,
+body.h4.halfH .break-screen .popup-container2 .note396 , body.h4.halfH .break-screen .popup-container2 .note397 ,
+body.h4.halfH .break-screen .popup-container2 .note398 ,
+body.h4.m26 .break-screen .popup-container2 .note399 , body.h4.m27 .break-screen .popup-container2 .note400 ,
+body.h4.m28 .break-screen .popup-container2 .note401 , body.h4.m28 .break-screen .popup-container2 .note402 ,
+body.h4.m29 .break-screen .popup-container2 .note403 ,
+body.h4.fullH .break-screen .popup-container2 .note404 , body.h4.fullH .break-screen .popup-container2 .note405 ,
+body.h4.fullH .break-screen .popup-container2 .note406 , body.h4.fullH .break-screen .popup-container2 .note407 ,
+body.h4.fullH .break-screen .popup-container2 .note408 , body.h4.fullH .break-screen .popup-container2 .note409 ,
+body.h4.m56 .break-screen .popup-container2 .note410 , body.h4.m57 .break-screen .popup-container2 .note411 ,
+body.h4.m57 .break-screen .popup-container2 .note412 , body.h4.m58 .break-screen .popup-container2 .note413 ,
+body.h4.m59 .break-screen .popup-container2 .note414 {
   display: block;
 }
 
 /*SET 11 & 20*/
 
-body.h5.halfH .break-screen .popup-container .note415 , body.h5.halfH .break-screen .popup-container .note416 ,
-body.h5.halfH .break-screen .popup-container .note417 , body.h5.halfH .break-screen .popup-container .note418 ,
-body.h5.halfH .break-screen .popup-container .note419 , body.h5.halfH .break-screen .popup-container .note420 ,
-body.h5.halfH .break-screen .popup-container .note421 ,
-body.h5.m26 .break-screen .popup-container .note422 , body.h5.m27 .break-screen .popup-container .note423 ,
-body.h5.m28 .break-screen .popup-container .note424 , body.h5.m28 .break-screen .popup-container .note425 ,
-body.h5.m29 .break-screen .popup-container .note426 ,
-body.h5.fullH .break-screen .popup-container .note509 , body.h5.fullH .break-screen .popup-container .note510 ,
-body.h5.fullH .break-screen .popup-container .note511 , body.h5.fullH .break-screen .popup-container .note512 ,
-body.h5.fullH .break-screen .popup-container .note513 , body.h5.fullH .break-screen .popup-container .note514 ,
-body.h5.m56 .break-screen .popup-container .note515 , body.h5.m57 .break-screen .popup-container .note516 ,
-body.h5.m57 .break-screen .popup-container .note517 , body.h5.m58 .break-screen .popup-container .note518 ,
-body.h5.m59 .break-screen .popup-container .note519 {
+body.h5.halfH .break-screen .popup-container2 .note415 , body.h5.halfH .break-screen .popup-container2 .note416 ,
+body.h5.halfH .break-screen .popup-container2 .note417 , body.h5.halfH .break-screen .popup-container2 .note418 ,
+body.h5.halfH .break-screen .popup-container2 .note419 , body.h5.halfH .break-screen .popup-container2 .note420 ,
+body.h5.halfH .break-screen .popup-container2 .note421 ,
+body.h5.m26 .break-screen .popup-container2 .note422 , body.h5.m27 .break-screen .popup-container2 .note423 ,
+body.h5.m28 .break-screen .popup-container2 .note424 , body.h5.m28 .break-screen .popup-container2 .note425 ,
+body.h5.m29 .break-screen .popup-container2 .note426 ,
+body.h5.fullH .break-screen .popup-container2 .note509 , body.h5.fullH .break-screen .popup-container2 .note510 ,
+body.h5.fullH .break-screen .popup-container2 .note511 , body.h5.fullH .break-screen .popup-container2 .note512 ,
+body.h5.fullH .break-screen .popup-container2 .note513 , body.h5.fullH .break-screen .popup-container2 .note514 ,
+body.h5.m56 .break-screen .popup-container2 .note515 , body.h5.m57 .break-screen .popup-container2 .note516 ,
+body.h5.m57 .break-screen .popup-container2 .note517 , body.h5.m58 .break-screen .popup-container2 .note518 ,
+body.h5.m59 .break-screen .popup-container2 .note519 {
   display: block;
 }
 
 /*SET 12 & 13*/
 
-body.h6.halfH .break-screen .popup-container .note427 , body.h6.halfH .break-screen .popup-container .note428 ,
-body.h6.halfH .break-screen .popup-container .note429 , body.h6.halfH .break-screen .popup-container .note430 ,
-body.h6.halfH .break-screen .popup-container .note431 , body.h6.halfH .break-screen .popup-container .note432 ,
-body.h6.halfH .break-screen .popup-container .note433 ,
-body.h6.m26 .break-screen .popup-container .note434 , body.h6.m27 .break-screen .popup-container .note435 ,
-body.h6.m28 .break-screen .popup-container .note436 , body.h6.m28 .break-screen .popup-container .note437 ,
-body.h6.m29 .break-screen .popup-container .note438 ,
-body.h6.fullH .break-screen .popup-container .note439 , body.h6.fullH .break-screen .popup-container .note440 ,
-body.h6.fullH .break-screen .popup-container .note441 , body.h6.fullH .break-screen .popup-container .note442 ,
-body.h6.fullH .break-screen .popup-container .note443 , body.h6.fullH .break-screen .popup-container .note444 ,
-body.h6.m56 .break-screen .popup-container .note445 , body.h6.m57 .break-screen .popup-container .note446 ,
-body.h6.m57 .break-screen .popup-container .note447 , body.h6.m58 .break-screen .popup-container .note448 ,
-body.h6.m59 .break-screen .popup-container .note449 {
+body.h6.halfH .break-screen .popup-container2 .note427 , body.h6.halfH .break-screen .popup-container2 .note428 ,
+body.h6.halfH .break-screen .popup-container2 .note429 , body.h6.halfH .break-screen .popup-container2 .note430 ,
+body.h6.halfH .break-screen .popup-container2 .note431 , body.h6.halfH .break-screen .popup-container2 .note432 ,
+body.h6.halfH .break-screen .popup-container2 .note433 ,
+body.h6.m26 .break-screen .popup-container2 .note434 , body.h6.m27 .break-screen .popup-container2 .note435 ,
+body.h6.m28 .break-screen .popup-container2 .note436 , body.h6.m28 .break-screen .popup-container2 .note437 ,
+body.h6.m29 .break-screen .popup-container2 .note438 ,
+body.h6.fullH .break-screen .popup-container2 .note439 , body.h6.fullH .break-screen .popup-container2 .note440 ,
+body.h6.fullH .break-screen .popup-container2 .note441 , body.h6.fullH .break-screen .popup-container2 .note442 ,
+body.h6.fullH .break-screen .popup-container2 .note443 , body.h6.fullH .break-screen .popup-container2 .note444 ,
+body.h6.m56 .break-screen .popup-container2 .note445 , body.h6.m57 .break-screen .popup-container2 .note446 ,
+body.h6.m57 .break-screen .popup-container2 .note447 , body.h6.m58 .break-screen .popup-container2 .note448 ,
+body.h6.m59 .break-screen .popup-container2 .note449 {
   display: block;
 }
 
 /*SET 14 & 2*/
 
-body.h7.halfH .break-screen .popup-container .note450 , body.h7.halfH .break-screen .popup-container .note451 ,
-body.h7.halfH .break-screen .popup-container .note452 , body.h7.halfH .break-screen .popup-container .note453 ,
-body.h7.halfH .break-screen .popup-container .note454 , body.h7.halfH .break-screen .popup-container .note455 ,
-body.h7.halfH .break-screen .popup-container .note456 ,
-body.h7.m26 .break-screen .popup-container .note457 , body.h7.m27 .break-screen .popup-container .note458 ,
-body.h7.m28 .break-screen .popup-container .note459 , body.h7.m28 .break-screen .popup-container .note460 ,
-body.h7.m29 .break-screen .popup-container .note461 ,
-body.h7.fullH .break-screen .popup-container .note312 , body.h7.fullH .break-screen .popup-container .note313 ,
-body.h7.fullH .break-screen .popup-container .note314 , body.h7.fullH .break-screen .popup-container .note315 ,
-body.h7.fullH .break-screen .popup-container .note316 , body.h7.fullH .break-screen .popup-container .note317 ,
-body.h7.m56 .break-screen .popup-container .note318 , body.h7.m57 .break-screen .popup-container .note319 ,
-body.h7.m57 .break-screen .popup-container .note320 , body.h7.m58 .break-screen .popup-container .note321 ,
-body.h7.m59 .break-screen .popup-container .note322 {
+body.h7.halfH .break-screen .popup-container2 .note450 , body.h7.halfH .break-screen .popup-container2 .note451 ,
+body.h7.halfH .break-screen .popup-container2 .note452 , body.h7.halfH .break-screen .popup-container2 .note453 ,
+body.h7.halfH .break-screen .popup-container2 .note454 , body.h7.halfH .break-screen .popup-container2 .note455 ,
+body.h7.halfH .break-screen .popup-container2 .note456 ,
+body.h7.m26 .break-screen .popup-container2 .note457 , body.h7.m27 .break-screen .popup-container2 .note458 ,
+body.h7.m28 .break-screen .popup-container2 .note459 , body.h7.m28 .break-screen .popup-container2 .note460 ,
+body.h7.m29 .break-screen .popup-container2 .note461 ,
+body.h7.fullH .break-screen .popup-container2 .note312 , body.h7.fullH .break-screen .popup-container2 .note313 ,
+body.h7.fullH .break-screen .popup-container2 .note314 , body.h7.fullH .break-screen .popup-container2 .note315 ,
+body.h7.fullH .break-screen .popup-container2 .note316 , body.h7.fullH .break-screen .popup-container2 .note317 ,
+body.h7.m56 .break-screen .popup-container2 .note318 , body.h7.m57 .break-screen .popup-container2 .note319 ,
+body.h7.m57 .break-screen .popup-container2 .note320 , body.h7.m58 .break-screen .popup-container2 .note321 ,
+body.h7.m59 .break-screen .popup-container2 .note322 {
   display: block;
 }
 
 /*SET 15 & 21*/
 
-body.h8.halfH .break-screen .popup-container .note462 , body.h8.halfH .break-screen .popup-container .note463 ,
-body.h8.halfH .break-screen .popup-container .note464 , body.h8.halfH .break-screen .popup-container .note465 ,
-body.h8.halfH .break-screen .popup-container .note466 , body.h8.halfH .break-screen .popup-container .note467 ,
-body.h8.halfH .break-screen .popup-container .note468 ,
-body.h8.m26 .break-screen .popup-container .note469 , body.h8.m27 .break-screen .popup-container .note470 ,
-body.h8.m28 .break-screen .popup-container .note471 , body.h8.m28 .break-screen .popup-container .note472 ,
-body.h8.m29 .break-screen .popup-container .note473 ,
-body.h8.fullH .break-screen .popup-container .note520 , body.h8.fullH .break-screen .popup-container .note521 ,
-body.h8.fullH .break-screen .popup-container .note522 , body.h8.fullH .break-screen .popup-container .note523 ,
-body.h8.fullH .break-screen .popup-container .note524 , body.h8.fullH .break-screen .popup-container .note525 ,
-body.h8.m56 .break-screen .popup-container .note526 , body.h8.m57 .break-screen .popup-container .note527 ,
-body.h8.m57 .break-screen .popup-container .note528 , body.h8.m58 .break-screen .popup-container .note529 ,
-body.h8.m59 .break-screen .popup-container .note530 {
+body.h8.halfH .break-screen .popup-container2 .note462 , body.h8.halfH .break-screen .popup-container2 .note463 ,
+body.h8.halfH .break-screen .popup-container2 .note464 , body.h8.halfH .break-screen .popup-container2 .note465 ,
+body.h8.halfH .break-screen .popup-container2 .note466 , body.h8.halfH .break-screen .popup-container2 .note467 ,
+body.h8.halfH .break-screen .popup-container2 .note468 ,
+body.h8.m26 .break-screen .popup-container2 .note469 , body.h8.m27 .break-screen .popup-container2 .note470 ,
+body.h8.m28 .break-screen .popup-container2 .note471 , body.h8.m28 .break-screen .popup-container2 .note472 ,
+body.h8.m29 .break-screen .popup-container2 .note473 ,
+body.h8.fullH .break-screen .popup-container2 .note520 , body.h8.fullH .break-screen .popup-container2 .note521 ,
+body.h8.fullH .break-screen .popup-container2 .note522 , body.h8.fullH .break-screen .popup-container2 .note523 ,
+body.h8.fullH .break-screen .popup-container2 .note524 , body.h8.fullH .break-screen .popup-container2 .note525 ,
+body.h8.m56 .break-screen .popup-container2 .note526 , body.h8.m57 .break-screen .popup-container2 .note527 ,
+body.h8.m57 .break-screen .popup-container2 .note528 , body.h8.m58 .break-screen .popup-container2 .note529 ,
+body.h8.m59 .break-screen .popup-container2 .note530 {
   display: block;
 }
 
 /*SET 16 & 17*/
 
-body.h9.halfH .break-screen .popup-container .note474 , body.h9.halfH .break-screen .popup-container .note475 ,
-body.h9.halfH .break-screen .popup-container .note476 , body.h9.halfH .break-screen .popup-container .note477 ,
-body.h9.halfH .break-screen .popup-container .note478 , body.h9.halfH .break-screen .popup-container .note479 ,
-body.h9.halfH .break-screen .popup-container .note480 ,
-body.h9.m26 .break-screen .popup-container .note481 , body.h9.m27 .break-screen .popup-container .note482 ,
-body.h9.m28 .break-screen .popup-container .note483 , body.h9.m28 .break-screen .popup-container .note484 ,
-body.h9.m29 .break-screen .popup-container .note485 ,
-body.h9.fullH .break-screen .popup-container .note358 , body.h9.fullH .break-screen .popup-container .note359 ,
-body.h9.fullH .break-screen .popup-container .note360 , body.h9.fullH .break-screen .popup-container .note361 ,
-body.h9.fullH .break-screen .popup-container .note362 , body.h9.fullH .break-screen .popup-container .note363 ,
-body.h9.m56 .break-screen .popup-container .note364 , body.h9.m57 .break-screen .popup-container .note365 ,
-body.h9.m57 .break-screen .popup-container .note366 , body.h9.m58 .break-screen .popup-container .note367 ,
-body.h9.m59 .break-screen .popup-container .note368 {
+body.h9.halfH .break-screen .popup-container2 .note474 , body.h9.halfH .break-screen .popup-container2 .note475 ,
+body.h9.halfH .break-screen .popup-container2 .note476 , body.h9.halfH .break-screen .popup-container2 .note477 ,
+body.h9.halfH .break-screen .popup-container2 .note478 , body.h9.halfH .break-screen .popup-container2 .note479 ,
+body.h9.halfH .break-screen .popup-container2 .note480 ,
+body.h9.m26 .break-screen .popup-container2 .note481 , body.h9.m27 .break-screen .popup-container2 .note482 ,
+body.h9.m28 .break-screen .popup-container2 .note483 , body.h9.m28 .break-screen .popup-container2 .note484 ,
+body.h9.m29 .break-screen .popup-container2 .note485 ,
+body.h9.fullH .break-screen .popup-container2 .note358 , body.h9.fullH .break-screen .popup-container2 .note359 ,
+body.h9.fullH .break-screen .popup-container2 .note360 , body.h9.fullH .break-screen .popup-container2 .note361 ,
+body.h9.fullH .break-screen .popup-container2 .note362 , body.h9.fullH .break-screen .popup-container2 .note363 ,
+body.h9.m56 .break-screen .popup-container2 .note364 , body.h9.m57 .break-screen .popup-container2 .note365 ,
+body.h9.m57 .break-screen .popup-container2 .note366 , body.h9.m58 .break-screen .popup-container2 .note367 ,
+body.h9.m59 .break-screen .popup-container2 .note368 {
   display: block;
 }
 
 
 /*SET 12 & 22*/
 
-body.h10.halfH .break-screen .popup-container .note427 , body.h10.halfH .break-screen .popup-container .note428 ,
-body.h10.halfH .break-screen .popup-container .note429 , body.h10.halfH .break-screen .popup-container .note430 ,
-body.h10.halfH .break-screen .popup-container .note431 , body.h10.halfH .break-screen .popup-container .note432 ,
-body.h10.halfH .break-screen .popup-container .note433 ,
-body.h10.m26 .break-screen .popup-container .note434 , body.h10.m27 .break-screen .popup-container .note435 ,
-body.h10.m28 .break-screen .popup-container .note436 , body.h10.m28 .break-screen .popup-container .note437 ,
-body.h10.m29 .break-screen .popup-container .note438 ,
-body.h10.fullH .break-screen .popup-container .note531 , body.h10.fullH .break-screen .popup-container .note532 ,
-body.h10.fullH .break-screen .popup-container .note533 , body.h10.fullH .break-screen .popup-container .note534 ,
-body.h10.fullH .break-screen .popup-container .note535 , body.h10.fullH .break-screen .popup-container .note536 ,
-body.h10.m56 .break-screen .popup-container .note537 , body.h10.m57 .break-screen .popup-container .note538 ,
-body.h10.m57 .break-screen .popup-container .note539 , body.h10.m58 .break-screen .popup-container .note540 ,
-body.h10.m59 .break-screen .popup-container .note541 {
+body.h10.halfH .break-screen .popup-container2 .note427 , body.h10.halfH .break-screen .popup-container2 .note428 ,
+body.h10.halfH .break-screen .popup-container2 .note429 , body.h10.halfH .break-screen .popup-container2 .note430 ,
+body.h10.halfH .break-screen .popup-container2 .note431 , body.h10.halfH .break-screen .popup-container2 .note432 ,
+body.h10.halfH .break-screen .popup-container2 .note433 ,
+body.h10.m26 .break-screen .popup-container2 .note434 , body.h10.m27 .break-screen .popup-container2 .note435 ,
+body.h10.m28 .break-screen .popup-container2 .note436 , body.h10.m28 .break-screen .popup-container2 .note437 ,
+body.h10.m29 .break-screen .popup-container2 .note438 ,
+body.h10.fullH .break-screen .popup-container2 .note531 , body.h10.fullH .break-screen .popup-container2 .note532 ,
+body.h10.fullH .break-screen .popup-container2 .note533 , body.h10.fullH .break-screen .popup-container2 .note534 ,
+body.h10.fullH .break-screen .popup-container2 .note535 , body.h10.fullH .break-screen .popup-container2 .note536 ,
+body.h10.m56 .break-screen .popup-container2 .note537 , body.h10.m57 .break-screen .popup-container2 .note538 ,
+body.h10.m57 .break-screen .popup-container2 .note539 , body.h10.m58 .break-screen .popup-container2 .note540 ,
+body.h10.m59 .break-screen .popup-container2 .note541 {
   display: block;
 }
 
 /*SET 19 & 18*/
 
-body.h11.halfH .break-screen .popup-container .note497 , body.h11.halfH .break-screen .popup-container .note498 ,
-body.h11.halfH .break-screen .popup-container .note499 , body.h11.halfH .break-screen .popup-container .note500 ,
-body.h11.halfH .break-screen .popup-container .note501 , body.h11.halfH .break-screen .popup-container .note503 ,
-body.h11.m26 .break-screen .popup-container .note502 , body.h11.m26 .break-screen .popup-container .note504 ,
-body.h11.m27 .break-screen .popup-container .note505 , body.h11.m28 .break-screen .popup-container .note506 ,
-body.h11.m28 .break-screen .popup-container .note507 , body.h11.m29 .break-screen .popup-container .note508 ,
-body.h11.fullH .break-screen .popup-container .note486 , body.h11.fullH .break-screen .popup-container .note487 ,
-body.h11.fullH .break-screen .popup-container .note488 , body.h11.fullH .break-screen .popup-container .note489 ,
-body.h11.fullH .break-screen .popup-container .note490 , body.h11.fullH .break-screen .popup-container .note491 ,
-body.h11.m56 .break-screen .popup-container .note492 , body.h11.m57 .break-screen .popup-container .note493 ,
-body.h11.m57 .break-screen .popup-container .note494 , body.h11.m58 .break-screen .popup-container .note495 ,
-body.h11.m59 .break-screen .popup-container .note496 {
+body.h11.halfH .break-screen .popup-container2 .note497 , body.h11.halfH .break-screen .popup-container2 .note498 ,
+body.h11.halfH .break-screen .popup-container2 .note499 , body.h11.halfH .break-screen .popup-container2 .note500 ,
+body.h11.halfH .break-screen .popup-container2 .note501 , body.h11.halfH .break-screen .popup-container2 .note503 ,
+body.h11.m26 .break-screen .popup-container2 .note502 , body.h11.m26 .break-screen .popup-container2 .note504 ,
+body.h11.m27 .break-screen .popup-container2 .note505 , body.h11.m28 .break-screen .popup-container2 .note506 ,
+body.h11.m28 .break-screen .popup-container2 .note507 , body.h11.m29 .break-screen .popup-container2 .note508 ,
+body.h11.fullH .break-screen .popup-container2 .note486 , body.h11.fullH .break-screen .popup-container2 .note487 ,
+body.h11.fullH .break-screen .popup-container2 .note488 , body.h11.fullH .break-screen .popup-container2 .note489 ,
+body.h11.fullH .break-screen .popup-container2 .note490 , body.h11.fullH .break-screen .popup-container2 .note491 ,
+body.h11.m56 .break-screen .popup-container2 .note492 , body.h11.m57 .break-screen .popup-container2 .note493 ,
+body.h11.m57 .break-screen .popup-container2 .note494 , body.h11.m58 .break-screen .popup-container2 .note495 ,
+body.h11.m59 .break-screen .popup-container2 .note496 {
   display: block;
 }
