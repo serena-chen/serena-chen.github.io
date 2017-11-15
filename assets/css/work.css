@@ -11,28 +11,9 @@
 /* Start here */
 
 body {
-font-family: 'chivo';
-}
-
-.header {
-  font-size: 18px;
-  margin: 10px;
-  line-height: 22px;
-}
-
-a {
-  text-decoration: none;
-  cursor: pointer;
-  color: black;
-}
-
-/*a:hover {
-  text-decoration: underline solid black;
-  color: rgba(0, 0, 0, 0);
-}*/
-
-a:hover {
-  color: blue;
+  font-family: 'chivo';
+  margin: 0;
+  font-size: 20px;
 }
 
 ::selection {
@@ -41,7 +22,134 @@ a:hover {
 }
 
 
+.header {
+  margin: 0;
+  width: 100%;
+  /*background-color: pink;*/
+  padding: 10px;
+  /*line-height: 22px;*/
 
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+/* links */
+
+.menuitem {
+  display: inline-block;
+  margin-right: 130px;
+  cursor: default;
+}
+
+.name {
+  /*background-color: red;*/
+}
+
+.info {
+  /*background-color: yellow;*/
+  display: inline-block;
+}
+
+.hideme {
+  display: none;
+}
+
+.close {
+  display: none;
+}
+
+.showme {
+  display: inline-block;
+}
+
+
+.link {
+  text-decoration: none;
+}
+
+.link:hover {
+  /*text-decoration: underline solid black;*/
+  /*color: rgba(0,0,0,0);
+  -webkit-text-stroke: .5px blue;*/
+  cursor: pointer;
+}
+
+.socials {
+  color: white;
+}
+
+.asterisk1 , .asterisk2 , .asterisk3 , .asterisk4 , .asterisk5 ,
+.asterisk6 {
+  display: none;
+}
+
+.add-asterisk {
+  display: inline-block;
+  color: blue;
+}
+
+/* on click -- Info popup */
+
+.infopopup {
+  width: 100%;
+  height: 150%;
+  background-size: cover;
+  background-color: black;
+  position:fixed;
+  top:0px;
+  left:0px;
+  display: none;
+  z-index: -1;
+}
+
+.infopopup.showme {
+  display: block;
+}
+
+.menuitem.changecolor {
+  color: white;
+}
+
+.info.changecolor {
+  color: white;
+}
+
+/*.info:hover.changecolor {
+  color: rgba(0, 0, 0, 0);
+  text-decoration: underline solid white;
+}*/
+
+
+.bio {
+  color: white;
+  margin-top: 100px;
+  margin-left: 10px;
+  width: 650px;
+}
+
+
+/* PROJECT NAV container */
+.project-container {
+  margin: 0;
+  width: 100%;
+  padding: 10px;
+
+}
+
+.projects {
+  
+  width: 100%;
+  padding-top: 20px;
+  text-align: right;
+}
+
+.project-name {
+  display: inline-block;
+  margin-right: 1px;
+}
+
+/* FOLIO IMAGES */
 
 .counter {
   position: fixed;
@@ -55,27 +163,27 @@ a:hover {
 }
 
 
-
-
 .active-counter {
   display: block !important;
 }
 
-
-
-.com-wrapper img {
+.com-wrapper img , .com-wrapper .project-description {
   margin: 10px;
   /*margin: 0 auto;*/
   /*margin-top: 260px;*/
   bottom: 10px;
   /*padding-top: 10vh;*/
   position: fixed;
-
+  z-index: -2;
 }
 
 .container {
   display: flex;
   flex-wrap: wrap;
+}
+
+.container:hover {
+  cursor: pointer;
 }
 
 img {
@@ -85,22 +193,27 @@ img {
 
 }
 
-.container:hover {
-  cursor: pointer;
-}
-
 .col1of2 {
   flex: 0 0 33.33%;
 }
 
 
-/*header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 9999;
-  background: white;
-  width: 100%;
-  height: 100px;
-  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
-}*/
+.project-description {
+  display: block;
+  line-height: 1.5;
+  height: 58vh;
+  width: 47vw;
+  margin: 0 auto;
+}
+
+.com-wrapper {
+  display: none;
+}
+
+.showproject {
+  display: block;
+}
+
+.hideproject {
+  display: none;
+}
