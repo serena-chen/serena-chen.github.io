@@ -1,5 +1,9 @@
 /*Mobile styles -HOME PAGE*/
 
+
+
+/*ALL DEVICES RESIZED*/
+
 @media only screen
 and (max-width: 850px)
 and (orientation: portrait)  {
@@ -13,9 +17,38 @@ and (orientation: portrait)  {
   flex: 0 0 100%;
 }
 
-/*.image-link img:hover {
-  opacity: .8;
-}*/
+
+}
+
+
+/*ALL SMARTPHONE*/
+
+@media only screen
+and (min-width: 320px)
+and (max-width : 736px) {
+
+
+body {
+  font-size: .7em;
+}
+
+
+
+}
+
+
+/*ALL SMARTPHONE -portrait*/
+
+@media only screen
+and (min-width: 320px)
+and (max-width : 736px)
+and (orientation: portrait) {
+
+
+.media {
+  margin-top: 80px;
+}
+
 
 
 }
