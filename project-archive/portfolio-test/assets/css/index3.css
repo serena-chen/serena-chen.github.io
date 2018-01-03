@@ -1,0 +1,289 @@
+/*! normalize.css v6.0.0 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}article,aside,footer,header,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figcaption,figure,main{display:block}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details,menu{display:block}summary{display:list-item}canvas{display:inline-block}template{display:none}[hidden]{display:none}/*# sourceMappingURL=normalize.min.css.map */
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+
+/* Start here */
+
+
+::selection {
+  color: white;
+  background-color: blue;
+}
+
+
+
+/*i, em, .link.link-hover {
+  font-style: italic;
+  -webkit-transition: transform 0.06s ease;
+  transition: transform 0.06s ease;
+}*/
+
+html {
+  font-size: 82%;
+}
+
+body {
+  margin: 0;
+  font-family: 'chivo', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+main {
+  width: 100%;
+  margin-bottom: 4rem;
+}
+
+
+h1, h2, h3, h4, h4, h5, h6, p {
+  margin-top: 0;
+}
+
+h1 {
+  line-height: 1.34;
+  font-size: 1.6rem;
+  font-weight: normal;
+  letter-spacing: -0.05rem;
+}
+
+h3 {
+  line-height: 1.26;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+h1 {
+  /*text-transform: uppercase;*/
+  margin-bottom: 0;
+}
+
+a, .link {
+  color: inherit;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  cursor: pointer;
+}
+
+a {
+  display: inline-block;
+  font-style: italic;
+  -webkit-transition: transform 0.06s ease;
+  transition: transform 0.06s ease;
+  transform-origin: center;
+}
+
+.container {
+  width: 100%;
+  padding: 0.2rem 0.7rem;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.container.no-bottom {
+  padding-bottom: 0;
+}
+
+.content {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  /*-webkit-transition: height 0.18s ease;
+  -moz-transition: height 0.18s ease;
+  -ms-transition: height 0.18s ease;
+  -o-transition: height 0.18s ease;
+  transition: height 0.18s ease;*/
+}
+
+.media {
+  padding-top: 0.48rem;
+}
+
+.caption {
+  width: 100%;
+  margin-bottom: 0.1rem;
+}
+
+img, video, iframe {
+  width: 100%;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 25%;
+  height: 100%;
+  overflow: auto;
+}
+
+.media {
+  margin-bottom: 0.5rem;
+}
+
+.media img {
+  display: none;
+}
+
+.media img.active {
+  display: block;
+}
+
+.mediaCount {
+  display: none;
+}
+
+.media {
+  user-select: none;
+  -webkit-user-select: none;
+  position: relative;
+  cursor: pointer;
+}
+
+.nextImage {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  top: 0;
+  right: 0;
+}
+
+.prevImage {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+
+.tab-num {
+  -webkit-font-feature-settings:"tnum" 1;
+  -moz-font-feature-settings:"tnum" 1;
+  -ms-font-feature-settings:"tnum" 1;
+  -o-font-feature-settings:"tnum" 1;
+  font-feature-settings:"tnum" 1;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+
+.showme {
+  display: block;
+}
+
+
+
+@media (max-width: 330px) {
+  .container {
+    padding: 0.6rem 0.8rem;
+  }
+
+  html {
+    font-size: 84%;
+  }
+
+  h1 {
+    font-size: 1.55rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .show-sm-plus {
+    display: none !important;
+  }
+}
+
+
+@media (max-width: 1024px) {
+  .show-md-plus {
+    display: none !important;
+  }
+}
+
+@media (min-width: 769px) {
+  html {
+    font-size: 92%;
+  }
+}
+
+
+@media (min-width: 1025px) {
+  .hide-md {
+    display: none;
+  }
+
+  .mediaCount {
+    display: block;
+    position: absolute;
+    right: 0;
+  }
+
+  .content {
+    max-width: 60%;
+  }
+
+  .content.full {
+    max-width: 100%;
+  }
+
+  .caption {
+    width: 90%;
+  }
+
+  .content.full .caption {
+    width: 100%;
+  }
+
+  .container {
+    padding: 0rem 0.5rem;
+  }
+
+  html {
+    font-size: 90%;
+  }
+
+  h1 {
+    font-size: 2.4rem;
+  }
+
+  h1 a:hover,
+  h2 a:hover,
+  h3 a:hover,
+  h4 a:hover,
+  h5 a:hover,
+  h6 a:hover,
+  p a:hover,
+  .link.link-hover:hover {
+    transform: skew(34deg);
+    -webkit-transform: skew(34deg);
+  }
+
+  p a:hover, .link:hover {
+    color: #666666;
+  }
+
+}
+
+@media (min-width: 1281px) {
+  html {
+    font-size: 100%;
+  }
+}
+
+@media (min-width: 1920px) {
+  .content {
+    max-width: 54%;
+  }
+}

@@ -1,0 +1,54 @@
+/*Mobile styles -PROJECTS*/
+
+@media only screen
+and (max-width: 1400px) {
+
+.project-text {
+  height: 400px;
+}
+
+}
+
+/*@media only screen
+and (max-width: 1200px)
+and (orientation: portrait) {
+
+.counter {
+  display: none;
+}
+
+.project-text {
+  height: 540px;
+}
+
+.col1of2 {
+  flex: 0 0 100%;
+}
+
+}*/
+
+
+
+@media only screen
+and (max-width: 1050px)
+and (orientation: portrait) {
+
+.counter {
+  display: none;
+}
+
+.slideshow-container {
+  top: 220px;
+}
+
+.project-text {
+  top: 220px;
+  height: 300px;
+  /*font-size: .5em;*/
+}
+
+.col1of2 {
+  flex: 0 0 100%;
+}
+
+}

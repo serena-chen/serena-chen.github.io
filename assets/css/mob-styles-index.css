@@ -1,0 +1,21 @@
+/*Mobile styles -HOME PAGE*/
+
+@media only screen
+and (max-width: 850px)
+and (orientation: portrait)  {
+
+
+.media {
+  margin-top: 160px;
+}
+
+.col1of2 {
+  flex: 0 0 100%;
+}
+
+/*.image-link img:hover {
+  opacity: .8;
+}*/
+
+
+}

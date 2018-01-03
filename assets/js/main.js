@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
 
-// Add jQuery here
+// jQuery here
 
 
       $(function () {
@@ -41,40 +41,11 @@ $(document).ready(function() {
       });
 
 
-      // ON PAGE LOAD (ALL IMAGES SHOWN)
-      // $('.com-wrapper').addClass('hideme');
 
 
-      // SHOW PROJECT IMAGES ON NAV CLICK
-
-
-
-
-
-      $('.nav-exchange').click(function(event){
-        $('.item').removeClass('showproject');
-        $('.item').addClass('hideproject');
-
-        $('.item.exchange-images').removeClass('hideproject');
-        $('.item.exchange-images').addClass('showproject');
-
-        // $('.navitem').removeClass('highlight');
-        //
-        // $(this).addClass('highlight');
+      $('.image-link img').hover(function() {
+          $('.change-link-color').toggleClass('add-color');
       });
-
-
-      $('.nav-order').click(function(event){
-        $('.item').removeClass('showproject');
-        $('.item').addClass('hideproject');
-
-        $('.item.order-images').removeClass('hideproject');
-        $('.item.order-images').addClass('showproject');
-
-      });
-
-
-
 
 
       // SHOW INFO POPUP
@@ -96,33 +67,6 @@ $(document).ready(function() {
           $('.close').removeClass('showme');
 
           $('.menuitem').removeClass('changecolor');
-      });
-
-
-      // SHOW ASTERISKS ON LINK HOVER
-
-      $('.info').hover(function() {
-          $('.asterisk1').toggleClass('add-asterisk');
-      });
-
-      $('.insta').hover(function() {
-          $('.asterisk2').toggleClass('add-asterisk');
-      });
-
-      $('.mail').hover(function() {
-          $('.asterisk3').toggleClass('add-asterisk');
-      });
-
-      $('.moodboard').hover(function() {
-          $('.asterisk4').toggleClass('add-asterisk');
-      });
-
-      $('.experiment').hover(function() {
-          $('.asterisk5').toggleClass('add-asterisk');
-      });
-
-      $('.close').hover(function() {
-          $('.asterisk6').toggleClass('add-asterisk');
       });
 
 
