@@ -1,13 +1,19 @@
 /* Catch all */
 
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
   font-family: 'chivo' , arial , sans-serif;
   margin: 0;
   font-size: 20px;
+}
+
+::-moz-selection {
+  color: white;
+  background-color: blue;
 }
 
 ::selection {
@@ -25,8 +31,11 @@ body {
 .main-content {
   margin: 0;
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .spacer {
@@ -44,11 +53,15 @@ body {
 }*/
 
 .col1of3 {
-  flex: 0 0 45%;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 45%;
+          flex: 0 0 45%;
 }
 
 .col1of2 {
-  flex: 0 0 55%;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 55%;
+          flex: 0 0 55%;
 }
 
 
@@ -135,8 +148,11 @@ body {
   /*height: 58vh;
   width: 47vw;*/
   height: 540px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .project-description {
