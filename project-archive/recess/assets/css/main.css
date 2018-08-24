@@ -1,0 +1,297 @@
+* {
+  box-sizing: border-box;
+}
+
+
+/* Catch all */
+
+html {
+  height: 1500px;
+}
+
+body {
+  font-family: arial;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: line-through;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+.background__title {
+  padding-top: 300px;
+  position: fixed;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* FILTER/FOOTER BAR */
+
+.footer__container {
+  width: 100%;
+  /* background-color: red; */
+  position: fixed;
+  bottom: -300px;
+  border-top: 2px solid black;
+  text-align: center;
+
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  transition: 1s;
+}
+
+.slideup__button {
+  font-size: 20px;
+  cursor: pointer;
+  padding: 8px;
+}
+
+.slideup {
+  transition: 1s;
+  bottom: 0;
+  background-color: white;
+  /* filter: grayscale(1); */
+}
+
+.col__1 {
+  flex: 0 0 100%;
+}
+
+.col__1of4 {
+  flex: 0 0 25%;
+  line-height: 28px;
+  font-size: 20px;
+  padding-bottom: 16px;
+}
+
+.filter__link:hover {
+  cursor: pointer;
+}
+
+.selected {
+  text-decoration: line-through;
+  opacity: .6;
+}
+
+
+.showimage {
+  visibility: visible;
+}
+
+.hideimage {
+  visibility: hidden;
+}
+
+
+
+/* DRAG IMAGES */
+
+.dragimages {
+  /* cursor: move; */
+  cursor: pointer;
+  float: left;
+}
+
+.dragimages:hover {
+  opacity: (0.7);
+}
+
+
+#mirror {
+  max-width: 14%;
+  left: 300px;
+  top: 400px;
+}
+
+#take {
+  left: 70px;
+  top: 100px;
+}
+
+#poster {
+  max-width: 10%;
+  left: 100px;
+  top: 100px;
+}
+
+#jersey {
+  left: 40px;
+  top: 140px;
+}
+
+#bean {
+  max-width: 7%;
+  left: 80px;
+  top: 160px;
+}
+
+#clipping {
+  max-width: 12%;
+  left: 30px;
+  top: 550px;
+}
+
+#pumpkin {
+  max-width: 20%;
+  left: 80px;
+  top: 460px;
+}
+
+#tv {
+  max-width: 11%;
+  top: 100px;
+  left: 300px;
+}
+
+#plate {
+  max-width: 15%;
+  top: 50px;
+  left: 30px;
+}
+
+#bar {
+  max-width: 15%;
+  top: 250px;
+  left: 360px;
+}
+
+#sign {
+  max-width: 10%;
+  top: 90px;
+}
+
+#paddle {
+  max-width: 10%;
+
+}
+
+#stump {
+  max-width: 10%;
+
+}
+
+#paint {
+  max-width: 10%;
+  top: 90px;
+}
+
+#block {
+  max-width: 10%;
+  top: 90px;
+}
+
+#pit {
+  max-width: 15%;
+  top: 90px;
+}
+
+
+#photo {
+  max-width: 14%;
+  left: 300px;
+  top: 400px;
+}
+
+#noshoes {
+  left: 70px;
+  top: 300px;
+  max-width: 10%;
+}
+
+#shelf {
+  max-width: 10%;
+  left: 100px;
+  top: 100px;
+}
+
+#rock {
+  left: 340px;
+  top: 140px;
+}
+
+#sriracha {
+  max-width: 4%;
+  left: 30px;
+  top: 55px;
+}
+
+#news {
+  max-width: 12%;
+  left: 30px;
+  top: 550px;
+}
+
+#juke {
+  max-width: 10%;
+  left: 80px;
+  top: 460px;
+}
+
+#flag {
+  max-width: 13%;
+  left: 350px;
+  top: 60px;
+}
+
+#sink {
+  max-width: 15%;
+  top: 90px;
+}
+
+#plate2 {
+  max-width: 15%;
+  top: 100px;
+  left: 90px;
+}
+
+#chip {
+  max-width: 10%;
+  top: 90px;
+  left: 50px;
+}
+
+#timer {
+  max-width: 10%;
+
+}
+
+#carrot {
+  max-width: 10%;
+  transform: rotate(15deg);
+}
+
+#glove {
+  max-width: 10%;
+  top: 90px;
+}
+
+#clock {
+  max-width: 10%;
+
+}
+
+#album {
+  max-width: 10%;
+
+}
+
+#sack {
+  max-width: 17%;
+  top: 130px;
+  left: 240px;
+}
+
+#signature {
+  max-width: 13%;
+  top: 30px;
+}

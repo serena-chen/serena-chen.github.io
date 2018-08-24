@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+
+/* Catch all */
+
+body {
+  font-family: arial;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: line-through;
+}
+
+.header {
+  text-transform: uppercase;
+}
+
+
+
+/* Search Filter Page */
+
+.filter__link:hover , .subfilter__link:hover {
+  text-decoration: line-through;
+  cursor: pointer;
+}
+
+.container__main {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.container__nav {
+  padding: 15px;
+}
+
+
+.container__results {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+
+  height:100vh;
+  overflow: scroll;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+
+.spacer {
+  /* background-color: peachpuff; */
+  padding: 15px;
+  float: left;
+}
+
+.col__1of3 {
+  /* background-color: red; */
+  flex: 0 0 33.333%;
+}
+
+.col__2of3 {
+  /* background-color: blue; */
+  flex: 0 0 66.66%;
+}
+
+.col__1of4 {
+  /* background-color: green; */
+  flex: 0 0 25%;
+}
+
+
+/* Hidden filters */
+
+.subfilter__container--date , .subfilter__container--color {
+  display: none;
+}
+
+.showfilter {
+  display: block;
+}
