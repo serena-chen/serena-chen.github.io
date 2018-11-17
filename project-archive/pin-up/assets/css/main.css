@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+
+
+/* Start here */
+
+body {
+   background-image: url('assets/images/pu25_cover.jpg');
+}
+
+
+.issues .wrap{
+  position: relative;
+  float:left;
+  perspective:2000px;
+  width: 600px;
+  height: 660px;
+}
+
+.cube {
+  position: relative;
+  float:left;
+  width: 500px;
+  height: 606px;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  margin-left:450px;
+  margin-top: 250px;
+}
+
+.cube div {
+  position: absolute;
+}
+
+.back {
+-webkit-transform: translateZ(0px) rotateY(180deg);
+  transform: translateZ(0px) rotateY(180deg);
+   width: 320px;
+  height: 406px;
+  background:rgba(255,0,0,0.8);
+}
+.right {
+-webkit-transform: rotateY(-270deg) translateX(0px);
+  -webkit-transform-origin: top right;
+  transform: rotateY(-270deg) translateX(0px);
+  transform-origin: top right;
+  width: 20px;
+  left:300px;
+  height: 406px;
+}
+.left {
+  -webkit-transform: rotateY(270deg) translateX(0px);
+  -webkit-transform-origin: center left;
+  transform: rotateY(270deg) translateX(0px);
+  transform-origin: center left;
+  width: 20px;
+  height: 406px;
+}
+.top {
+  -webkit-transform: rotateX(-90deg) translateY(-30px);
+  -webkit-transform-origin: top center;
+  transform: rotateX(-90deg) translateY(-30px);
+  transform-origin: top center;
+  width: 320px;
+  height: 20px;
+}
+.bottom {
+
+}
+
+.front {
+  -webkit-transform: translateZ(20px);
+  transform: translateZ(20px);
+   width: 320px;
+  height: 406px;
+  background-size:cover;
+}
+
+@keyframes spin {
+  from { transform: rotateY(0); }
+  to { transform: rotateY(360deg); }
+}
+
+@-webkit-keyframes spin {
+  from { -webkit-transform: rotateY(0); }
+  to { -webkit-transform: rotateY(360deg); }
+}
+
+.cube {
+-webkit-animation: spin 10s infinite linear;
+  animation: spin 10s infinite linear;
+}
