@@ -71,10 +71,10 @@
 }
 
 @font-face {
-    font-family: '';
-    src: url('97a539795b56dcc604aaefa002eeb1d7.woff2') format('woff2'),
-        url('97a539795b56dcc604aaefa002eeb1d7.woff') format('woff'),
-        url('97a539795b56dcc604aaefa002eeb1d7.ttf') format('truetype');
+    font-family: 'futura light italic';
+    src: url('futura-light-italic.woff2') format('woff2'),
+        url('futura-light-italic.woff') format('woff'),
+        url('futura-light-italic.ttf') format('truetype');
     font-weight: normal;
     font-style: italic;
 }
@@ -132,4 +132,3 @@
     font-weight: normal;
     font-style: normal;
 }
-
