@@ -16,6 +16,8 @@ body {
 .row {
   display: flex;
   align-items: flex-end;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .col_1of3 {
