@@ -24,6 +24,7 @@ a:hover {
 
 .body-container {
   margin-top: 150px;
+  margin-bottom: 20px;
 }
 
 /** HEADER **/
@@ -102,8 +103,13 @@ a:hover {
     width: 50%;
 }
 
+.spacer3 {
+    margin-top: 100px;
+    margin-left: 100px;
+}
 
-.spacer img {
+
+.spacer img , .spacer3 img {
   max-width: 100%;
 }
 
@@ -126,11 +132,17 @@ a:hover {
   font-size: 1rem;
 }
 
-.self_harvest-title , .invitro-title , .else-title {
+.feastbound-image {
+  margin-top: 200px;
+}
+
+.self_harvest-title , .invitro-title , .else-title , .elodea-title ,
+.feastbound-title , .scenescenza-title , .biomicro-title {
   opacity: 0;
 }
 
-.self_harvest-title.showme , .invitro-title.showme , .else-title.showme {
+.self_harvest-title.showme , .invitro-title.showme , .else-title.showme , .elodea-title ,
+.feastbound-title.showme , .scenescenza-title.showme , .biomicro-title.showme {
   opacity: 1;
 }
 
@@ -164,20 +176,20 @@ a:hover {
 
 @media only screen and (max-width: 800px)  {
 
-.col_1of2 {
+.col_1of2 , .col_1of3{
   flex: 0 0 100%;
 }
 
-.spacer {
+.spacer , .spacer2 , .spacer3 {
   padding: 0 25px 0 25px;
+  margin: 0 auto;
 }
 
-.spacer2 {
+.spacer2 , .spacer3 {
   width: 100%;
-  padding: 0 25px 0 25px;
 }
 
-.row2 {
+.row2 , .feastbound-image {
   margin-top: 0px;
 }
 
@@ -187,6 +199,7 @@ html {
 
 .body-container {
   margin-top: 100px;
+  margin-bottom: 0;
 }
 
 /* .header-menu , a:hover {

@@ -38,6 +38,26 @@ $('.else-image').hover(function() {
 
 });
 
+$('.elodea-image').hover(function() {
+    $('.elodea-title').toggleClass('showme');
+
+});
+
+$('.feastbound-image').hover(function() {
+    $('.feastbound-title').toggleClass('showme');
+
+});
+
+$('.scenescenza-image').hover(function() {
+    $('.scenescenza-title').toggleClass('showme');
+
+});
+
+$('.biomicro-image').hover(function() {
+    $('.biomicro-title').toggleClass('showme');
+
+});
+
 
 
 
