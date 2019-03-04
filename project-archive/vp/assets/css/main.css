@@ -141,7 +141,7 @@ a:hover {
   opacity: 0;
 }
 
-.self_harvest-title.showme , .invitro-title.showme , .else-title.showme , .elodea-title ,
+.self_harvest-title.showme , .invitro-title.showme , .else-title.showme , .elodea-title.showme ,
 .feastbound-title.showme , .scenescenza-title.showme , .biomicro-title.showme {
   opacity: 1;
 }
@@ -182,7 +182,7 @@ a:hover {
 
 .spacer , .spacer2 , .spacer3 {
   padding: 0 25px 0 25px;
-  margin: 0 auto;
+  margin: 0 auto !important;
 }
 
 .spacer2 , .spacer3 {
@@ -190,7 +190,7 @@ a:hover {
 }
 
 .row2 , .feastbound-image {
-  margin-top: 0px;
+  margin-top: 0px !important;
 }
 
 html {
