@@ -104,13 +104,13 @@ a:hover {
 }
 
 .spacer3 {
-    margin-top: 100px;
-    margin-left: 100px;
+    margin-top: 100px !important;
+    margin-left: 100px !important;
 }
 
 
 .spacer img , .spacer3 img {
-  max-width: 100%;
+  max-width: 100% !important;
 }
 
 
@@ -133,7 +133,7 @@ a:hover {
 }
 
 .feastbound-image {
-  margin-top: 200px;
+  margin-top: 200px !important;
 }
 
 .self_harvest-title , .invitro-title , .else-title , .elodea-title ,
