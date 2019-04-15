@@ -8,6 +8,7 @@
 html {
   font-size: 16px;
   font-family: baskerville , times new roman, serif ;
+  line-height: normal;
 }
 
 a {
@@ -20,6 +21,12 @@ a:hover {
   font-weight: 400;
   font-style: normal;
   font-size: 1.8rem;
+}
+
+.body-text-link:hover {
+  font-family: baskerville, times new roman, serif;
+  text-transform: uppercase;
+  font-size: 1rem;
 }
 
 .body-container {
@@ -48,6 +55,7 @@ a:hover {
   font-style: normal;
   font-size: 1.8rem;
 }
+
 
 .header-info , .header-home {
   font-family: baskerville;
@@ -123,7 +131,7 @@ a:hover {
 }
 
 .project-image-title-container {
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   text-align: center;
 
   font-family: titling-gothic-fb-extended, arial, sans-serif;
@@ -164,64 +172,26 @@ a:hover {
 
 
 
-/*Mobile styles*/
-@media only screen and (max-width: 1100px)  {
+/*** INFO PAGE ***/
 
-.header-menu {
+.information-container {
   width: 100%;
-}
+  margin-top: 115px;
+  text-align: center;
+  position: fixed;
+
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
 
 }
 
-
-@media only screen and (max-width: 800px)  {
-
-.col_1of2 , .col_1of3{
-  flex: 0 0 100%;
-}
-
-.spacer , .spacer2 , .spacer3 {
-  padding: 0 25px 0 25px;
-  margin: 0 auto !important;
-}
-
-.spacer2 , .spacer3 {
+.information-text {
   width: 100%;
+  padding: 0 300px 25px 300px;
+  text-align: justify;
 }
 
-.row2 , .feastbound-image {
-  margin-top: 0px !important;
+.contact-text {
+  text-align: center;
 }
-
-html {
-  font-size: 10px;
-}
-
-.body-container {
-  margin-top: 100px;
-  margin-bottom: 0;
-}
-
-/* .header-menu , a:hover {
-  font-size: 1.1rem;
-}
-
-.header-info , .header-home {
-  font-size: 1.4rem;
-} */
-
-}
-
-
-/* @media only screen and (max-width: 420px)  {
-
-.header-title {
-  display: none;
-}
-
-.header-info , .header-home {
-  padding-top: 5px;
-  display: inline-block;
-}
-
-} */
