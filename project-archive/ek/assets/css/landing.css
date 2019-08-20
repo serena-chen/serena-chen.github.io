@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+/* Start here */
+
+body {
+  font-family: arial, sans-serif;
+  font-size: 25px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  /* -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none; */
+}
+
+.hero-info {
+  position: fixed;
+  margin: 15px;
+  z-index: 9999999;
+  color: black;
+}
+
+
+.menu-link {
+  text-decoration: none;
+  color: black;
+}
+
+.menu-link:hover {
+  color: red !important;
+}
+
+
+.background {
+  height:101vh;
+  width:101vw;
+  background-color: black;
+  filter: blur(2px);
+}
+
+.background video {
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}

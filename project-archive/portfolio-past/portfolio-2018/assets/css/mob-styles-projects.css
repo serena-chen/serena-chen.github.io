@@ -1,0 +1,111 @@
+/*Mobile styles -PROJECTS*/
+
+@media only screen
+and (max-width: 1400px) {
+
+.project-text {
+  height: 400px;
+}
+
+}
+
+
+/*ANY DEVICE RESIZE portrait*/
+
+@media only screen
+and (max-width: 1050px)
+and (orientation: portrait) {
+
+.counter {
+  display: none;
+}
+
+.slideshow-container {
+  top: 220px;
+}
+
+.project-text {
+  top: 220px;
+  height: 300px;
+}
+
+.col1of2 {
+  flex: 0 0 100%;
+}
+
+}
+
+
+
+/*ALL SMARTPHONE*/
+
+@media only screen
+and (min-width: 320px)
+and (max-width : 736px) {
+
+
+body , .counter {
+  font-size: .7em;
+}
+
+
+}
+
+
+/*ALL SMARTPHONE -portrait*/
+
+@media only screen
+and (min-width: 320px)
+and (max-width : 736px)
+and (orientation: portrait) {
+
+
+.media {
+  margin-top: 80px;
+}
+
+.project-text {
+  top: 220px;
+  height: 300px;
+}
+
+
+}
+
+
+/*ALL SMARTPHONE -landscape*/
+
+@media only screen
+and (min-width: 320px)
+and (max-width : 736px)
+and (orientation: landscape) {
+
+
+.project-text {
+  top: 120px;
+  height: 300px;
+}
+
+
+}
+
+
+
+
+/*@media only screen
+and (max-width: 1200px)
+and (orientation: portrait) {
+
+.counter {
+  display: none;
+}
+
+.project-text {
+  height: 540px;
+}
+
+.col1of2 {
+  flex: 0 0 100%;
+}
+
+}*/

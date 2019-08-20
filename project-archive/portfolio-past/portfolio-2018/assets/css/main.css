@@ -1,0 +1,188 @@
+/* Catch all */
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  /* font-family: 'chivo' , arial , sans-serif; */
+  font-family: arial narrow, sans-serif;
+  margin: 0;
+  font-size: 20px;
+}
+
+::-moz-selection {
+  color: white;
+  background-color: blue;
+}
+
+::selection {
+  color: white;
+  background-color: blue;
+}
+
+.header {
+  margin: 0;
+  width: 100%;
+  padding: 10px;
+  /*line-height: 22px;*/
+}
+
+.main-content {
+  margin: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.spacer {
+  /*padding: 15px;*/
+  margin: 15px;
+  float: left;
+}
+
+.description {
+  position: fixed;
+}
+
+/*.media {
+  margin-top: 200px;
+}*/
+
+.col1of3 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 45%;
+          flex: 0 0 45%;
+}
+
+.col1of2 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 55%;
+          flex: 0 0 55%;
+}
+
+
+/* link styles */
+
+.menu-link , .external-link {
+  text-decoration: none;
+  color: black;
+}
+
+.menu-link:hover , .external-link:hover {
+  color: blue;
+  cursor: pointer;
+  /*text-decoration: underline solid blue;*/
+  /*color: rgba(0,0,0,0);
+  -webkit-text-stroke: .5px blue;*/
+}
+
+.add-color {
+  color: blue;
+}
+
+
+/* FOLIO IMAGES */
+
+.counter {
+  display: block;
+  z-index: 500;
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.active-counter {
+  display: block !important;
+}
+
+
+.slideshow-container {
+  /*margin-top: 235px;*/
+  position: fixed;
+  bottom: 15px;
+  margin-right: 15px;
+}
+
+
+.image-link img , .slideshow-item img , .slideshow-item video {
+  /*width: 660px;
+  height: 450px;*/
+  max-width: 100%;
+  display: block;
+  margin: auto;
+}
+
+.image-link img:hover , .slideshow-container img:hover , .slideshow-item:hover {
+  cursor: pointer;
+  /*filter: drop-shadow(1px 1px 2px blue);*/
+}
+
+.image-spacer {
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 15px;
+}
+
+.image-spacer:nth-child(1) {
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+
+.image-spacer:nth-child(9) {
+  margin-bottom: 15px;
+}
+
+
+/*PROJECT PAGES*/
+
+.project-text {
+  position: fixed;
+  padding: 0;
+  bottom: 15px;
+  margin-right: 15px;
+  line-height: 1.5;
+  /*height: 58vh;
+  width: 47vw;*/
+  height: 540px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.project-description {
+  width: 100%;
+}
+
+
+
+/* on click -- Info popup */
+
+.infopopup {
+  width: 100%;
+  height: 150%;
+  background-size: cover;
+  background-color: black;
+  position:fixed;
+  top:0px;
+  left:0px;
+  display: none;
+  z-index: -1;
+}
+
+.infopopup.showme {
+  display: block;
+}
+
+.bio {
+  color: white;
+  margin-top: 100px;
+  margin-left: 10px;
+  width: 650px;
+}

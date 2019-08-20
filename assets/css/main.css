@@ -1,20 +1,62 @@
-/* Catch all */
-
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
+
+
+
+
+/* Start here */
 
 body {
-  /* font-family: 'chivo' , arial , sans-serif; */
-  font-family: arial narrow, sans-serif;
-  margin: 0;
-  font-size: 20px;
+font-family: arial narrow, arial, san-serif;
+text-transform: uppercase;
+margin: 20px;
+font-size: 20px;
 }
 
-::-moz-selection {
-  color: white;
-  background-color: blue;
+.header-wrapper {
+	position: fixed;
+	width: 100%;
+  padding-right: 40px;
+	z-index: 1;
+}
+
+.header {
+  text-transform: uppercase;
+  text-align: justify;
+  width: 100%;
+}
+
+.header p:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
+
+
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+}
+
+/* a:hover {
+  color: blue;
+} */
+
+.email:hover {
+  text-decoration: underline;
+}
+
+.ig:hover {
+  text-shadow: 0.1em 0.1em 0.1em rgba(0, 0, 0, 0.3);
+}
+
+.moodboard:hover {
+  font-style: oblique;
 }
 
 ::selection {
@@ -22,167 +64,95 @@ body {
   background-color: blue;
 }
 
-.header {
-  margin: 0;
-  width: 100%;
-  padding: 10px;
-  /*line-height: 22px;*/
-}
 
-.main-content {
-  margin: 0;
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-.spacer {
-  /*padding: 15px;*/
-  margin: 15px;
-  float: left;
-}
-
-.description {
-  position: fixed;
-}
-
-/*.media {
-  margin-top: 200px;
-}*/
-
-.col1of3 {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 45%;
-          flex: 0 0 45%;
-}
-
-.col1of2 {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 55%;
-          flex: 0 0 55%;
-}
-
-
-/* link styles */
-
-.menu-link , .external-link {
-  text-decoration: none;
-  color: black;
-}
-
-.menu-link:hover , .external-link:hover {
-  color: blue;
-  cursor: pointer;
-  /*text-decoration: underline solid blue;*/
-  /*color: rgba(0,0,0,0);
-  -webkit-text-stroke: .5px blue;*/
-}
-
-.add-color {
-  color: blue;
-}
-
-
-/* FOLIO IMAGES */
 
 .counter {
+  position: fixed;
+  top: 35%;
+  right: 20px;
   display: block;
   z-index: 500;
   letter-spacing: 1px;
-  font-weight: 500;
-  font-size: 18px;
 }
 
 .active-counter {
   display: block !important;
 }
 
-
-.slideshow-container {
-  /*margin-top: 235px;*/
+.com-wrapper img {
+  bottom: 18px;
   position: fixed;
-  bottom: 15px;
-  margin-right: 15px;
 }
 
+.media {
+  display: flex;
+  flex-wrap: wrap;
+}
 
-.image-link img , .slideshow-item img , .slideshow-item video {
-  /*width: 660px;
-  height: 450px;*/
-  max-width: 100%;
+.slideshow-item img , .slideshow-item video {
+  max-width: 47%;
   display: block;
   margin: auto;
 }
 
-.image-link img:hover , .slideshow-container img:hover , .slideshow-item:hover {
+.media:hover {
   cursor: pointer;
-  /*filter: drop-shadow(1px 1px 2px blue);*/
 }
 
-.image-spacer {
-  margin-left: 15px;
-  margin-right: 15px;
-  margin-top: 15px;
-}
-
-.image-spacer:nth-child(1) {
-  margin-top: 15px;
-  margin-bottom: 0px;
-}
-
-.image-spacer:nth-child(9) {
-  margin-bottom: 15px;
+.col1of2 {
+  flex: 0 0 33.333%;
 }
 
 
-/*PROJECT PAGES*/
 
-.project-text {
+
+/*Mobile styles*/
+
+@media only screen
+and (max-width: 1000px)
+and (orientation: portrait)  {
+
+
+.slideshow-item img {
+  max-width: 100%;
+  padding-right: 40px;
+}
+
+.col1of2 {
+  flex: 0 0 100%;
+}
+
+
+}
+
+
+@media only screen
+and (max-width: 400px)
+and (orientation: portrait) {
+
+.com-wrapper img {
+  margin: 10px;
+  /*margin: 0 auto;*/
+  /*margin-top: 260px;*/
+  bottom: 280px;
+  /*padding-top: 10vh;*/
+
+
+}
+
+img {
+  max-width: 90%;
+}
+
+
+.counter {
   position: fixed;
-  padding: 0;
-  bottom: 15px;
-  margin-right: 15px;
-  line-height: 1.5;
-  /*height: 58vh;
-  width: 47vw;*/
-  height: 540px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-.project-description {
-  width: 100%;
-}
-
-
-
-/* on click -- Info popup */
-
-.infopopup {
-  width: 100%;
-  height: 150%;
-  background-size: cover;
-  background-color: black;
-  position:fixed;
-  top:0px;
-  left:0px;
-  display: none;
-  z-index: -1;
-}
-
-.infopopup.showme {
+  top: 68%;
+  right: 20px;
   display: block;
+  z-index: 500;
+  letter-spacing: 1px;
 }
 
-.bio {
-  color: white;
-  margin-top: 100px;
-  margin-left: 10px;
-  width: 650px;
+
 }
