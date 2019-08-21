@@ -125,22 +125,31 @@ and (orientation: portrait)  {
 
 }
 
-@media only screen
-and (max-width: 400px) {
 
+/* MOBILE PHONE - landscape */
+
+@media only screen
+and (max-width: 700px)
+and (orientation: landscape) {
 
 body {
-  font-size: 16px;
+  font-size: 18px;
+  text-align: justify;
 }
 
 
 }
 
+/* MOBILE PHONE - portrait */
 
 @media only screen
 and (max-width: 400px)
 and (orientation: portrait) {
 
+body {
+  font-size: 18px;
+  text-align: justify;
+}
 
 
 img {
