@@ -80,7 +80,7 @@ a {
 }
 
 .com-wrapper img {
-  bottom: 18px;
+  bottom: 20px;
   position: fixed;
 }
 
@@ -120,6 +120,17 @@ and (orientation: portrait)  {
 
 .col1of2 {
   flex: 0 0 100%;
+}
+
+
+}
+
+@media only screen
+and (max-width: 400px) {
+
+
+body {
+  font-size: 16px;
 }
 
 
