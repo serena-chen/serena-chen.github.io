@@ -23,6 +23,7 @@ body {
   user-select: none; */
   /* background-color: black; */
   color: white;
+  line-height: 1.12 !important;
 }
 
 .hero-info {
