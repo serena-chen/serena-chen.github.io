@@ -1,0 +1,29 @@
+.title {
+	font-size: 24vw;
+	text-align: center;
+}
+
+.contents {
+	width: 50%;
+	height:100%;
+	position: fixed;
+	bottom:0px;
+	left:0px;
+	background-color: yellow;
+	margin-left: -50%;
+	overflow: scroll;
+	transition: 0.5s;
+}
+
+.contents.left {
+	margin-left: 0%;
+	transition: 0.5s;
+}
+
+.nav-contents {
+	cursor: pointer;
+}
+
+.close {
+	cursor: pointer;
+}

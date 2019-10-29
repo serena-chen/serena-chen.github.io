@@ -15,6 +15,7 @@ body {
   /* -webkit-touch-callout: none;
   -webkit-user-select: none;
   user-select: none; */
+  background-color: red;
 }
 
 .hero-info {
@@ -46,4 +47,14 @@ body {
   width:100%;
   height:100%;
   object-fit:cover;
+}
+
+marquee {
+  background-color: yellow;
+  position: fixed;
+  display: block;
+  bottom: 0;
+  padding: 10px;
+  width: 100%;
+  z-index: 99999;
 }

@@ -1,0 +1,13 @@
+.title {
+	font-size: 24vw;
+	text-align: center;
+}
+
+.toggle-title {
+	border-top:3px solid #000;
+	cursor: pointer;
+}
+
+.toggle-content {
+	display: none;
+}

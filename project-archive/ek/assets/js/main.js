@@ -10,6 +10,12 @@ $(function() {
 
 
 
+$('.client-link').click(function() {
+    $('.hidden-text').toggleClass('showme');
+    $('body').toggleClass('changebg');
+
+});
+
 
 
 

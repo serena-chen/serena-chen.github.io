@@ -1,7 +1,7 @@
 /*! http://responsiveslides.com v1.55 by @viljamis */
 
 
-/* .image-container {
+.image-container {
   position:relative;
   background-size:cover;
   background-repeat:no-repeat;
@@ -60,7 +60,7 @@
   float: left;
   width: 100%;
   border: 0;
-  } */
+  }
 
 
 /* MOBILE STYLES */

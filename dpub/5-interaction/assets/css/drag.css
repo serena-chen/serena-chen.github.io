@@ -1,0 +1,22 @@
+.title {
+	font-size: 24vw;
+	text-align: center;
+}
+
+.drag-image {
+	width: 300px;
+  	cursor: move;
+  	box-shadow:10px 10px 10px gray;
+  	padding: 0px;
+  	position: relative;
+}
+
+.image-1 {
+	left: 614px;
+    top: -1134px;
+}
+
+.image-2 {
+	left: 114px;
+    top: -1000px;
+}

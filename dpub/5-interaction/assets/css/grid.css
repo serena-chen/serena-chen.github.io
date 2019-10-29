@@ -1,0 +1,37 @@
+.grid {
+	display: flex;
+	flex-wrap:wrap;
+}
+
+.col {
+	padding: 20px;
+}
+
+.content {
+	padding: 20px;
+}
+
+.w-1of1 {
+	flex:0 0 100%;
+}
+
+.w-1of2 {
+	flex:0 0 50%;
+}
+
+.w-1of3 {
+	flex:0 0 33.33%;
+}
+
+.w-2of3 {
+	flex:0 0 66.66%;
+}
+
+.w-1of4 {
+	flex:0 0 25%;
+}
+
+.w-3of4 {
+	flex:0 0 75%;
+}
+
