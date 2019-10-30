@@ -17,11 +17,16 @@
     <meta itemprop="description" content="New Greek restaurant caf&eacute; by chef Mina Stone and artist Alex Eagleton. Opening summer of 2019, bringing Mediterranean food to MoMA PS1 in Long Island City, Queens.">
 
     <link rel="shortcut icon" href="assets/images/minas-fav.ico" type="image/x-icon">
-
     <link rel="stylesheet" href="assets/css/_normalize.css">
+    <link rel="stylesheet" href="assets/css/_debug.css">
+
     <link rel="stylesheet" href="assets/css/home.css">
+    <link rel="stylesheet" href="assets/css/time.css">
     <link rel="stylesheet" href="assets/css/fonts.css">
+
     <script src="assets/js/jquery-3.2.0.min.js" charset="utf-8"></script>
+    <script src="assets/js/moment-with-locales.min.js" charset="utf-8"></script>
+    <script src="assets/js/time.js" charset="utf-8"></script>
     <script src="assets/js/home.js" charset="utf-8"></script>
 
   </head>
@@ -30,6 +35,7 @@
 
   <body>
 
+    <!-- <div class="time"></div> -->
 
     <div class="hero-info">
 
@@ -157,12 +163,38 @@
 
 
 
-    <div class="background">
-      <video id="happydays" class='happydays' autoplay="autoplay" playsinline autoplay muted loop width="600">
-        <source src="assets/images/minas-moon-compilation1.mp4" type='video/mp4'/>
+    <!-- <div class="desktop-background">
+      <video id="desktop-sun-bg" class='desktop-sun-bg' autoplay="autoplay" playsinline autoplay muted loop width="600">
+        <source src="assets/images/minas-sun-compilation1-med.mp4" type='video/mp4'/>
       </video>
     </div>
 
+    <div class="mobile-background">
+      <video id="mobile-sun-bg" class='mobile-sun-bg' autoplay="autoplay" playsinline autoplay muted loop width="600">
+        <source src="assets/images/minas-sun-compilation1-mobile-med.mp4" type='video/mp4'/>
+      </video>
+    </div> -->
+
+
+
+
+    <div class="desktop-background">
+      <video id="desktop-moon-bg" class='desktop-moon-bg' autoplay="autoplay" playsinline autoplay muted loop width="600">
+        <source src="assets/images/minas-moon-compilation2-med.mp4" type='video/mp4'/>
+      </video>
+    </div>
+
+    <div class="mobile-background">
+      <video id="mobile-moon-bg" class='mobile-moon-bg' autoplay="autoplay" playsinline autoplay muted loop width="600">
+        <source src="assets/images/minas-moon-compilation2-mobile-med.mp4" type='video/mp4'/>
+      </video>
+    </div>
+
+
+    <!-- remove later, used for debugging -->
+    <!-- <button type="button" id="pause" name="button">Pause</button>
+    <textarea id="timeClasses" name="name" rows="2" cols="40">evenS oddS evenM oddM halfM fullM quarterH halfH threequarterH fullH am pm
+    </textarea> -->
 
 
   </body>
