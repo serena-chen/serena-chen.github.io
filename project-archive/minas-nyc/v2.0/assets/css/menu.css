@@ -1,0 +1,130 @@
+/* CATCH ALL TEXT STYLES */
+
+body , a {
+  color: black;
+}
+
+
+/* STRUCTURE */
+
+body {
+  background-color: #ecffe5;
+}
+
+.main-content-container {
+  width: 100%;
+  margin: 100px 0px 100px 0px;
+  text-align: center;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+
+}
+
+.main-content {
+  width: 80%;
+  text-align: left;
+  margin: 0 auto;
+  background-color: white;
+  padding: 50px 50px 50px 50px;
+}
+
+.flex-content-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.spacer {
+
+}
+
+.col__1of3 {
+  flex: 0 0 20%;
+  /* background-color: blue; */
+}
+
+.col__2of3 {
+  flex: 0 0 80%;
+  /* background-color: red; */
+}
+
+.prices {
+  text-align: right;
+}
+
+
+/* MENU BULLET SHAPES */
+
+.bullet-circle-regular {
+  width: 13px;
+  height: 13px;
+  margin-right: 15px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.bullet-circle-small {
+  width: 10px;
+  height: 10px;
+  margin-right: 15px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.bullet-circle-xsmall {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.xsmall-spacer {
+  margin-right: 12px;
+}
+
+.white {
+  background-color: white;
+}
+
+.brown {
+  background-color: #b2763b;
+}
+
+.forest-green {
+  background-color: #006838;
+}
+
+.emerald {
+  background-color: #006c7d;
+}
+
+.mint-green {
+  background-color: #52b69e;
+}
+
+.purple {
+  background-color: #2e3192;
+}
+
+.terracotta {
+  background-color: #ffaa80;
+}
+
+
+
+
+
+/* MOBILE STYLES */
+
+
+/*ALL SMARTPHONE*/
+
+@media only screen
+/* and (min-width: 320px) */
+and (max-width : 736px) {
+
+
+
+
+
+}

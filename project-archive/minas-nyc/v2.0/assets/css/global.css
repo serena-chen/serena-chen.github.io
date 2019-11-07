@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  line-height: 1.12 !important;
+}
+
+
+input, textarea, select, a {
+  outline: none;
+}
+
+
+/* Start here */
+
+html {
+  font-family: 'Fakt Pro Normal', arial, sans-serif;
+  font-size: 25px;
+  line-height: 1.12 !important;
+}
+
+.time {
+  color: black;
+  position: fixed;
+}
+
+
+body {
+  font-size: 1em;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  /* -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none; */
+}
+
+.hero-info {
+  position: fixed;
+  z-index: 999999;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.hero-info-address {
+  display: block;
+  text-align: left;
+}
+
+.main-content-title {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+
+/* LINK STYLES */
+
+.menu-link {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.menu-link:hover {
+  text-decoration: underline;
+}
+
+.link-container {
+  margin-top: -100px;
+
+}
+
+.all-caps-link {
+  text-transform: uppercase;
+}
+
+.hidden-text {
+  display: none;
+  margin-left: 20px;
+}
+
+.showme {
+  display: block;
+}

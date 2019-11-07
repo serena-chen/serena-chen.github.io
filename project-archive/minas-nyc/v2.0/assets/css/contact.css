@@ -1,0 +1,84 @@
+/* CATCH ALL TEXT STYLES */
+
+body , a {
+  color: black;
+}
+
+
+/* STRUCTURE */
+
+body {
+  background-color: #52b69e;
+}
+
+.main-content-container {
+  width: 100%;
+  margin: 100px 0px 100px 0px;
+  text-align: center;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.main-content {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+  /* padding: 50px 50px 50px 50px; */
+}
+
+.flex-content-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.spacer {
+
+}
+
+.col__1of3 {
+  flex: 0 0 20%;
+  /* background-color: blue; */
+}
+
+.col__2of3 {
+  flex: 0 0 80%;
+  /* background-color: red; */
+}
+
+
+.social-text , .google-map-container {
+  margin-bottom: 15px;
+}
+
+
+.google-map-container {
+  filter: grayscale(1);
+  max-width: 100%;
+  background-color: white;
+}
+
+.gm-style .place-card-large , .gm-inset-light {
+  display: none !important;
+}
+
+.minas-map{
+  max-width: 40%;
+}
+
+
+
+/* MOBILE STYLES */
+
+
+/*ALL SMARTPHONE*/
+
+@media only screen
+/* and (min-width: 320px) */
+and (max-width : 736px) {
+
+
+
+
+
+}

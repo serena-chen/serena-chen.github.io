@@ -1,0 +1,115 @@
+/* GLOBAL MOBILE STYLES */
+
+
+/*ALL SMARTPHONE*/
+
+@media only screen
+/* and (min-width: 320px) */
+and (max-width : 736px) {
+
+
+body , input {
+  font-size: .8em;
+}
+
+.menu-link {
+  line-height: 1.8 !important;
+}
+
+.clear {
+  display: block;
+  margin-top: 10px;
+}
+
+#mce-EMAIL {
+  margin-right: 0;
+}
+
+.mobile-background {
+  display: block;
+}
+
+.desktop-background {
+  display: none;
+}
+
+/* CONTACT */
+
+.social-text {
+  font-size: .9em;
+}
+
+
+.minas-map {
+  max-width: 60%;
+}
+
+
+/* ONLINE MENU */
+
+.menu-text {
+  font-size: .6em;
+}
+
+.main-content {
+  width: 100%;
+  padding: 20px 20px 20px 20px;
+}
+
+.col__1of3 {
+  flex: 0 0 10%;
+}
+
+.col__2of3 {
+  flex: 0 0 90%;
+}
+
+
+.bullet-circle-regular {
+  width: 8px;
+  height: 8px;
+  margin-right: 10px;
+
+}
+
+.bullet-circle-small {
+  width: 6px;
+  height: 6px;
+  margin-right: 10px;
+}
+
+.bullet-circle-xsmall {
+  width: 4px;
+  height: 4px;
+}
+
+.xsmall-spacer {
+  margin-right: 7px;
+}
+
+
+
+}
+
+
+
+
+@media only screen
+/* and (min-width: 320px) */
+and (max-width : 736px)
+and (orientation: landscape) {
+
+
+
+/* ONLINE MENU */
+
+.main-content {
+  width: 90%;
+  font-size: .8em;
+  padding: 30px 30px 30px 30px;
+}
+
+
+
+
+}

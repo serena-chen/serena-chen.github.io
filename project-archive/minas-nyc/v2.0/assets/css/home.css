@@ -1,77 +1,8 @@
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  line-height: 1.12 !important;
-}
+/* TEXT STYLES */
 
-
-input, textarea, select, a {
-  outline: none;
-}
-
-
-/* Start here */
-
-.time {
-  color: black;
-  position: fixed;
-}
-
-
-body {
-  font-family: 'Fakt Pro Normal', arial, sans-serif;
-  font-size: 25px;
-  overflow-y: scroll;
-  overflow-x: hidden;
-  /* -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  user-select: none; */
-  /* background-color: black; */
+body , a {
   color: white;
-  line-height: 1.12 !important;
 }
-
-.hero-info {
-  position: fixed;
-  z-index: 999999;
-  color: white;
-  width: 100%;
-  margin: 0 auto;
-  margin-top: 20px;
-  margin-left: 20px;
-}
-
-.title {
-  display: block;
-  text-align: left;
-}
-
-/* LINK STYLES */
-
-.menu-link {
-  text-decoration: none;
-  color: white;
-  cursor: pointer;
-}
-
-.menu-link:hover {
-  text-decoration: underline;
-}
-
-.all-caps-link {
-  text-transform: uppercase;
-}
-
-.hidden-text {
-  display: none;
-  margin-left: 20px;
-}
-
-.showme {
-  display: block;
-}
-
 
 
 /* VIDEO BGS */
@@ -79,6 +10,7 @@ body {
 .desktop-background , .mobile-background {
   height:100vh;
   width:100vw;
+  position: fixed;
 }
 
 
@@ -94,9 +26,6 @@ body {
 
 
 
-
-
-
 /*EMAIL FORM*/
 
 #mc_embed_signup {
@@ -108,12 +37,13 @@ body {
   bottom: 0;
   margin-left: 20px;
   margin-bottom: 20px;
+  font-size: 1em;
 }
 
 input {
   background-color: #ffffff00;
   color: white;
-  font-size: 25px;
+
   font-family: 'Fakt Pro Normal', Arial, sans-serif;
   display: block;
   padding: 5px;
@@ -155,40 +85,4 @@ input {
 #mc-embedded-subscribe:hover {
   font-style: italic;
   cursor: pointer;
-}
-
-
-/* MOBILE STYLES */
-
-
-/*ALL SMARTPHONE*/
-
-@media only screen
-/* and (min-width: 320px) */
-and (max-width : 736px) {
-
-
-body , input {
-  font-size: .9em;
-}
-
-.clear {
-  display: block;
-  margin-top: 10px;
-}
-
-#mce-EMAIL {
-  margin-right: 0;
-}
-
-.mobile-background {
-  display: block;
-}
-
-.desktop-background {
-  display: none;
-}
-
-
-
 }
