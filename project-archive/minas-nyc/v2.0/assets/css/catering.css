@@ -18,15 +18,14 @@ body {
   display: flex;
   align-items: flex-start;
   flex-wrap: wrap;
-
 }
 
 .main-content {
   width: 80%;
-  text-align: left;
+  text-align: center;
   margin: 0 auto;
-  background-color: white;
-  padding: 50px 50px 50px 50px;
+  /* background-color: white;
+  padding: 0px 50px 0px 50px; */
 }
 
 .flex-content-container {
@@ -50,81 +49,4 @@ body {
 
 .prices {
   text-align: right;
-}
-
-
-/* MENU BULLET SHAPES */
-
-.bullet-circle-regular {
-  width: 13px;
-  height: 13px;
-  margin-right: 15px;
-  border-radius: 50%;
-  display: inline-block;
-}
-
-.bullet-circle-small {
-  width: 10px;
-  height: 10px;
-  margin-right: 15px;
-  border-radius: 50%;
-  display: inline-block;
-}
-
-.bullet-circle-xsmall {
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  display: inline-block;
-}
-
-.xsmall-spacer {
-  margin-right: 12px;
-}
-
-.white {
-  background-color: white;
-}
-
-.brown {
-  background-color: #b2763b;
-}
-
-.forest-green {
-  background-color: #006838;
-}
-
-.emerald {
-  background-color: #006c7d;
-}
-
-.mint-green {
-  background-color: #52b69e;
-}
-
-.purple {
-  background-color: #2e3192;
-}
-
-.terracotta {
-  background-color: #ffaa80;
-}
-
-
-
-
-
-/* MOBILE STYLES */
-
-
-/*ALL SMARTPHONE*/
-
-@media only screen
-/* and (min-width: 320px) */
-and (max-width : 736px) {
-
-
-
-
-
 }

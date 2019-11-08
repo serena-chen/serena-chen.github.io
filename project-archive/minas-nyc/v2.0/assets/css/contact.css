@@ -8,7 +8,7 @@ body , a {
 /* STRUCTURE */
 
 body {
-  background-color: #52b69e;
+  background-color: #ecffe5;
 }
 
 .main-content-container {
@@ -48,7 +48,7 @@ body {
 
 
 .social-text , .google-map-container {
-  margin-bottom: 15px;
+  margin-bottom: 60px;
 }
 
 
@@ -62,23 +62,12 @@ body {
   display: none !important;
 }
 
-.minas-map{
-  max-width: 40%;
+.minas-map-container {
+  width: 40%;
+  margin: 0 auto;
 }
 
-
-
-/* MOBILE STYLES */
-
-
-/*ALL SMARTPHONE*/
-
-@media only screen
-/* and (min-width: 320px) */
-and (max-width : 736px) {
-
-
-
-
-
+.minas-map {
+  max-width: 100%;
+  display: block;
 }
