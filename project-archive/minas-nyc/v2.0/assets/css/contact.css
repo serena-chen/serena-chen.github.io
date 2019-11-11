@@ -45,5 +45,5 @@ body {
 
 .minas-map {
   max-width: 100%;
-  display: block !important;
+  display: block;
 }
