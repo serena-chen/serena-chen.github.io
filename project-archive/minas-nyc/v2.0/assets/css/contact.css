@@ -21,16 +21,21 @@ body {
 
 
 .google-map__container {
-  filter: grayscale(1);
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
   margin: 0 auto;
-  width: 70%;
+}
+
+iframe {
+  width: 650px;
+  height: 450px;
   background-color: white;
 }
 
 .google-map {
-  max-width: 100%;
   display: block;
   text-align: center;
+  width: 100%;
 }
 
 .gm-style .place-card-large , .gm-inset-light {
@@ -40,7 +45,7 @@ body {
 .minas-map__container {
   width: 40%;
   margin: 0 auto;
-  background-color: blue;
+  margin-top: 60px;
 }
 
 .minas-map {

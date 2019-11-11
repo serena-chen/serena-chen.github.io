@@ -13,6 +13,8 @@ body {
 
 
 .menu-list__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 100%;
 }
@@ -22,12 +24,16 @@ body {
 }
 
 .item {
-  flex: 1;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
   text-align: left;
 }
 
 .item-prices {
-  flex: 1;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
   text-align: right;
 }
 
