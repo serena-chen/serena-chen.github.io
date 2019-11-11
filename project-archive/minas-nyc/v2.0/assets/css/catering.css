@@ -11,42 +11,6 @@ body {
   background-color: #ffaa80;
 }
 
-.main-content-container {
-  width: 100%;
-  margin: 100px 0px 100px 0px;
-  text-align: center;
-  display: flex;
-  align-items: flex-start;
-  flex-wrap: wrap;
-}
-
-.main-content {
-  width: 80%;
-  text-align: center;
-  margin: 0 auto;
-  /* background-color: white;
-  padding: 0px 50px 0px 50px; */
-}
-
-.flex-content-container {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.spacer {
-
-}
-
-.col__1of3 {
-  flex: 0 0 20%;
-  /* background-color: blue; */
-}
-
-.col__2of3 {
-  flex: 0 0 80%;
-  /* background-color: red; */
-}
-
-.prices {
-  text-align: right;
+.catering-text {
+  text-align: center
 }

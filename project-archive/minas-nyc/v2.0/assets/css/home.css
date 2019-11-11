@@ -1,4 +1,4 @@
-/* TEXT STYLES */
+/* MAIN TEXT STYLES */
 
 body , a {
   color: white;
@@ -37,13 +37,12 @@ body , a {
   bottom: 0;
   margin-left: 20px;
   margin-bottom: 20px;
-  font-size: 27px;
 }
 
 input {
   background-color: #ffffff00;
   color: white;
-
+  font-size: 1em !important;
   font-family: 'Fakt Pro Normal', Arial, sans-serif;
   display: block;
   padding: 5px;

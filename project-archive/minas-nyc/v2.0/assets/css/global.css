@@ -47,7 +47,23 @@ body {
   text-align: left;
 }
 
-.main-content-title {
+.main-content__container {
+  width: 100%;
+  margin: 100px 0px 100px 0px;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  font-size: 1em;
+}
+
+.main-content {
+  width: 80%;
+  margin: 0 auto;
+  /* background-color: white; */
+  /* padding: 0px 50px 0px 50px; */
+}
+
+.section-title {
   text-transform: uppercase;
   text-align: center;
 }
@@ -64,7 +80,7 @@ body {
   text-decoration: underline;
 }
 
-.link-container {
+.nav-link__container {
   margin-top: -100px;
 
 }

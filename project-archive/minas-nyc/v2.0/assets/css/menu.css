@@ -1,4 +1,4 @@
-/* CATCH ALL TEXT STYLES */
+/* MAIN TEXT STYLES */
 
 body , a {
   color: black;
@@ -11,49 +11,42 @@ body {
   background-color: #ecffe5;
 }
 
-.main-content-container {
+
+.menu-list__item {
+  display: flex;
   width: 100%;
-  margin: 100px 0px 100px 0px;
+}
+
+.menu-list-drink__section {
   text-align: center;
-  display: flex;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  font-size: 1em;
 }
 
-.main-content {
-  width: 80%;
+.item {
+  flex: 1;
   text-align: left;
-  margin: 0 auto;
-  /* background-color: white; */
-  /* padding: 0px 50px 0px 50px; */
 }
 
-.flex-content-container {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.spacer {
-
-}
-
-.col__1of3 {
-  flex: 0 0 15%;
-
-}
-
-.col__2of3 {
-  flex: 0 0 85%;
-
-}
-
-.prices {
+.item-prices {
+  flex: 1;
   text-align: right;
 }
 
+.drink-item {
+  display: inline-block;
+}
+
+.drink-item:nth-child(2) , .drink-item:nth-child(3) , .drink-item:nth-child(4) {
+  margin-left: 10px;
+}
+
+
 
 /* MENU BULLET SHAPES */
+
+.tab {
+  margin-left: 55px;
+  display: inline-block;
+}
 
 .bullet-circle-regular {
   width: 13px;

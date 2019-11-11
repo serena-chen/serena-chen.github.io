@@ -1,7 +1,11 @@
-/* CATCH ALL TEXT STYLES */
+/* TEXT STYLES */
 
 body , a {
   color: black;
+}
+
+.contact-text {
+  text-align: center;
 }
 
 
@@ -11,63 +15,35 @@ body {
   background-color: #ecffe5;
 }
 
-.main-content-container {
-  width: 100%;
-  margin: 100px 0px 100px 0px;
-  text-align: center;
-  display: flex;
-  align-items: flex-start;
-  flex-wrap: wrap;
-}
-
-.main-content {
-  width: 80%;
-  text-align: center;
-  margin: 0 auto;
-  /* padding: 50px 50px 50px 50px; */
-}
-
-.flex-content-container {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.spacer {
-
-}
-
-.col__1of3 {
-  flex: 0 0 20%;
-  /* background-color: blue; */
-}
-
-.col__2of3 {
-  flex: 0 0 80%;
-  /* background-color: red; */
-}
-
-
-.social-text , .google-map-container {
+.social-text , .google-map__container {
   margin-bottom: 60px;
 }
 
 
-.google-map-container {
+.google-map__container {
   filter: grayscale(1);
-  max-width: 100%;
+  margin: 0 auto;
+  width: 70%;
   background-color: white;
+}
+
+.google-map {
+  max-width: 100%;
+  display: block;
+  text-align: center;
 }
 
 .gm-style .place-card-large , .gm-inset-light {
   display: none !important;
 }
 
-.minas-map-container {
+.minas-map__container {
   width: 40%;
   margin: 0 auto;
+  background-color: red;
 }
 
 .minas-map {
   max-width: 100%;
-  display: block;
+  display: block !important;
 }
