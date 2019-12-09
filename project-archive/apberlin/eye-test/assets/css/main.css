@@ -1,0 +1,635 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+input, textarea, select, a {
+  outline: none;
+}
+
+
+/* Start here */
+
+body {
+  font-family: arial, sans-serif;
+  font-size: 25px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  /* -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none; */
+  background-color: white;
+  color: black;
+}
+
+.hero-info {
+  position: relative;
+  z-index: 999999;
+  color: black;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 2%;
+}
+
+.title {
+  display: block;
+  text-align: center;
+  cursor: pointer;
+}
+
+.menu-link {
+  text-decoration: none;
+  color: black;
+}
+
+.menu-link:hover {
+  text-shadow: 0.1em 0.1em 0.1em rgba(0, 0, 0, 0.3);
+}
+
+
+.animation__container {
+  position: relative;
+  margin: 8% 0 0 0;
+}
+
+.ap-logo__container {
+  display: flex;
+	flex-wrap:wrap;
+  align-items:center;
+  justify-content: center;
+}
+
+.ap-logo {
+  max-width: 35%;
+}
+
+.eye__container {
+  position: absolute;
+  top: 34%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+  z-index: 99999;
+  cursor: pointer;
+}
+
+.eye {
+  z-index: 99999;
+  width: 140px;
+  height: 140px;
+  background: #fff;
+  display: inline-block;
+  margin: 80px;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+}
+
+.eyeball {
+  width: 100px;
+  height: 100px;
+  background: #000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 50%;
+  /* border: 12px solid #333; */
+}
+
+
+
+/* EYE TRANSITIONS */
+
+.squint {
+  height: 40px;
+  transition: all 1s ease-in-out;
+}
+
+.blink {
+  height: 3px;
+  border: 0px;
+  background-color: white;
+}
+
+.eyelid {
+  background-color: black;
+  width: 150px;
+  height: 0px;
+  transition: all .5s ease-in-out;
+}
+
+.pinhole {
+  width: 30px;
+  height: 30px;
+  transition: all .5s ease-in-out;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+  height: 100px;
+  transition: all .5s ease-in-out;
+}
+
+.show2 {
+  display: block;
+  height: 150px;
+  transition: all .5s ease-in-out;
+}
+
+
+/*EMAIL FORM*/
+
+#mc_embed_signup {
+  background-color: #ffffff00;
+  clear: left;
+  width: 100%;
+  position: fixed;
+  z-index: 9999999;
+  bottom: 0;
+  margin-bottom: 2%;
+}
+
+input {
+  background-color: #ffffff00;
+  color: black;
+  font-size: 25px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  display: inline-block;
+  padding: 10px;
+}
+
+::placeholder {
+  color: black;
+}
+
+#mc_embed_signup_scroll {
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+
+#mce-EMAIL {
+  border: none;
+  border-bottom: 2px solid black;
+  border-radius: 0;
+  cursor: text;
+  width: 350px;
+  margin-right: 10px;
+}
+
+#mce-email:focus {
+  outline: none;
+  box-shadow:none;
+}
+
+.clear {
+  display: inline-block;
+}
+
+#mc-embedded-subscribe {
+  border: 2px solid black;
+  border-radius: 0;
+}
+
+#mc-embedded-subscribe:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  transition: .5s;
+}
+
+
+
+
+
+/* MOBILE STYLES */
+
+
+@media only screen
+and (max-width : 1500px) {
+
+.animation__container {
+  position: relative;
+  margin: 10% 0 0 0;
+}
+
+.eye {
+  width: 120px;
+  height: 120px;
+  margin: 70px;
+}
+
+.eyeball {
+  width: 80px;
+  height: 80px;
+}
+
+.squint {
+  height: 30px;
+}
+
+.pinhole {
+  width: 30px;
+  height: 30px;
+  transition: all .5s ease-in-out;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+  height: 80px;
+  transition: all .5s ease-in-out;
+}
+
+
+}
+
+
+
+
+@media only screen
+and (max-width : 1330px) {
+
+.animation__container {
+  position: relative;
+  margin: 14% 0 0;
+}
+
+.eye {
+  width: 100px;
+  height: 100px;
+  margin: 60px;
+}
+
+.eyeball {
+  width: 60px;
+  height: 60px;
+}
+
+.squint {
+  height: 35px;
+}
+
+.pinhole {
+  width: 30px;
+  height: 30px;
+  transition: all .5s ease-in-out;
+}
+
+.show {
+  display: block;
+  height: 70px;
+  transition: all .5s ease-in-out;
+}
+
+
+
+}
+
+
+
+
+@media only screen
+and (max-width : 1150px) {
+
+#mc_embed_signup {
+  margin-bottom: 5%;
+}
+
+.hero-info {
+  margin-top: 5%;
+}
+
+.animation__container {
+  position: relative;
+  margin: 16% 0 0 0;
+}
+
+.eye {
+  width: 90px;
+  height: 90px;
+  margin: 55px;
+}
+
+.eyeball {
+  width: 45px;
+  height: 45px;
+}
+
+.squint {
+  height: 35px;
+}
+
+.pinhole {
+  width: 25px;
+  height: 25px;
+  transition: all .5s ease-in-out;
+}
+
+.show {
+  display: block;
+  height: 60px;
+  transition: all .5s ease-in-out;
+}
+
+
+
+}
+
+
+
+
+@media only screen
+and (max-width : 1020px) {
+
+.animation__container {
+  position: relative;
+  margin: 20% 0 0 0;
+}
+
+.eye {
+  margin: 45px;
+}
+
+}
+
+
+
+@media only screen
+and (max-width : 970px) {
+
+.eye {
+  width: 80px;
+  height: 80px;
+  margin: 45px;
+}
+
+.eyeball {
+  width: 40px;
+  height: 40px;
+}
+
+
+.squint {
+  height: 30px;
+}
+
+.pinhole {
+  width: 18px;
+  height: 18px;
+  transition: all .5s ease-in-out;
+}
+
+
+
+}
+
+
+
+@media only screen
+and (max-width : 900px) {
+
+.animation__container {
+  position: relative;
+  margin: 24% 0 0 0;
+}
+
+.eye {
+  width: 80px;
+  height: 80px;
+  margin: 40px;
+}
+
+.squint {
+  height: 30px;
+}
+
+}
+
+
+
+@media only screen
+and (max-width : 840px) {
+
+.eye {
+  width: 65px;
+  height: 65px;
+  margin: 40px;
+}
+
+.eyeball {
+  width: 30px;
+  height: 30px;
+}
+
+.squint {
+  height: 20px;
+}
+
+.pinhole {
+  width: 15px;
+  height: 15px;
+  transition: all .5s ease-in-out;
+}
+
+.show {
+  display: block;
+  height: 45px;
+  transition: all .5s ease-in-out;
+}
+
+
+}
+
+
+
+@media only screen
+and (max-width : 767px) {
+
+.eye {
+  width: 65px;
+  height: 65px;
+  margin: 33px;
+}
+
+.squint {
+  height: 20px;
+}
+
+
+}
+
+
+/*ALL SMARTPHONE*/
+
+
+@media only screen
+/* and (min-width: 320px) */
+and (max-width : 736px) {
+
+
+body , input {
+  font-size: .9em;
+}
+
+.clear {
+  display: block;
+  margin-top: 10px;
+}
+
+#mce-EMAIL {
+  margin-right: 0;
+}
+
+.animation__container {
+  position: relative;
+  margin: 32% 0 0 0;
+}
+
+.ap-logo {
+  max-width: 50%;
+}
+
+.eye {
+  width: 80px;
+  height: 80px;
+  margin: 45px;
+}
+
+.eyeball {
+  width: 45px;
+  height: 45px;
+}
+
+.squint {
+  height: 30px;
+}
+
+.pinhole {
+  width: 20px;
+  height: 20px;
+  transition: all .5s ease-in-out;
+}
+
+.show {
+  display: block;
+  height: 50px;
+  transition: all .5s ease-in-out;
+}
+
+
+}
+
+
+
+@media only screen
+and (max-width : 645px) {
+
+.animation__container {
+  position: relative;
+  margin: 40% 0 0 0;
+}
+
+.eye {
+  margin: 40px;
+}
+
+.squint {
+  height: 20px;
+}
+
+
+}
+
+
+
+
+@media only screen
+and (max-width : 580px) {
+
+.animation__container {
+  position: relative;
+  margin: 45% 0 0 0;
+}
+
+.eye {
+  width: 70px;
+  height: 70px;
+  margin: 35px;
+}
+
+.eyeball {
+  width: 50px;
+  height: 50px;
+}
+
+.squint {
+  height: 20px;
+}
+
+.pinhole {
+  width: 18px;
+  height: 18px;
+  transition: all .5s ease-in-out;
+}
+
+.show {
+  display: block;
+  height: 50px;
+  transition: all .5s ease-in-out;
+}
+
+
+}
+
+
+
+@media only screen
+and (max-width : 530px) {
+
+.animation__container {
+  position: relative;
+  margin: 50% 0 0 0;
+}
+
+.eye {
+  width: 60px;
+  height: 60px;
+  margin: 35px;
+}
+
+.eyeball {
+  width: 40px;
+  height: 40px;
+}
+
+.squint {
+  height: 20px;
+}
+
+.pinhole {
+  width: 18px;
+  height: 18px;
+  transition: all .5s ease-in-out;
+}
+
+.show {
+  display: block;
+  height: 40px;
+  transition: all .5s ease-in-out;
+}
+
+
+}
