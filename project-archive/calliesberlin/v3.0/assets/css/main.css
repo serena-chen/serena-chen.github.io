@@ -13,7 +13,7 @@ input, textarea, select, a {
 /* Start here */
 
 body {
-  height: 3000px;
+
   font-family: arial, sans-serif;
   font-size: 25px;
   overflow-y: scroll;
@@ -21,7 +21,7 @@ body {
   /* -webkit-touch-callout: none;
   -webkit-user-select: none;
   user-select: none; */
-  background-color: #B3B3E6;
+  background-color: white;
   color: white;
 }
 
@@ -71,6 +71,19 @@ body {
   /* margin: -75px 0 0 -75px; */
 }
 
+
+
+#set-height {
+  display: block;
+}
+
+
+#v0 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 50%;
+}
 
 
 

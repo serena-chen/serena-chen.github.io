@@ -66,7 +66,7 @@ $(document).ready(function() {
     // What % down is it?
     // https://stackoverflow.com/questions/2387136/cross-browser-method-to-determine-vertical-scroll-percentage-in-javascript/2387222#2387222
     // Had to try three or four differnet methods here. Kind of a cross-browser nightmare.
-    var scrollPercentage2 = (document.documentElement.scrollHeight - document.documentElement.clientHeight);
+    var scrollPercentage2 = (document.documentElement.scrollTop + document.body.scrollTop) / (document.documentElement.scrollHeight - document.documentElement.clientHeight);
 
     // Length to offset the dashes
     var drawLength2 = pathLength2 * scrollPercentage2;
@@ -76,7 +76,7 @@ $(document).ready(function() {
 
     // When complete, remove the dash array, otherwise shape isn't quite sharp
    // Accounts for fuzzy math
-    if (scrollPercentage2 >= 0.99) {
+    if (scrollPercentage2 >= 3000) {
       path2.style.strokeDasharray = "none";
 
     } else {
@@ -84,6 +84,7 @@ $(document).ready(function() {
     }
 
   });
+
 
 
 
