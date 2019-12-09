@@ -76,7 +76,7 @@ $(document).ready(function() {
 
     // When complete, remove the dash array, otherwise shape isn't quite sharp
    // Accounts for fuzzy math
-    if (scrollPercentage2 >= 3000) {
+    if (scrollPercentage2 >= 0.99) {
       path2.style.strokeDasharray = "none";
 
     } else {
@@ -86,6 +86,48 @@ $(document).ready(function() {
   });
 
 
+
+
+  // Get a reference to the <path>
+  var path3 = document.querySelector('#freepath3');
+
+  // Get length of path... ~577px in this case
+  var pathLength3 = path3.getTotalLength();
+
+  // Make very long dashes (the length of the path itself)
+  path3.style.strokeDasharray = pathLength3 + ' ' + pathLength3;
+
+  // Offset the dashes so the it appears hidden entirely
+  path3.style.strokeDashoffset = pathLength3;
+
+  // Jake Archibald says so
+  // https://jakearchibald.com/2013/animated-line-drawing-svg/
+  path3.getBoundingClientRect();
+
+  // When the page scrolls...
+  window.addEventListener("scroll", function(e) {
+
+    // What % down is it?
+    // https://stackoverflow.com/questions/2387136/cross-browser-method-to-determine-vertical-scroll-percentage-in-javascript/2387222#2387222
+    // Had to try three or four differnet methods here. Kind of a cross-browser nightmare.
+    var scrollPercentage3 = (document.documentElement.scrollTop + document.body.scrollTop) / (document.documentElement.scrollHeight - document.documentElement.clientHeight);
+
+    // Length to offset the dashes
+    var drawLength3 = pathLength3 * scrollPercentage3;
+
+    // Draw in reverse
+    path3.style.strokeDashoffset = pathLength3 - drawLength3;
+
+    // When complete, remove the dash array, otherwise shape isn't quite sharp
+   // Accounts for fuzzy math
+    if (scrollPercentage3 >= 0.99) {
+      path2.style.strokeDasharray = "none";
+
+    } else {
+      path3.style.strokeDasharray = pathLength3 + ' ' + pathLength3;
+    }
+
+  });
 
 
 
