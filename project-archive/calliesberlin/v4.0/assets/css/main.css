@@ -57,34 +57,46 @@ body {
   padding-bottom: 20px;
 }
 
-.logo-images {
-  width: 15%;
+
+
+.aniScrollContainer {
+    position: relative;
+    height: 1000px;
+}
+
+.aniScrollContainer img.animated {
+    position: fixed;
+    display: none;
+    top: 0;
+    left: 0;
+    height:40%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 2000px;
+}
+
+.myAniScrollContainer200 {
+    height:200px;
 }
 
 
-#Layer_1 , #Layer_2 , #Layer_3 {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  width: 400px;
-  height: 400px;
-  /* margin: -75px 0 0 -75px; */
+#header {
+    display: block;
+    height: 200px;
+    width: 100%;
 }
 
 
+/* #footer {
+    display: block;
+    height: 2000px;
+    width: 100%;
+    background-color:blue;
+} */
 
-#set-height {
-  display: block;
-  height: 2000px;
-}
-
-
-#v0 {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 50%;
-}
 
 
 
