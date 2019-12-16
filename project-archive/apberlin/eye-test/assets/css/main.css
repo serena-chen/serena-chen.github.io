@@ -121,6 +121,10 @@ body {
   transition: all .5s ease-in-out;
 }
 
+/* .left-eyelid , .right-eyelid {
+  transition: all .2s ease-in-out;
+} */
+
 .pinhole {
   width: 30px;
   height: 30px;
@@ -137,10 +141,52 @@ body {
   transition: all .5s ease-in-out;
 }
 
-.show2 {
+/* .show2 {
   display: block;
   height: 150px;
-  transition: all .5s ease-in-out;
+  transition: all .2s ease-in-out;
+} */
+
+@keyframes wink {
+	0%   {
+		height:0px;
+	}
+
+  30%   {
+		height:150px;
+	}
+
+  50%   {
+    height:150px;
+  }
+
+  70%   {
+    height:150px;
+  }
+
+	100% {
+		height:0px;
+	}
+}
+
+
+.show2 {
+	animation-name: wink;
+	-moz-animation-name: wink;
+	-webkit-animation-name: wink;
+
+	animation-duration: .6s;
+	-moz-animation-duration: .6s;
+	-webkit-animation-duration: .6s;
+
+	animation-timing-function: linear;
+	-moz-animation-timing-function: linear;
+	-webkit-animation-timing-function: linear;
+
+	animation-iteration-count: 1;
+	-moz-animation-iteration-count: 1;
+	-webkit-animation-iteration-count: 1;
+
 }
 
 

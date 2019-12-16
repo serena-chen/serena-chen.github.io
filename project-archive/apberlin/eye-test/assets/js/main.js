@@ -22,8 +22,6 @@ $(document).ready(function() {
 
 $('.eye__container , .title').click(function() {
       $('.eye').toggleClass('squint');
-
-
 });
 
 
