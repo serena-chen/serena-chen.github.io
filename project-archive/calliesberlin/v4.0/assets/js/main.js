@@ -4,7 +4,7 @@
 
         var defaults = {
 
-            percentageToBeVisible: 25
+            percentageToBeVisible: 1
 
         }
 
