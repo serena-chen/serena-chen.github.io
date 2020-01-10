@@ -189,7 +189,7 @@ body {
 
 .a-dot4 {
   left: 45.2%;
-  top: -5%;
+  top: 4%;
   -webkit-animation: color-a-dot4 20s infinite alternate;
 }
 
@@ -286,68 +286,68 @@ body {
   }
 
   50% {
-    background-color:blue;
+    background-color:#1c72ff;
   }
 
   75% {
-    background-color:green;
+    background-color:#1c6638;
   }
 
 }
 
 @-webkit-keyframes color-p-dot1 {
   0%, 100% {
-    background-color:peachpuff;
+    background-color:#ec8c00;
   }
 
   25% {
-    background-color:grey;
+    background-color:#a09932;
   }
 
   50% {
-    background-color:purple;
+    background-color:#a04200;
   }
 
   75% {
-    background-color:pink;
+    background-color:#b48f99;
   }
 
 }
 
 @-webkit-keyframes color-a-dot2 {
   0%, 100% {
-    background-color:pink;
+    background-color:#b4b50c;
   }
 
   25% {
-    background-color:green;
+    background-color:#398ce1;
   }
 
   50% {
-    background-color:red;
+    background-color:#391805;
   }
 
   75% {
-    background-color:purple;
+    background-color:#e07543;
   }
 
 }
 
 @-webkit-keyframes color-p-dot2 {
   0%, 100% {
-    background-color:orange;
+    background-color:#e0ab84;
   }
 
   25% {
-    background-color:yellow;
+    background-color:#3b3900;
   }
 
   50% {
-    background-color:blue;
+    background-color:#3b191c;
   }
 
   75% {
-    background-color:brown;
+    background-color:#3b5272;
   }
 
 }
@@ -355,114 +355,114 @@ body {
 
 @-webkit-keyframes color-a-dot3 {
   0%, 100% {
-    background-color:white;
+    background-color:#1c40ff;
   }
 
   25% {
-    background-color:navy;
+    background-color:#eacf8d;
   }
 
   50% {
-    background-color:purple;
+    background-color:#ea5337;
   }
 
   75% {
-    background-color:pink;
+    background-color:#405337;
   }
 
 }
 
 @-webkit-keyframes color-p-dot3 {
   0%, 100% {
-    background-color:green;
+    background-color:#ffff3b;
   }
 
   25% {
-    background-color:yellow;
+    background-color:#ffba66;
   }
 
   50% {
-    background-color:peachpuff;
+    background-color:#3c3226;
   }
 
   75% {
-    background-color:red;
+    background-color:#793226;
   }
 
 }
 
 @-webkit-keyframes color-a-dot4 {
   0%, 100% {
-    background-color:lightblue;
+    background-color:#795f00;
   }
 
   25% {
-    background-color:brown;
+    background-color:#798656;
   }
 
   50% {
-    background-color:pink;
+    background-color:#3b8ad2;
   }
 
   75% {
-    background-color:green;
+    background-color:#3b6300;
   }
 
 }
 
 @-webkit-keyframes color-p-dot4 {
   0%, 100% {
-    background-color:brown;
+    background-color:#3b3b2b;
   }
 
   25% {
-    background-color:orange;
+    background-color:#dfa263;
   }
 
   50% {
-    background-color:peachpuff;
+    background-color:#df2b02;
   }
 
   75% {
-    background-color:yellow;
+    background-color:#2b2b02;
   }
 
 }
 
 @-webkit-keyframes color-a-dot5 {
   0%, 100% {
-    background-color:navy;
+    background-color:#2b4019;
   }
 
   25% {
-    background-color:green;
+    background-color:#fed886;
   }
 
   50% {
-    background-color:purple;
+    background-color:#2f8f1c;
   }
 
   75% {
-    background-color:pink;
+    background-color:#c12e2e;
   }
 
 }
 
 @-webkit-keyframes color-p-dot5 {
   0%, 100% {
-    background-color:yellow;
+    background-color:#c1cb84;
   }
 
   25% {
-    background-color:grey;
+    background-color:#527b8a;
   }
 
   50% {
-    background-color:lightpink;
+    background-color:#c18523;
   }
 
   75% {
-    background-color:lightblue;
+    background-color:#522e00;
   }
 
 }
@@ -586,6 +586,23 @@ and (max-width : 1330px) {
   height: 65px;
 }
 
+.a-dot1 {
+  left: 44%;
+}
+
+.a-dot3 {
+  left: 27%;
+  top: 67%;
+}
+
+.a-dot4 {
+  left: 44%;
+}
+
+.p-dot4 {
+  left: 73%;
+}
+
 }
 
 
@@ -621,7 +638,7 @@ and (max-width : 1150px) {
 and (max-width : 1050px) {
 
 .animation__container {
-  margin: 24% 0 0 0;
+  margin: 22% 0 0 0;
 }
 
 .ap-logo__container {
@@ -635,6 +652,39 @@ and (max-width : 1050px) {
 .dot {
   width: 65px;
   height: 65px;
+}
+
+.a-dot1 {
+  left: 42%;
+  top: 78%;
+}
+
+.a-dot2 {
+  left: 33%;
+  top: 80%;
+}
+
+.a-dot3 {
+  left: 16%;
+  top: 71%;
+}
+
+.p-dot1 {
+  left: 53%;
+  top: 100%;
+}
+
+.p-dot3 {
+  left: 82%;
+  top: 25%;
+}
+
+.p-dot4 {
+  left: 80%;
+}
+
+.p-dot5 {
+  left: 53%;
 }
 
 .header-content__container {
@@ -677,6 +727,19 @@ and (max-width : 840px) {
     width: 55px;
     height: 55px;
   }
+
+  .a-dot1 {
+    top: 73%;
+  }
+
+  .a-dot2 {
+    top: 77%;
+  }
+
+  .p-dot1 {
+    top: 98%;
+  }
+
 }
 
 @media only screen
@@ -685,12 +748,65 @@ and (max-width : 767px) {
 }
 
 
-/*ALL SMARTPHONE*/
+@media only screen
+and (max-width : 736px)
+and (orientation : landscape) {
+
+  body , input {
+    font-size: .9em;
+  }
+
+  .animation__container {
+    margin: 9% 0 0 0;
+  }
+
+  .ap-logo__container {
+    max-width: 40%;
+  }
+
+  .dot {
+    width: 40px;
+    height: 40px;
+  }
+
+  .a-dot1 {
+    left: 39%;
+  }
+
+  .a-dot3 {
+    top: 50%;
+  }
+
+  .a-dot4 {
+    left: 43.5%;
+  }
+
+  .a-dot5 {
+    left: 22%;
+  }
+
+  .p-dot1 {
+    top: 89%;
+  }
+
+  .p-dot2 {
+    left: 60%;
+    top: 81%;
+  }
+
+  .p-dot5 {
+    left: 52%;
+    top: -21%;
+  }
+
+}
+
 
 
 @media only screen
 /* and (min-width: 320px) */
-and (max-width : 736px) {
+and (max-width : 736px)
+and (orientation : portrait) {
 
 
 body , input {
@@ -699,7 +815,7 @@ body , input {
 
 .clear {
   display: block;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 .header-content__container {
@@ -727,6 +843,10 @@ body , input {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+}
+
+#mce-EMAIL {
+  margin-right: 0px;
 }
 
 .opening, .email {
@@ -757,6 +877,34 @@ body , input {
   height: 60px;
 }
 
+.a-dot1 {
+  left: 40%;
+  top: 70%;
+}
+
+.a-dot2 {
+  top: 73%;
+}
+
+.a-dot4 {
+  left: 39%;
+  top: 10%;
+}
+
+.p-dot2 {
+  left: 65%;
+  top: 77%;
+}
+
+.p-dot3 {
+  left: 89%;
+  top: 18%;
+}
+
+.p-dot4 {
+  left: 87%;
+}
+
 }
 
 
@@ -782,6 +930,25 @@ and (max-width : 600px) {
 
 .animation__container {
   margin: 41% 0 0 0;
+}
+
+.dot {
+  width: 45px;
+  height: 45px;
+}
+
+.p-dot1 {
+  top: 87%;
+}
+
+}
+
+
+@media only screen
+and (max-width : 450px) {
+
+.animation__container {
+  margin: 35% 0 0 0;
 }
 
 .dot {
