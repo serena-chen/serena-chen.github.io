@@ -752,8 +752,8 @@ and (max-width : 767px) {
 and (max-width : 736px)
 and (orientation : landscape) {
 
-  body , input , p {
-    font-size: .9em;
+  html, body , input , p {
+    font-size: .9em !important;
   }
 
   .animation__container {
@@ -765,8 +765,8 @@ and (orientation : landscape) {
   }
 
   .dot {
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
   }
 
   .a-dot1 {
@@ -810,8 +810,8 @@ and (max-width : 736px)
 and (orientation : portrait) {
 
 
-body , input , p {
-  font-size: .9em;
+html, body , input , p {
+  font-size: .9em !important;
 }
 
 .clear {
@@ -970,8 +970,8 @@ and (max-width : 450px) {
 }
 
 .dot {
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
 }
 
 }
