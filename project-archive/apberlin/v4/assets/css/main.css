@@ -748,7 +748,7 @@ and (max-width : 767px) {
 and (max-width : 736px)
 and (orientation : landscape) {
 
-  html , body , input {
+  html , body , input , .address {
     font-size: 14px;
   }
 
