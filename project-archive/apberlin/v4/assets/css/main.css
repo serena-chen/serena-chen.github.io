@@ -748,8 +748,8 @@ and (max-width : 767px) {
 and (max-width : 736px)
 and (orientation : landscape) {
 
-  html, body , input , p , .header-item , .footer-item , .social {
-    font-size: .9em !important;
+  html , body , input {
+    font-size: 14px;
   }
 
   .animation__container {
@@ -805,10 +805,14 @@ and (orientation : landscape) {
 and (max-width : 736px)
 and (orientation : portrait) {
 
-
-  html, body , input , p , .header-item , .footer-item , .social {
-    font-size: .9em !important;
+  html , body , input {
+    font-size: 14px;
   }
+
+
+  /* input , p , .header-item, .header-item--right , .footer-item, .footer-item--left , .social {
+    font-size: .9em !important;
+  } */
 
 .clear {
   display: block;
@@ -871,7 +875,6 @@ and (orientation : portrait) {
 
 #dot__container {
   height: 60%;
-  background-color: red;
 }
 
 .dot {
