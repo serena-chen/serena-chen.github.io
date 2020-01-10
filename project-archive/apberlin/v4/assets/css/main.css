@@ -779,6 +779,7 @@ and (orientation : landscape) {
 
   .a-dot4 {
     left: 43.5%;
+    top: -9%;
   }
 
   .a-dot5 {
@@ -786,7 +787,7 @@ and (orientation : landscape) {
   }
 
   .p-dot1 {
-    top: 89%;
+    top: 94%;
   }
 
   .p-dot2 {
