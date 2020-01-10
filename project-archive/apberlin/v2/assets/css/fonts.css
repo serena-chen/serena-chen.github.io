@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Futura';
+    src: url('../fonts/Futura-Medium.woff2') format('woff2'),
+        url('../fonts/Futura-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* @font-face {
+    font-family: 'Futura Std';
+    src: url('../fonts/FuturaStd-Medium.woff2') format('woff2'),
+        url('../fonts/FuturaStd-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+} */

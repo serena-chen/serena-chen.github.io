@@ -1,0 +1,54 @@
+/* TEXT STYLES */
+
+body , a {
+  color: black;
+}
+
+.contact-text {
+  text-align: center;
+}
+
+
+/* STRUCTURE */
+
+body {
+  background-color: #ecffe5;
+}
+
+.social-text {
+  margin-bottom: 60px;
+}
+
+
+.google-map__container {
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+  margin: 0 auto;
+}
+
+iframe {
+  width: 650px;
+  height: 450px;
+  background-color: white;
+}
+
+.google-map {
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+
+.gm-style .place-card-large , .gm-inset-light {
+  display: none !important;
+}
+
+.minas-map__container {
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.minas-map {
+  max-width: 101%;
+  display: block;
+}

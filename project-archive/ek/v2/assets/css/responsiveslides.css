@@ -1,0 +1,97 @@
+/*! http://responsiveslides.com v1.55 by @viljamis */
+
+
+.image-container {
+  position:relative;
+  background-size:cover;
+  background-repeat:no-repeat;
+  height:100vh;
+  width:100vw;
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.image-item1 {
+  background-image:url("../images/ek_1.jpg");
+}
+
+.image-item2 {
+  background-image:url("../images/ek_4.jpg");
+}
+
+.image-item3 {
+  background-image:url("../images/ek_2.jpg");
+}
+
+.image-item4 {
+  background-image:url("../images/ek_3.jpg");
+}
+
+
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  position: relative;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
+
+
+/* MOBILE STYLES */
+
+
+/*ALL SMARTPHONE*/
+
+@media only screen
+and (min-width: 320px)
+and (max-width : 736px) {
+
+
+body {
+  font-size: 1.3em;
+}
+
+
+
+}
+
+
+/*ALL SMARTPHONE -portrait*/
+
+@media only screen
+and (min-width: 320px)
+and (max-width : 736px)
+and (orientation: portrait) {
+
+  .image-item2 {
+    object-fit: none;
+    object-position: -20% 50%;
+  }
+
+}
