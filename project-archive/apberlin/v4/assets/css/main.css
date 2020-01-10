@@ -752,7 +752,7 @@ and (max-width : 767px) {
 and (max-width : 736px)
 and (orientation : landscape) {
 
-  body , input {
+  body , input , p {
     font-size: .9em;
   }
 
@@ -810,7 +810,7 @@ and (max-width : 736px)
 and (orientation : portrait) {
 
 
-body , input {
+body , input , p {
   font-size: .9em;
 }
 
@@ -949,7 +949,7 @@ and (max-width : 600px) {
 and (max-width : 450px) {
 
 .animation__container {
-  margin: 35% 0 0 0;
+  margin: 20% 0 0 0;
 }
 
 .dot {
