@@ -884,12 +884,25 @@ body , input , p {
 }
 
 .a-dot2 {
-  top: 73%;
+  top: 68%;
+}
+
+.a-dot3 {
+  left: 13%;
+  top: 63%;
 }
 
 .a-dot4 {
   left: 39%;
-  top: 10%;
+  top: 0%;
+}
+
+.a-dot5 {
+  top: -2%;
+}
+
+.p-dot1 {
+  top: 78%;
 }
 
 .p-dot2 {
@@ -904,6 +917,10 @@ body , input , p {
 
 .p-dot4 {
   left: 87%;
+}
+
+.p-dot5 {
+  top: -1%;
 }
 
 }
