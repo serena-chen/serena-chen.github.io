@@ -645,10 +645,6 @@ and (max-width : 1050px) {
   width: 55%;
 }
 
-#dot__container {
-  height: 60%
-}
-
 .dot {
   width: 65px;
   height: 65px;
@@ -873,6 +869,11 @@ and (orientation : portrait) {
   max-width: 70%;
 }
 
+#dot__container {
+  height: 60%;
+  background-color: red;
+}
+
 .dot {
   width: 60px;
   height: 60px;
@@ -956,7 +957,7 @@ and (max-width : 600px) {
 }
 
 .p-dot1 {
-  top: 87%;
+  top: 75%;
 }
 
 }
