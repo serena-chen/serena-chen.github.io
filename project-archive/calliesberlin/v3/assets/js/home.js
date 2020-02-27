@@ -1,30 +1,77 @@
 $(document).ready(function() {
 
 
-var frameNumber = 0, // start video at frame 0
-      // lower numbers = faster playback
-      playbackConst = 1000,
-      // get page height from video duration
-      setHeight = document.getElementById("set-height"),
-      // select video element
-      vid = document.getElementById('v0');
-      // var vid = $('#v0')[0]; // jquery option
+  var myIndex = 0;
+  carousel();
 
-  // dynamically set the page height according to video length
-  vid.addEventListener('loadedmetadata', function() {
-    setHeight.style.height = Math.floor(vid.duration) * playbackConst + "px";
-  });
-
-
-  // Use requestAnimationFrame for smooth playback
-  function scrollPlay(){
-    var frameNumber  = window.pageYOffset/playbackConst;
-    vid.currentTime  = frameNumber;
-    window.requestAnimationFrame(scrollPlay);
+  function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+         x[i].style.display = "none";
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}
+      x[myIndex-1].style.display = "block";
+      setTimeout(carousel, 3000); // Change image every 2 seconds
   }
 
-  window.requestAnimationFrame(scrollPlay);
 
+// Add jQuery here
+
+$("#happydays").get(0).play();
+
+// Video container
+var video = document.getElementById('happydays');
+
+// Unmute Button
+var unmuteButton = document.getElementById('unmute');
+
+
+// Adding event listener for the 'Mute' button
+unmuteButton.addEventListener('click', function() {
+  if(video.muted === true) {
+    // unMute the video
+    video.muted = false;
+
+    // Update the text of the button
+    this.innerHTML = 'Sound Off';
+  } else {
+    // Mute the video
+    video.muted = true;
+
+    // Update the text of the button
+    this.innerHTML = 'Sound On';
+  }
+});
+
+
+
+// // Mute/Unmute video by clicking on it
+// video.addEventListener('click', function() {
+//   if(video.muted === true) {
+//     video.muted = false;
+//   } else {
+//     video.muted = true;
+//   }
+// });
+
+
+
+
+    // $("#audio").get(0).play();
+    //
+    //
+    //
+    //
+    // $(".happydays").click(function(){
+    //     $("#audio").get(0).muted();
+    //     $(".happydays").get(0).pause();
+    // });
+
+    // $(".happydays").click(function(){
+    //     $(".happydays").removeAttr("muted");
+    // });
 
 
 

@@ -1,0 +1,105 @@
+/* MAIN TEXT STYLES */
+
+body , a {
+  color: white;
+}
+
+
+/* VIDEO BGS */
+
+.desktop-background , .mobile-background {
+  height:100vh;
+  width:100vw;
+  position: fixed;
+}
+
+
+.desktop-background video , .mobile-background video {
+  width:100%;
+  height:100%;
+  -o-object-fit:cover;
+     object-fit:cover;
+}
+
+.mobile-background {
+  display: none;
+}
+
+
+
+/*EMAIL FORM*/
+
+#mc_embed_signup {
+  background-color: #ffffff00;
+  clear: left;
+  width: 100%;
+  position: fixed;
+  z-index: 9999999;
+  bottom: 0;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+input {
+  background-color: #ffffff00;
+  color: white;
+  font-size: 1em !important;
+  font-family: 'Fakt Pro Normal', Arial, sans-serif;
+  display: block;
+  padding: 5px;
+}
+
+::-webkit-input-placeholder {
+  color: white;
+}
+
+::-moz-placeholder {
+  color: white;
+}
+
+:-ms-input-placeholder {
+  color: white;
+}
+
+::-ms-input-placeholder {
+  color: white;
+}
+
+::placeholder {
+  color: white;
+}
+
+#mc_embed_signup_scroll {
+  font-family: 'Fakt Pro Normal', Arial, sans-serif;
+  margin: 0 auto;
+  display: block;
+}
+
+#mce-EMAIL {
+  border: none;
+  border-bottom: 2px solid white;
+  border-radius: 0;
+  cursor: text;
+  width: 200px;
+}
+
+#mce-email:focus {
+  outline: none;
+  -webkit-box-shadow:none;
+          box-shadow:none;
+}
+
+.clear {
+  display: inline-block;
+}
+
+#mc-embedded-subscribe {
+  margin-top: 15px;
+  border: 2px solid white;
+  border-radius: 0;
+}
+
+#mc-embedded-subscribe:hover {
+  font-style: italic;
+  cursor: pointer;
+}

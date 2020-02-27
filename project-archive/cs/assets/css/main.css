@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+
+
+
+/* CATCH ALL */
+
+body {
+  background-color: black;
+  color: white;
+  font-family: baskerville , times, serif;
+  font-size: 25px;
+  line-height: 1.2;
+}
+
+a , span {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+a:hover , span:hover {
+  /* color: orange;
+  text-decoration: overline; */
+  /* transition: .5s ease-in-out; */
+  background-color: orange;
+}
+
+.project-text-link {
+  margin-bottom: 25px;
+}
+
+.nav-link , .project-title , .about-item--left {
+  font-family: 'Arial Monospaced MT' , arial, helvetica, sans-serif;
+  text-transform: uppercase !important;
+  font-size: .75em;
+}
+
+.header-content__container , .popup__container--about , .main-content__container {
+  padding: 25px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+/* HEADER */
+
+.header-content__container {
+  background-color: black;
+  border-bottom: 1.2px solid white;
+  position: fixed;
+}
+
+.header-item--right .nav-link {
+  margin-left: 20px;
+}
+
+.flex-item--left {
+  text-align: left;
+}
+
+.flex-item--right {
+  text-align: right;
+}
+
+.header-item--left {
+  flex: 0 0 25%;
+}
+
+.header-item--right {
+  flex: 0 0 75%;
+}
+
+.about-item--left {
+  flex: 0 0 65%;
+}
+
+.about-item--right {
+  flex: 0 0 35%;
+}
+
+
+.popup__container--about a , .popup__container--about span {
+  color: black;
+}
+
+.popup__container--about {
+  background-color: white;
+  color: black;
+  font-family: 'Arial Monospaced MT' , arial, helvetica, sans-serif;
+  text-transform: uppercase;
+  height: 920px;
+  display: none;
+  z-index: 99999;
+}
+
+.showme {
+  display: inline-flex;
+}
+
+.hideme {
+  display: none;
+}
+
+
+/* MAIN CONTENT - EXHIBTIONS */
+
+.main-content__container {
+  margin-top: 120px;
+  position: absolute;
+  z-index: -1
+}
+
+.main.flex-item--left {
+  flex: 0 0 63%;
+}
