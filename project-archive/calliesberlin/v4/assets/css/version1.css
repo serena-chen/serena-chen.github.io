@@ -12,6 +12,10 @@ input, textarea, select, a {
 
 
 /* Start here */
+html, body, .mid-content__container {
+  cursor: url('../images/arrow.png'),s-resize !important;
+}
+
 
 body {
   font-family: 'Arial Monospaced MT', arial, helvetica, sans-serif;
@@ -38,8 +42,13 @@ body {
 
 .header-content__container , .footer-content__container {
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   position: fixed;
 }
 
@@ -56,35 +65,46 @@ body {
 .footer-item--left {
   text-align: left;
   padding-left: 25px;
-  flex: 0 0 35%;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 35%;
+          flex: 0 0 35%;
 }
 
 .header-item--center {
   text-align: center;
-  flex: 0 0 100%;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
 }
 
 .footer-item--center {
   text-align: center;
-  flex: 0 0 30%;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 30%;
+          flex: 0 0 30%;
 }
 
 .footer-item--right {
   text-align: right;
   padding-right: 25px;
-  flex: 0 0 35%;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 35%;
+          flex: 0 0 35%;
 }
 
 .footer-item {
-  align-self:flex-end;
+  -ms-flex-item-align:end;
+      align-self:flex-end;
 }
 
-.for-mobile.header-content__container , .for-mobile.footer-content__container {
+.for-mobile.header-content__container , .for-mobile.footer-content__container , .for-mobile.mid-section__container {
   display: none;
 }
 
 .for-mobile .footer-item--left , .for-mobile .footer-item--right {
-  flex: 0 0 50%;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
 }
 
 
@@ -92,6 +112,7 @@ body {
   position: relative;
   margin: 4% 0 0 0;
   pointer-events: none;
+  cursor: url('.assets/images/cursor.png'), auto;
 }
 
 .callies-logo__container {
@@ -113,6 +134,7 @@ body {
   max-width: 55%;
 }
 
+
 .aniScrollContainer {
     position: relative;
     height: 1000px;
@@ -122,6 +144,15 @@ body {
     position: fixed;
     display: none;
     width: 100%;
+}
+
+.for-mobile.mid-section__container {
+  margin: 30% 0 0 0;
+}
+
+.mobile-logo.callies-logo {
+  max-width: 85%;
+  margin: 0px 0 0 0;
 }
 
 /*EMAIL FORM*/
@@ -252,6 +283,8 @@ and (max-width : 970px) {
 }
 
 .for-mobile.header-content__container , .for-mobile.footer-content__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -296,19 +329,31 @@ and (max-width : 767px) {
 /* and (min-width: 320px) */
 and (max-width : 736px) {
 
+body {
+  height: inherit;
+}
+
+body , html , .mid-content__container {
+  cursor: auto;
+}
 
 body , input {
   font-size: 16px;
 }
 
 .for-mobile.footer-content__container {
-  flex-direction: column-reverse;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
 }
 
 .for-mobile .footer-item {
   width: 100%;
   text-align: center;
-  flex: 0 0 100%;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
   padding-left: 0;
   padding-right: 0;
 }
@@ -335,16 +380,25 @@ input {
   max-width: 75%;
 }
 
+.not-mobile.mid-section__container {
+  display: none !important;
+}
+
+.for-mobile.mid-section__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 }
 
 
 @media only screen
 and (max-width : 645px) {
-
-.mid-section__container {
-  position: relative;
-  margin: 9% 0 0 0;
-}
+  .mobile-logo.callies-logo {
+    margin: 80px 0 0 0;
+    max-width: 80%;
+  }
 
 }
 
@@ -352,10 +406,7 @@ and (max-width : 645px) {
 @media only screen
 and (max-width : 580px) {
 
-.mid-section__container {
-  position: relative;
-  margin: 10% 0 0 0;
-}
+
 
 }
 
@@ -368,8 +419,8 @@ and (max-width : 530px) {
   margin: 10% 0 0 0;
 }
 
-.callies-logo {
-  margin: -200px 0 0 0;
+.mobile-logo.callies-logo {
+  margin: 80px 0 0 0;
   max-width: 80%;
 }
 
@@ -390,26 +441,35 @@ body , input {
 
 .mid-section__container {
   margin: 4% 0 0 0;
+  position: fixed;
 }
 
-.callies-logo {
-  margin: -350px 0 0 0;
-  max-width: 40%;
+
+.mobile-logo.callies-logo {
+  margin: -100px 0 0 0;
+  max-width: 60%;
 }
 
 .for-mobile.footer-content__container {
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .footer-item.footer-item--left {
   text-align: left;
-  flex: 0 0 50%;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
   padding-left: 25px;
 }
 
 .footer-item.footer-item--right {
   text-align: right;
-  flex: 0 0 50%;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
   padding-right: 25px;
 }
 

@@ -59,6 +59,18 @@ a {
   font-style: oblique;
 }
 
+.most:hover {
+  text-decoration: line-through;
+}
+
+.occasion:hover {
+  filter: blur(2px);
+}
+
+.biannual:hover {
+  text-decoration: overline;
+}
+
 ::selection {
   color: white;
   background-color: blue;

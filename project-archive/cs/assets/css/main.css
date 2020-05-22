@@ -3,38 +3,57 @@
 }
 
 
-
 /* CATCH ALL */
+
+html {
+  font-size: 25px;
+}
 
 body {
   background-color: black;
   color: white;
   font-family: baskerville , times, serif;
-  font-size: 25px;
   line-height: 1.2;
 }
 
-a , span {
+.body-ital {
+  font-style: italic;
+  letter-spacing: 1.2px;
+}
+
+a , .project-text-link span {
   text-decoration: none;
   color: white;
   cursor: pointer;
 }
 
-a:hover , span:hover {
-  /* color: orange;
-  text-decoration: overline; */
-  /* transition: .5s ease-in-out; */
-  background-color: orange;
+.text-link--external {
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-size: .75rem;
 }
 
-.project-text-link {
+.project-text-link span:hover , .nav-link:hover , .text-link--external:hover {
+  color: red !important;
+  cursor: pointer;
+}
+
+.project-text-link__container , .project-text__container {
   margin-bottom: 25px;
+}
+
+
+.image-caption__container {
+  margin-bottom: 25px;
+  font-size: .55rem;
+  font-family: 'Arial Monospaced MT' , arial, helvetica, sans-serif;
+  text-align: center;
 }
 
 .nav-link , .project-title , .about-item--left {
   font-family: 'Arial Monospaced MT' , arial, helvetica, sans-serif;
   text-transform: uppercase !important;
-  font-size: .75em;
+  font-size: .8rem;
 }
 
 .header-content__container , .popup__container--about , .main-content__container {
@@ -44,11 +63,13 @@ a:hover , span:hover {
   flex-direction: row;
 }
 
+
 /* HEADER */
 
 .header-content__container {
   background-color: black;
   border-bottom: 1.2px solid white;
+  box-shadow: 0 0 20px 0 black;
   position: fixed;
 }
 
@@ -93,6 +114,7 @@ a:hover , span:hover {
   height: 920px;
   display: none;
   z-index: 99999;
+  position: fixed;
 }
 
 .showme {
@@ -104,7 +126,7 @@ a:hover , span:hover {
 }
 
 
-/* MAIN CONTENT - EXHIBTIONS */
+/* MAIN CONTENT - EXHIBITIONS */
 
 .main-content__container {
   margin-top: 120px;
@@ -114,4 +136,30 @@ a:hover , span:hover {
 
 .main.flex-item--left {
   flex: 0 0 63%;
+}
+
+.project-image__container img , .project-image__container video {
+  max-width: 100%;
+  pointer-events: none;
+  margin-bottom: 15px;
+}
+
+
+
+
+/* HOVER SHOW CURSOR IMAGE */
+
+.hover {
+  position: fixed;
+
+}
+
+.hover__image--landscape {
+  width: 300px;
+  height: 200px;
+}
+
+.hover__image--square {
+  width: 250px;
+  height: 250px;
 }
