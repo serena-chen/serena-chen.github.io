@@ -1,7 +1,0 @@
-@font-face {
-    font-family: 'Arial Monospaced MT';
-    src: url('../fonts/ArialMonospacedMT.woff2') format('woff2'),
-        url('../fonts/ArialMonospacedMT.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
