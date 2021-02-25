@@ -1,0 +1,44 @@
+html, body {
+    margin:0;
+    height:100%;
+    width:100%;
+}
+.body {
+    height:100%;
+    position:relative;
+}
+.col {
+    height:100%;
+    width:50%;
+    display:inline-block;
+    margin:0;
+}
+.content {
+    position:relative;
+    height:100%;
+}
+.col.left .content:nth-child(odd) {
+    background:steelblue;
+}
+.col.left .content:nth-child(even) {
+    background:blue;
+}
+.col.right .content:nth-child(odd) {
+    background:pink;
+}
+.col.right .content:nth-child(even) {
+    background:red;
+}
+.col.right {
+    position:fixed;
+    top:0;
+    right:0;
+}
+
+.row {
+    width: 100%;
+    overflow:hidden;
+    position:relative;
+    background: Aqua;
+    clear: both;
+}

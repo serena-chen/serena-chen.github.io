@@ -1,0 +1,92 @@
+html, body {
+  margin:0;
+  height:100%;
+  width:100%;
+}
+
+body {
+  overflow-x:hidden;
+  background-color: black;
+}
+
+
+.foreground__container {
+    height:100%;
+    position:relative;
+    z-index: 9999;
+}
+
+.foreground-images__container {
+    /* display:inline-block; */
+    width: 100vw;
+    height:80vh;
+    margin-top: 100px;
+
+}
+
+.foreground-images__container img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 200px;
+  height: 100%;
+}
+
+.foreground-images__container img:last-child {
+  margin-bottom: 100px;
+}
+
+
+/* .row {
+    width: 100%;
+    overflow:hidden;
+    position:relative;
+    background: Aqua;
+    clear: both;
+} */
+
+
+#bg__container {
+  overflow:hidden;
+  white-space:nowrap;
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  display:flex;
+  flex-wrap:no-wrap;
+}
+.bg-images__container {
+  flex:0 0 100vw;
+  height:100vh;
+  display:flex;
+  position:relative;
+  align-items:center;
+  justify-content:center;
+  background-size: cover;
+  background-image: url("../images/jvdf2.jpg");
+}
+
+.bg-images__container:nth-child(2) {
+  background-image: url("../images/food.jpg");
+}
+
+.bg-images__container:nth-child(3) {
+  background-image: url("../images/throw.jpg");
+}
+
+.bg-images__container:nth-child(4) {
+  background-image: url("../images/texture1.jpg");
+}
+
+.bg-images__container:nth-child(5) {
+  background-image: url("../images/texture2.jpg");
+}
+
+.bg-images__container:nth-child(6) {
+  background-image: url("../images/junk.jpg");
+}
+
+.bg-images__container:nth-child(7) {
+  background-image: url("../images/covers.jpg");
+}

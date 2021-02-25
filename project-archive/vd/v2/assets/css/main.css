@@ -1,0 +1,65 @@
+html, body {
+    margin:0;
+    height:100%;
+    width:100%;
+}
+.body {
+    height:100%;
+    position:relative;
+}
+
+.image__container {
+    display:inline-block;
+    margin:0;
+}
+
+.full {
+  height:100%;
+  width:100%;
+  position: fixed;
+}
+
+.small {
+  height:60%;
+  width:100%;
+  display: block;
+  /* background-color: yellow; */
+  /* margin-top: 100px; */
+}
+
+.content {
+    position:relative;
+    height:100%;
+}
+
+.small .content {
+  margin: 0 auto;
+  margin-bottom: 100px;
+  width: 40%;
+  background-color: pink;
+}
+
+.small .content:nth-child(1) {
+  margin-top: 100px;
+}
+
+.full .content:nth-child(odd) {
+    background:steelblue;
+}
+.full .content:nth-child(even) {
+    background:blue;
+}
+/* .small .content:nth-child(odd) {
+    background:pink;
+}
+.small .content:nth-child(even) {
+    background:red;
+} */
+
+.row {
+    width: 100%;
+    overflow:hidden;
+    position:relative;
+    background: Aqua;
+    clear: both;
+}
