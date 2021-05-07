@@ -20,17 +20,17 @@ font-size: 20px;
 	position: fixed;
 	width: 100%;
   padding-right: 40px;
-	z-index: 1;
+	z-index: -1;
   height: 100%;
   overflow-y: scroll;
   padding-bottom: 20px;
+
 }
 
 .header {
   text-transform: uppercase;
   text-align: justify;
   width: 100%;
-
 }
 
 .header p:after {
