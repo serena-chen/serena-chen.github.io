@@ -51,6 +51,11 @@ a {
   color: blue;
 } */
 
+.back:hover {
+  background-color: black;
+  color: white;
+}
+
 .email:hover,
 .experiments:hover {
   text-decoration: underline;
@@ -64,8 +69,7 @@ a {
   font-style: oblique;
 }
 
-.most:hover,
-.back:hover {
+.most:hover {
   text-decoration: line-through;
 }
 
