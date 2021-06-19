@@ -1,0 +1,267 @@
+/* CATCH ALL */
+
+* {
+	padding: 0;
+	margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 12px;
+}
+
+body {
+  background-color: white;
+  color: black;
+  font-family: arial, helvetica, sans-serif;
+  line-height: 1.3;
+}
+
+.fixed-position {
+  position: fixed;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer !important;
+}
+
+.nav-link:hover {
+  text-decoration: underline blue;
+  cursor: pointer;
+}
+
+.up--title {
+  text-transform: uppercase;
+}
+
+.nav-link,
+.project-title,
+.up--title.large {
+  text-transform: uppercase !important;
+	font-size: 1.3em;
+  line-height: 1.4;
+}
+
+
+
+
+/* HEADER */
+
+.header-content__container {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+  padding: 15px 25px 15px 25px;
+  background-color: white;
+  border-bottom: 1.2px solid black;
+  position: relative;
+}
+
+.header-item--right .nav-link {
+  margin-left: 20px;
+}
+
+.flex-item--left {
+  text-align: left;
+}
+
+.flex-item--right {
+  text-align: right;
+}
+
+.header-item--left {
+  flex: 0 0 25%;
+}
+
+.header-item--right {
+  flex: 0 0 75%;
+}
+
+.slider {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  display: block;
+  background-color: white;
+  border-bottom: 1.2px solid black;
+}
+
+.slide__container {
+  overflow:hidden;
+  width: 1000%;
+  margin: 5px 0 5px 0;
+}
+
+.slide-item {
+  font-size: 1em;
+  list-style: none;
+  display: inline-block;
+  padding: 0 30px;
+}
+
+
+/* MOBILE - WORK NAV POPUP */
+
+.work-item--left {
+  flex: 0 0 65%;
+}
+
+.work-item--right {
+  flex: 0 0 35%;
+}
+
+.mobile-nav-link {
+	display: none;
+}
+
+.popup__container--work-nav {
+	padding: 15px;
+  background-color: white;
+  height: 950px;
+  display: none;
+  z-index: 99999;
+  position: fixed;
+}
+
+
+
+
+/* MAIN CONTENT */
+
+.main-content__container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: row; */
+  /* background-color: pink; */
+}
+
+.main-content-item--left {
+  flex: 1 1 20%;
+  /* background-color: yellow; */
+}
+
+.main-content-item--right {
+  flex: 4 4 80%;
+  /* background-color: green; */
+}
+
+.sidebar__container {
+  height: 100vh;
+  display: inline-block;
+  left: 0;
+  overflow-y: scroll;
+  background-color: white;
+  border-right: 1.2px solid black;
+}
+
+.canvas__container {
+  height: 100vh;
+  overflow-y: scroll;
+  margin-bottom: 25px;
+  /* background-color: green; */
+}
+
+.side-nav-item__container,
+.canvas-item__container {
+  width: 100%;
+  /* background-color: red; */
+}
+
+.spacer {
+  bottom: 0;
+  margin: 15px 25px 15px 25px;
+  /* background-color: pink; */
+}
+
+
+
+
+
+/* PROJECT INDEX – FILTER */
+
+span.filter {
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+.highlight {
+  font-style: italic;
+}
+
+/* span.all--filter {
+  padding-left: 10px;
+} */
+
+/* .index-list--grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+} */
+
+.wrapper--grid {
+	margin-bottom: 80px;
+  /* background-color: grey; */
+  /* display: flex;
+  flex-wrap: wrap; */
+  /* column-gap: 15px; */
+  /* height: 1500px; */
+}
+
+.index-item {
+  /* background-color: pink; */
+  display: inline-block;
+	vertical-align: top;
+}
+
+.item--null,
+.item--image {
+  width: 165px;
+  height: 165px;
+  border: 1.2px solid black;
+  margin-right: 15px;
+}
+
+.item--null {
+  display: none;
+  background: linear-gradient(to top right, #fff calc(50% - .8px), black, #fff calc(50% + .8px) )
+}
+
+.item--image img {
+  /* margin-top: -1px; */
+  width: 100%;
+  height: 100%;
+  filter: grayscale(1);
+  cursor: pointer;
+}
+
+.item--image img:hover {
+  filter: grayscale(0);
+}
+
+.item--caption {
+	width: 165px;
+  margin: 15px 0 25px 0;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+
+
+/* SWIRL BG */
+
+.p5Canvas {
+
+}
+
+#defaultCanvas0 {
+
+}
