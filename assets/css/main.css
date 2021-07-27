@@ -31,6 +31,7 @@ font-size: 20px;
   text-transform: uppercase;
   text-align: justify;
   width: 100%;
+  margin-top: 2px;
 }
 
 .header p:after {
@@ -78,6 +79,7 @@ a {
 }
 
 .biannual:hover {
+  /* border-top: 1px solid black; */
   text-decoration: overline;
 }
 

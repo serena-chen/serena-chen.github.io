@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Century';
+    src: url('../fonts/CenturySchoolbook.woff2') format('woff2'),
+        url('../fonts/CenturySchoolbook.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* @font-face {
+    font-family: 'Century';
+    src: url('../fonts/century.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Century Italic';
+    src: url('../fonts/century-italic.woff2') format('woff2'),
+        url('../fonts/century-italic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+} */

@@ -1,0 +1,97 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* CATCH ALL */
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-size: 16px;
+  font-family: arial, helvetica, sans-serif;
+  line-height: 1.3;
+  color: black;
+  /* background-color: #F8FFEA; */
+  animation-name: body-bg-color;
+  animation-duration: 80s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: blue;
+}
+
+
+header {
+  padding: 20px 0 0 20px;
+  width: 100%;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  padding: 0 0 20px 20px;
+}
+
+
+
+.nav {
+  display: inline-block;
+}
+
+.nav__item--left {
+  /* flex: 0 0 70%; */
+}
+
+.home {
+  font-size: 1.8em;
+  font-family: 'century', times, serif;
+}
+
+img {
+  width: 100px;
+  animation-name: pulse-blur;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  pointer-events: none;
+}
+
+
+
+/* TEXT CONTAINERS */
+
+.text__container {
+  /* display: flex; */
+  padding: 0 0 0 20px;
+  width: 100%;
+}
+
+
+/* KEYFRAME ANIMATIONS */
+
+@keyframes body-bg-color {
+  0% { background-color: #FFFDD5; }
+  25% { background-color: #FFF0E6; }
+  50% { background-color: #F4FFDD; }
+  75% { background-color: #FFDEAD; }
+  100% { background-color: #FFE4E1;}
+}
+
+@keyframes pulse-blur {
+  0% { filter: blur(5px); }
+  25% { filter: blur(10px); }
+  50% { filter: blur(5px); }
+  50% { filter: blur(20px); }
+  100% { filter: blur(5px); }
+}
