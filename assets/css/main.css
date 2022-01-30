@@ -62,6 +62,12 @@ a {
   text-decoration: underline;
 }
 
+.experiments:hover {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+}
+
 .ig:hover {
   text-shadow: 0.1em 0.1em 0.1em rgba(0, 0, 0, 0.3);
 }
